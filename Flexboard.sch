@@ -1250,6 +1250,19 @@
 <pad name="LED-" x="1.27" y="-5.08" drill="1.016" diameter="1.778"/>
 <text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="CHERRY-MX-LED-NOPIN">
+<description>Cherry MX series keyswitch footprint with additional holes for LED</description>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="21"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.127" layer="21"/>
+<pad name="SW1" x="-3.81" y="2.54" drill="1.524" diameter="2.286"/>
+<pad name="SW2" x="2.54" y="5.08" drill="1.524" diameter="2.286"/>
+<hole x="0" y="0" drill="4.064"/>
+<pad name="LED+" x="-1.27" y="-5.08" drill="1.016" diameter="1.778"/>
+<pad name="LED-" x="1.27" y="-5.08" drill="1.016" diameter="1.778"/>
+<text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CHERRY-MX-LED">
@@ -1274,6 +1287,25 @@
 </gates>
 <devices>
 <device name="" package="CHERRY-MX-LED">
+<connects>
+<connect gate="G$1" pin="LED+" pad="LED+"/>
+<connect gate="G$1" pin="LED-" pad="LED-"/>
+<connect gate="G$1" pin="SW1" pad="SW1"/>
+<connect gate="G$1" pin="SW2" pad="SW2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CHERRY-MX-LED-NOPIN">
+<description>Cherry MX series keyswitch with LED, without fixation pins</description>
+<gates>
+<gate name="G$1" symbol="CHERRY-MX-LED" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CHERRY-MX-LED-NOPIN">
 <connects>
 <connect gate="G$1" pin="LED+" pad="LED+"/>
 <connect gate="G$1" pin="LED-" pad="LED-"/>
@@ -1812,10 +1844,10 @@
 <part name="SJ_R4_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_R5_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_R6_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
-<part name="KEY_30_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_31_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_32_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_33_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_30_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_31_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_32_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_33_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3562,11 +3594,11 @@
 <pinref part="D33" gate="G$1" pin="C"/>
 <wire x1="541.02" y1="-35.56" x2="541.02" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="541.02" y1="-43.18" x2="553.72" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="KEY_33_OFFSET" gate="G$1" pin="SW2"/>
 <wire x1="541.02" y1="-17.78" x2="538.48" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="538.48" y1="-17.78" x2="538.48" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="538.48" y1="-35.56" x2="541.02" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="541.02" y="-35.56"/>
+<pinref part="KEY_33_OFFSET" gate="G$1" pin="SW2"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -3575,11 +3607,11 @@
 <wire x1="497.84" y1="-35.56" x2="497.84" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="D32" gate="G$1" pin="C"/>
 <wire x1="497.84" y1="-43.18" x2="510.54" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="KEY_32_OFFSET" gate="G$1" pin="SW2"/>
 <wire x1="497.84" y1="-17.78" x2="495.3" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="-17.78" x2="495.3" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="-35.56" x2="497.84" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="497.84" y="-35.56"/>
+<pinref part="KEY_32_OFFSET" gate="G$1" pin="SW2"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -3588,11 +3620,11 @@
 <wire x1="457.2" y1="-35.56" x2="457.2" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="D31" gate="G$1" pin="C"/>
 <wire x1="457.2" y1="-43.18" x2="469.9" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="KEY_31_OFFSET" gate="G$1" pin="SW2"/>
 <wire x1="457.2" y1="-17.78" x2="454.66" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="-17.78" x2="454.66" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="-35.56" x2="457.2" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="457.2" y="-35.56"/>
+<pinref part="KEY_31_OFFSET" gate="G$1" pin="SW2"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -3601,11 +3633,11 @@
 <wire x1="416.56" y1="-35.56" x2="416.56" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="D30" gate="G$1" pin="C"/>
 <wire x1="416.56" y1="-43.18" x2="429.26" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="KEY_30_OFFSET" gate="G$1" pin="SW2"/>
 <wire x1="416.56" y1="-17.78" x2="414.02" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="-17.78" x2="414.02" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="-35.56" x2="416.56" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="416.56" y="-35.56"/>
+<pinref part="KEY_30_OFFSET" gate="G$1" pin="SW2"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -3740,7 +3772,6 @@
 <pinref part="SJ_C9" gate="1" pin="1"/>
 <wire x1="411.48" y1="-5.08" x2="411.48" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="411.48" y="-68.58"/>
-<pinref part="KEY_30_OFFSET" gate="G$1" pin="SW1"/>
 <wire x1="411.48" y1="-12.7" x2="411.48" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="-30.48" x2="411.48" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="-12.7" x2="411.48" y2="-12.7" width="0.1524" layer="91"/>
@@ -3748,6 +3779,7 @@
 <pinref part="KEY_30" gate="G$1" pin="SW1"/>
 <wire x1="416.56" y1="-30.48" x2="411.48" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="411.48" y="-30.48"/>
+<pinref part="KEY_30_OFFSET" gate="G$1" pin="SW1"/>
 </segment>
 </net>
 <net name="COL_10" class="0">
@@ -3777,7 +3809,6 @@
 <pinref part="SJ_C10" gate="1" pin="1"/>
 <wire x1="452.12" y1="-5.08" x2="452.12" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="452.12" y="-68.58"/>
-<pinref part="KEY_31_OFFSET" gate="G$1" pin="SW1"/>
 <wire x1="452.12" y1="-12.7" x2="452.12" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="452.12" y1="-30.48" x2="452.12" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="457.2" y1="-12.7" x2="452.12" y2="-12.7" width="0.1524" layer="91"/>
@@ -3785,6 +3816,7 @@
 <pinref part="KEY_31" gate="G$1" pin="SW1"/>
 <wire x1="457.2" y1="-30.48" x2="452.12" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="452.12" y="-30.48"/>
+<pinref part="KEY_31_OFFSET" gate="G$1" pin="SW1"/>
 </segment>
 </net>
 <net name="COL_11" class="0">
@@ -3825,9 +3857,9 @@
 <wire x1="492.76" y1="-30.48" x2="492.76" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="-30.48" x2="492.76" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="492.76" y="-30.48"/>
-<pinref part="KEY_32_OFFSET" gate="G$1" pin="SW1"/>
 <wire x1="497.84" y1="-12.7" x2="492.76" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="492.76" y="-12.7"/>
+<pinref part="KEY_32_OFFSET" gate="G$1" pin="SW1"/>
 </segment>
 </net>
 <net name="COL_12" class="0">
@@ -3863,7 +3895,6 @@
 <pinref part="SJ_C12" gate="1" pin="1"/>
 <wire x1="535.94" y1="-5.08" x2="535.94" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="535.94" y="-68.58"/>
-<pinref part="KEY_33_OFFSET" gate="G$1" pin="SW1"/>
 <wire x1="535.94" y1="-12.7" x2="535.94" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="535.94" y1="-30.48" x2="535.94" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="541.02" y1="-12.7" x2="535.94" y2="-12.7" width="0.1524" layer="91"/>
@@ -3871,6 +3902,7 @@
 <pinref part="KEY_33" gate="G$1" pin="SW1"/>
 <wire x1="541.02" y1="-30.48" x2="535.94" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="535.94" y="-30.48"/>
+<pinref part="KEY_33_OFFSET" gate="G$1" pin="SW1"/>
 </segment>
 </net>
 <net name="COL_13" class="0">
