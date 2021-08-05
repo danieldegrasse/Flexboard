@@ -1574,11 +1574,11 @@
 <part name="KEY_27" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_28" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_29" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_30" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_31" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_32" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_33" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_34" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_30" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_31" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_32" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_33" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_34" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
 <part name="KEY_35" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_36" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_37" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
@@ -1844,10 +1844,10 @@
 <part name="SJ_R4_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_R5_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_R6_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
-<part name="KEY_30_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
-<part name="KEY_31_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
-<part name="KEY_32_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
-<part name="KEY_33_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_30_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_31_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_32_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_33_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4128,9 +4128,10 @@
 <segment>
 <pinref part="KEY_61" gate="G$1" pin="SW1"/>
 <wire x1="962.66" y1="-68.58" x2="960.12" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="960.12" y1="-68.58" x2="960.12" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="960.12" y1="-68.58" x2="960.12" y2="-96.52" width="0.1524" layer="91"/>
 <label x="960.12" y="-203.2" size="1.778" layer="95"/>
 <pinref part="KEY_143" gate="G$1" pin="SW1"/>
+<wire x1="960.12" y1="-96.52" x2="960.12" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="960.12" y1="-124.46" x2="960.12" y2="-152.4" width="0.1524" layer="91"/>
 <wire x1="960.12" y1="-152.4" x2="960.12" y2="-177.8" width="0.1524" layer="91"/>
 <wire x1="960.12" y1="-177.8" x2="960.12" y2="-200.66" width="0.1524" layer="91"/>
@@ -4142,6 +4143,9 @@
 <pinref part="KEY_106" gate="G$1" pin="SW1"/>
 <wire x1="962.66" y1="-124.46" x2="960.12" y2="-124.46" width="0.1524" layer="91"/>
 <junction x="960.12" y="-124.46"/>
+<pinref part="KEY_84" gate="G$1" pin="SW1"/>
+<wire x1="962.66" y1="-96.52" x2="960.12" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="960.12" y="-96.52"/>
 </segment>
 </net>
 <net name="COL_22" class="0">
