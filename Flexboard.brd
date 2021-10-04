@@ -82,7 +82,7 @@
 <wire x1="2.38125" y1="123.825" x2="485.775" y2="123.825" width="1.016" layer="21" style="dashdot"/>
 <text x="473.86875" y="119.0625" size="2.1844" layer="21">Cut Point</text>
 <wire x1="47.625" y1="142.875" x2="47.625" y2="2.38125" width="1.016" layer="21" style="dashdot"/>
-<text x="45.24375" y="11.90625" size="2.1844" layer="21" rot="R90">Cut Point</text>
+<text x="48.75625" y="20.09375" size="2.1844" layer="21" rot="R270">Cut Point</text>
 <wire x1="404.8125" y1="140.49375" x2="404.8125" y2="2.38125" width="1.016" layer="21" style="dashdot"/>
 <text x="402.43125" y="2.38125" size="2.1844" layer="21" rot="R90">Cut Point</text>
 <dimension x1="33.3375" y1="104.775" x2="33.3375" y2="95.25" x3="23.8125" y3="100.0125" textsize="2.1844" layer="51" unit="inch"/>
@@ -3143,150 +3143,150 @@ design rules under a new name.</description>
 <element name="KEY_33_OFFSET" library="cherrymx" package="CHERRY-MX-LED" value="CHERRY-MX-LED" x="257.175" y="114.3" smashed="yes">
 <attribute name="NAME" x="250.555" y="110.87" size="1.27" layer="25"/>
 </element>
-<element name="SJ_LED_R1_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-4.7625" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-2.9845" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-4.7625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-4.7625" size="0.02" layer="27"/>
+<element name="SJ_LED_R1_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="42.8625" y="107.15625" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.0215" y="105.37825" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="3" x="42.8625" y="107.15625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="41.8625" y="107.15625" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="SJ_LED_R2_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-11.90625" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-10.12825" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-11.90625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-11.90625" size="0.02" layer="27"/>
+<element name="SJ_LED_R2_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="42.8625" y="78.58125" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.0215" y="76.80325" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="3" x="42.8625" y="78.58125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="41.8625" y="78.58125" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="SJ_LED_R2_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-19.05" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-17.272" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-19.05" size="0.02" layer="27"/>
+<element name="SJ_LED_R2_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="407.425" y="81.0375" smashed="yes" rot="R180">
+<attribute name="NAME" x="409.584" y="79.2595" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="3" x="407.425" y="81.0375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="406.425" y="81.0375" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="SJ__LED_R3_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-26.19375" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-24.41575" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-26.19375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-26.19375" size="0.02" layer="27"/>
+<element name="SJ__LED_R3_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="42.8625" y="57.15" smashed="yes">
+<attribute name="NAME" x="40.7035" y="58.928" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="3" x="42.8625" y="57.15" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="43.8625" y="57.15" size="0.02" layer="27"/>
 </element>
-<element name="SJ_LED_R3_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-33.3375" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-31.5595" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-33.3375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-33.3375" size="0.02" layer="27"/>
+<element name="SJ_LED_R3_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="408.2375" y="62.3375" smashed="yes" rot="R180">
+<attribute name="NAME" x="410.3965" y="60.5595" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="3" x="408.2375" y="62.3375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="407.2375" y="62.3375" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="SJ_LED_R4_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-40.48125" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-38.70325" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-40.48125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-40.48125" size="0.02" layer="27"/>
+<element name="SJ_LED_R4_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="42.8625" y="38.1" smashed="yes">
+<attribute name="NAME" x="40.7035" y="39.878" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="3" x="42.8625" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="43.8625" y="38.1" size="0.02" layer="27"/>
 </element>
-<element name="SJ_LED_R4_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-47.625" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-45.847" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-47.625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-47.625" size="0.02" layer="27"/>
+<element name="SJ_LED_R4_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="408.2375" y="42.625" smashed="yes" rot="R180">
+<attribute name="NAME" x="410.3965" y="40.847" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="3" x="408.2375" y="42.625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="407.2375" y="42.625" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="SJ_LED_R5_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-54.76875" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-52.99075" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-54.76875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-54.76875" size="0.02" layer="27"/>
+<element name="SJ_LED_R5_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="42.8625" y="21.43125" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.0215" y="19.65325" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="3" x="42.8625" y="21.43125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="41.8625" y="21.43125" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="SJ_LED_R5_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-61.9125" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-60.1345" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-61.9125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-61.9125" size="0.02" layer="27"/>
+<element name="SJ_LED_R5_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="408.2375" y="23.9125" smashed="yes" rot="R180">
+<attribute name="NAME" x="410.3965" y="22.1345" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="3" x="408.2375" y="23.9125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="407.2375" y="23.9125" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="SJ_LED_R6_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-69.05625" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-67.27825" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-69.05625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-69.05625" size="0.02" layer="27"/>
+<element name="SJ_LED_R6_0" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="42.8625" y="11.90625" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.0215" y="10.12825" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="3" x="42.8625" y="11.90625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="41.8625" y="11.90625" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="SJ_LED_R6_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-76.2" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-74.422" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-76.2" size="0.02" layer="27"/>
+<element name="SJ_LED_R6_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="408.575" y="9.525" smashed="yes" rot="R180">
+<attribute name="NAME" x="410.734" y="7.747" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="3" x="408.575" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="407.575" y="9.525" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="SJ_LED_C2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-83.34375" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-81.56575" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-83.34375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-83.34375" size="0.02" layer="27"/>
+<element name="SJ_LED_C2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="59.53125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="61.30925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="59.53125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="59.53125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-97.63125" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-95.85325" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-97.63125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-97.63125" size="0.02" layer="27"/>
+<element name="SJ_LED_C3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="78.58125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="80.35925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="78.58125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="78.58125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-104.775" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-102.997" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-104.775" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-104.775" size="0.02" layer="27"/>
+<element name="SJ_LED_C4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="97.63125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="99.40925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="97.63125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="97.63125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C5" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-111.91875" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-110.14075" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-111.91875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-111.91875" size="0.02" layer="27"/>
+<element name="SJ_LED_C5" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="116.68125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="118.45925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="116.68125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="116.68125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C6" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-119.0625" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-117.2845" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-119.0625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-119.0625" size="0.02" layer="27"/>
+<element name="SJ_LED_C6" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="135.73125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="137.50925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="135.73125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="135.73125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C7" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-126.20625" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-124.42825" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-126.20625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-126.20625" size="0.02" layer="27"/>
+<element name="SJ_LED_C7" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="154.78125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="156.55925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="154.78125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="154.78125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C8" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-133.35" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-131.572" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-133.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-133.35" size="0.02" layer="27"/>
+<element name="SJ_LED_C8" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="173.83125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="175.60925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="173.83125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="173.83125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C9" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-140.49375" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-138.71575" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-140.49375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-140.49375" size="0.02" layer="27"/>
+<element name="SJ_LED_C9" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="192.88125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="194.65925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="192.88125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="192.88125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C10" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-147.6375" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-145.8595" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-147.6375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-147.6375" size="0.02" layer="27"/>
+<element name="SJ_LED_C10" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="211.93125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="213.70925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="211.93125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="211.93125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C11" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-154.78125" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-153.00325" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-154.78125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-154.78125" size="0.02" layer="27"/>
+<element name="SJ_LED_C11" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="230.98125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="232.75925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="230.98125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="230.98125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C12" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-161.925" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-160.147" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-161.925" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-161.925" size="0.02" layer="27"/>
+<element name="SJ_LED_C12" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="250.03125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="251.80925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="250.03125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="250.03125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C13" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-169.06875" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-167.29075" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-169.06875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-169.06875" size="0.02" layer="27"/>
+<element name="SJ_LED_C13" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="269.08125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="270.85925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="269.08125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="269.08125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C14" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-176.2125" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-174.4345" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-176.2125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-176.2125" size="0.02" layer="27"/>
+<element name="SJ_LED_C14" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="288.13125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="289.90925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="288.13125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="288.13125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C15" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-183.35625" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-181.57825" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-183.35625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-183.35625" size="0.02" layer="27"/>
+<element name="SJ_LED_C15" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="307.18125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="308.95925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="307.18125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="307.18125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C16" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-190.5" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-188.722" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-190.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-190.5" size="0.02" layer="27"/>
+<element name="SJ_LED_C16" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="326.23125" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="328.00925" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="326.23125" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="326.23125" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C17" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-197.64375" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-195.86575" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-197.64375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-197.64375" size="0.02" layer="27"/>
+<element name="SJ_LED_C17" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="354.80625" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="356.58425" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="354.80625" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="354.80625" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C18" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-204.7875" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-203.0095" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-204.7875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-204.7875" size="0.02" layer="27"/>
+<element name="SJ_LED_C18" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="373.85625" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="375.63425" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="373.85625" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="373.85625" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="SJ_LED_C1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="4.7625" y="-211.93125" smashed="yes">
-<attribute name="NAME" x="2.6035" y="-210.15325" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="3" x="4.7625" y="-211.93125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.7625" y="-211.93125" size="0.02" layer="27"/>
+<element name="SJ_LED_C1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="392.90625" y="123.825" smashed="yes" rot="MR90">
+<attribute name="NAME" x="394.68425" y="121.666" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="POPULARITY" value="3" x="392.90625" y="123.825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="392.90625" y="124.825" size="0.02" layer="28" rot="MR90"/>
 </element>
 </elements>
 <signals>
@@ -5355,7 +5355,7 @@ design rules under a new name.</description>
 <contactref element="KEY_22" pad="LED+"/>
 <contactref element="KEY_21" pad="LED+"/>
 <wire x1="8.255" y1="109.22" x2="27.305" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0325" y1="-4.7625" x2="8.255" y2="109.22" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5925" y1="107.15625" x2="8.255" y2="109.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="SJ_LED_R1_0" pad="1"/>
@@ -5404,7 +5404,7 @@ design rules under a new name.</description>
 <wire x1="93.98" y1="109.22" x2="113.03" y2="109.22" width="0" layer="19" extent="1-1"/>
 <wire x1="74.93" y1="109.22" x2="93.98" y2="109.22" width="0" layer="19" extent="1-1"/>
 <wire x1="55.88" y1="109.22" x2="74.93" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-4.7625" x2="55.88" y2="109.22" width="0" layer="19" extent="1-1"/>
+<wire x1="44.1325" y1="107.15625" x2="55.88" y2="109.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_ROW_0">
 <contactref element="KEY_20" pad="LED+"/>
@@ -5452,7 +5452,7 @@ design rules under a new name.</description>
 <contactref element="KEY_41" pad="LED+"/>
 <contactref element="KEY_42" pad="LED+"/>
 <wire x1="8.255" y1="80.645" x2="27.305" y2="80.645" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0325" y1="-11.90625" x2="8.255" y2="80.645" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5925" y1="78.58125" x2="8.255" y2="80.645" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$61">
 <contactref element="KEY_59" pad="LED+"/>
@@ -5492,8 +5492,8 @@ design rules under a new name.</description>
 <wire x1="351.155" y1="80.645" x2="313.055" y2="80.645" width="0" layer="19" extent="1-1"/>
 <wire x1="370.205" y1="80.645" x2="351.155" y2="80.645" width="0" layer="19" extent="1-1"/>
 <wire x1="389.255" y1="80.645" x2="370.205" y2="80.645" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-11.90625" x2="55.88" y2="80.645" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0325" y1="-19.05" x2="3.4925" y2="-11.90625" width="0" layer="19" extent="1-1"/>
+<wire x1="44.1325" y1="78.58125" x2="55.88" y2="80.645" width="0" layer="19" extent="1-1"/>
+<wire x1="406.155" y1="81.0375" x2="44.1325" y2="78.58125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$170">
 <contactref element="SJ_LED_R2_1" pad="1"/>
@@ -5504,14 +5504,14 @@ design rules under a new name.</description>
 <wire x1="436.88" y1="80.645" x2="417.83" y2="80.645" width="0" layer="19" extent="1-1"/>
 <wire x1="455.93" y1="80.645" x2="436.88" y2="80.645" width="0" layer="19" extent="1-1"/>
 <wire x1="474.98" y1="80.645" x2="455.93" y2="80.645" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-19.05" x2="417.83" y2="80.645" width="0" layer="19" extent="1-1"/>
+<wire x1="408.695" y1="81.0375" x2="417.83" y2="80.645" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_ROW_3">
 <contactref element="SJ__LED_R3_0" pad="2"/>
 <contactref element="KEY_65" pad="LED+"/>
 <contactref element="KEY_64" pad="LED+"/>
 <wire x1="8.255" y1="61.595" x2="27.305" y2="61.595" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0325" y1="-26.19375" x2="8.255" y2="61.595" width="0" layer="19" extent="1-1"/>
+<wire x1="44.1325" y1="57.15" x2="8.255" y2="61.595" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="SJ__LED_R3_0" pad="1"/>
@@ -5551,8 +5551,8 @@ design rules under a new name.</description>
 <wire x1="351.155" y1="61.595" x2="317.8175" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="370.205" y1="61.595" x2="351.155" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="389.255" y1="61.595" x2="370.205" y2="61.595" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-26.19375" x2="60.6425" y2="61.595" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0325" y1="-33.3375" x2="3.4925" y2="-26.19375" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5925" y1="57.15" x2="60.6425" y2="61.595" width="0" layer="19" extent="1-1"/>
+<wire x1="406.9675" y1="62.3375" x2="41.5925" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$173">
 <contactref element="SJ_LED_R3_1" pad="1"/>
@@ -5563,14 +5563,14 @@ design rules under a new name.</description>
 <wire x1="417.83" y1="61.595" x2="436.88" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="455.93" y1="61.595" x2="436.88" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="474.98" y1="61.595" x2="455.93" y2="61.595" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-33.3375" x2="417.83" y2="61.595" width="0" layer="19" extent="1-1"/>
+<wire x1="409.5075" y1="62.3375" x2="417.83" y2="61.595" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_ROW_4">
 <contactref element="SJ_LED_R4_0" pad="2"/>
 <contactref element="KEY_88" pad="LED+"/>
 <contactref element="KEY_87" pad="LED+"/>
 <wire x1="8.255" y1="42.545" x2="27.305" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0325" y1="-40.48125" x2="8.255" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="44.1325" y1="38.1" x2="8.255" y2="42.545" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$177">
 <contactref element="SJ_LED_R4_0" pad="1"/>
@@ -5608,8 +5608,8 @@ design rules under a new name.</description>
 <wire x1="351.155" y1="42.545" x2="310.67375" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="370.205" y1="42.545" x2="351.155" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="389.255" y1="42.545" x2="370.205" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-40.48125" x2="63.02375" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0325" y1="-47.625" x2="3.4925" y2="-40.48125" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5925" y1="38.1" x2="63.02375" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="406.9675" y1="42.625" x2="41.5925" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$179">
 <contactref element="SJ_LED_R4_1" pad="1"/>
@@ -5620,13 +5620,13 @@ design rules under a new name.</description>
 <wire x1="436.88" y1="42.545" x2="455.93" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="417.83" y1="42.545" x2="436.88" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="474.98" y1="42.545" x2="455.93" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-47.625" x2="417.83" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="409.5075" y1="42.625" x2="417.83" y2="42.545" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_ROW_5">
 <contactref element="SJ_LED_R5_0" pad="2"/>
 <contactref element="KEY_110" pad="LED+"/>
 <contactref element="KEY_109" pad="LED+"/>
-<wire x1="8.255" y1="23.495" x2="6.0325" y2="-54.76875" width="0" layer="19" extent="1-1"/>
+<wire x1="8.255" y1="23.495" x2="41.5925" y2="21.43125" width="0" layer="19" extent="1-1"/>
 <wire x1="27.305" y1="23.495" x2="8.255" y2="23.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$181">
@@ -5661,8 +5661,8 @@ design rules under a new name.</description>
 <wire x1="351.155" y1="23.495" x2="305.91125" y2="23.495" width="0" layer="19" extent="1-1"/>
 <wire x1="370.205" y1="23.495" x2="351.155" y2="23.495" width="0" layer="19" extent="1-1"/>
 <wire x1="389.255" y1="23.495" x2="370.205" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-54.76875" x2="67.78625" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0325" y1="-61.9125" x2="3.4925" y2="-54.76875" width="0" layer="19" extent="1-1"/>
+<wire x1="44.1325" y1="21.43125" x2="67.78625" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="406.9675" y1="23.9125" x2="44.1325" y2="21.43125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$182">
 <contactref element="SJ_LED_R5_1" pad="1"/>
@@ -5671,13 +5671,13 @@ design rules under a new name.</description>
 <contactref element="KEY_126" pad="LED+"/>
 <wire x1="436.88" y1="23.495" x2="455.93" y2="23.495" width="0" layer="19" extent="1-1"/>
 <wire x1="417.83" y1="23.495" x2="436.88" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-61.9125" x2="417.83" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="409.5075" y1="23.9125" x2="417.83" y2="23.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_ROW_6">
 <contactref element="SJ_LED_R6_0" pad="2"/>
 <contactref element="KEY_130" pad="LED+"/>
 <contactref element="KEY_129" pad="LED+"/>
-<wire x1="8.255" y1="4.445" x2="6.0325" y2="-69.05625" width="0" layer="19" extent="1-1"/>
+<wire x1="8.255" y1="4.445" x2="41.5925" y2="11.90625" width="0" layer="19" extent="1-1"/>
 <wire x1="27.305" y1="4.445" x2="8.255" y2="4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$184">
@@ -5704,8 +5704,8 @@ design rules under a new name.</description>
 <wire x1="105.88625" y1="4.445" x2="177.32375" y2="4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="82.07375" y1="4.445" x2="105.88625" y2="4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="58.26125" y1="4.445" x2="82.07375" y2="4.445" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-69.05625" x2="58.26125" y2="4.445" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0325" y1="-76.2" x2="3.4925" y2="-69.05625" width="0" layer="19" extent="1-1"/>
+<wire x1="44.1325" y1="11.90625" x2="58.26125" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="407.305" y1="9.525" x2="44.1325" y2="11.90625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$185">
 <contactref element="SJ_LED_R6_1" pad="1"/>
@@ -5716,7 +5716,7 @@ design rules under a new name.</description>
 <wire x1="455.93" y1="4.445" x2="474.98" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="436.88" y1="4.445" x2="455.93" y2="4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="417.83" y1="4.445" x2="436.88" y2="4.445" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-76.2" x2="417.83" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="409.845" y1="9.525" x2="417.83" y2="4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_0">
 <contactref element="KEY_1" pad="LED-"/>
@@ -5751,7 +5751,7 @@ design rules under a new name.</description>
 <signal name="N$175">
 <contactref element="KEY_3" pad="LED-"/>
 <contactref element="SJ_LED_C2" pad="2"/>
-<wire x1="6.0325" y1="-83.34375" x2="58.42" y2="128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="59.53125" y1="125.095" x2="58.42" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_2">
 <contactref element="SJ_LED_C2" pad="1"/>
@@ -5761,17 +5761,17 @@ design rules under a new name.</description>
 <contactref element="KEY_66" pad="LED-"/>
 <contactref element="KEY_43" pad="LED-"/>
 <contactref element="KEY_23" pad="LED-"/>
+<wire x1="58.42" y1="109.22" x2="59.53125" y2="122.555" width="0" layer="19" extent="1-1"/>
 <wire x1="58.42" y1="80.645" x2="58.42" y2="109.22" width="0" layer="19" extent="1-1"/>
 <wire x1="63.1825" y1="61.595" x2="58.42" y2="80.645" width="0" layer="19" extent="1-1"/>
 <wire x1="65.56375" y1="42.545" x2="63.1825" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="70.32625" y1="23.495" x2="65.56375" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="60.80125" y1="4.445" x2="70.32625" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-83.34375" x2="60.80125" y2="4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$186">
 <contactref element="KEY_4" pad="LED-"/>
 <contactref element="SJ_LED_C3" pad="2"/>
-<wire x1="6.0325" y1="-97.63125" x2="77.47" y2="128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="78.58125" y1="125.095" x2="77.47" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_3">
 <contactref element="SJ_LED_C3" pad="1"/>
@@ -5786,12 +5786,12 @@ design rules under a new name.</description>
 <wire x1="91.7575" y1="42.545" x2="86.995" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="101.2825" y1="23.495" x2="91.7575" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="84.61375" y1="4.445" x2="101.2825" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-97.63125" x2="84.61375" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="78.58125" y1="122.555" x2="84.61375" y2="4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$187">
 <contactref element="KEY_5" pad="LED-"/>
 <contactref element="SJ_LED_C4" pad="2"/>
-<wire x1="6.0325" y1="-104.775" x2="96.52" y2="128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="97.63125" y1="125.095" x2="96.52" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_4">
 <contactref element="SJ_LED_C4" pad="1"/>
@@ -5804,22 +5804,22 @@ design rules under a new name.</description>
 <wire x1="106.045" y1="61.595" x2="96.52" y2="80.645" width="0" layer="19" extent="1-1"/>
 <wire x1="110.8075" y1="42.545" x2="106.045" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="120.3325" y1="23.495" x2="110.8075" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-104.775" x2="120.3325" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="97.63125" y1="122.555" x2="120.3325" y2="23.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$188">
 <contactref element="KEY_6" pad="LED-"/>
 <contactref element="SJ_LED_C5" pad="2"/>
-<wire x1="6.0325" y1="-111.91875" x2="115.57" y2="128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="116.68125" y1="125.095" x2="115.57" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_5">
 <contactref element="SJ_LED_C5" pad="1"/>
 <contactref element="KEY_114" pad="LED-"/>
-<wire x1="3.4925" y1="-111.91875" x2="139.3825" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="139.3825" y1="23.495" x2="116.68125" y2="122.555" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$189">
 <contactref element="KEY_7" pad="LED-"/>
 <contactref element="SJ_LED_C6" pad="2"/>
-<wire x1="134.62" y1="128.27" x2="6.0325" y2="-119.0625" width="0" layer="19" extent="1-1"/>
+<wire x1="134.62" y1="128.27" x2="135.73125" y2="125.095" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_6">
 <contactref element="SJ_LED_C6" pad="1"/>
@@ -5832,12 +5832,12 @@ design rules under a new name.</description>
 <wire x1="144.145" y1="61.595" x2="134.62" y2="80.645" width="0" layer="19" extent="1-1"/>
 <wire x1="148.9075" y1="42.545" x2="144.145" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="158.4325" y1="23.495" x2="148.9075" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-119.0625" x2="158.4325" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="135.73125" y1="122.555" x2="158.4325" y2="23.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$190">
 <contactref element="KEY_8" pad="LED-"/>
 <contactref element="SJ_LED_C7" pad="2"/>
-<wire x1="153.67" y1="128.27" x2="6.0325" y2="-126.20625" width="0" layer="19" extent="1-1"/>
+<wire x1="153.67" y1="128.27" x2="154.78125" y2="125.095" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_7">
 <contactref element="SJ_LED_C7" pad="1"/>
@@ -5851,13 +5851,13 @@ design rules under a new name.</description>
 <wire x1="167.9575" y1="42.545" x2="163.195" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="177.4825" y1="23.495" x2="167.9575" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="179.86375" y1="4.445" x2="177.4825" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="154.78125" y1="122.555" x2="179.86375" y2="4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="153.67" y1="109.22" x2="153.67" y2="80.645" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-126.20625" x2="179.86375" y2="4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$191">
 <contactref element="KEY_9" pad="LED-"/>
 <contactref element="SJ_LED_C8" pad="2"/>
-<wire x1="172.72" y1="128.27" x2="6.0325" y2="-133.35" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="128.27" x2="173.83125" y2="125.095" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_8">
 <contactref element="SJ_LED_C8" pad="1"/>
@@ -5870,12 +5870,12 @@ design rules under a new name.</description>
 <wire x1="187.0075" y1="42.545" x2="182.245" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="196.5325" y1="23.495" x2="187.0075" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="172.72" y1="109.22" x2="172.72" y2="80.645" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-133.35" x2="196.5325" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="173.83125" y1="122.555" x2="196.5325" y2="23.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$192">
 <contactref element="KEY_10" pad="LED-"/>
 <contactref element="SJ_LED_C9" pad="2"/>
-<wire x1="191.77" y1="128.27" x2="6.0325" y2="-140.49375" width="0" layer="19" extent="1-1"/>
+<wire x1="191.77" y1="128.27" x2="192.88125" y2="125.095" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_9">
 <contactref element="SJ_LED_C9" pad="1"/>
@@ -5890,12 +5890,12 @@ design rules under a new name.</description>
 <wire x1="191.77" y1="80.645" x2="201.295" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="191.77" y1="109.22" x2="191.77" y2="80.645" width="0" layer="19" extent="1-1"/>
 <wire x1="201.295" y1="109.22" x2="191.77" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-140.49375" x2="215.5825" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="192.88125" y1="122.555" x2="215.5825" y2="23.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$193">
 <contactref element="KEY_11" pad="LED-"/>
 <contactref element="SJ_LED_C10" pad="2"/>
-<wire x1="210.82" y1="128.27" x2="6.0325" y2="-147.6375" width="0" layer="19" extent="1-1"/>
+<wire x1="210.82" y1="128.27" x2="211.93125" y2="125.095" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_10">
 <contactref element="SJ_LED_C10" pad="1"/>
@@ -5905,7 +5905,7 @@ design rules under a new name.</description>
 <contactref element="KEY_51" pad="LED-"/>
 <contactref element="KEY_31" pad="LED-"/>
 <contactref element="KEY_31_OFFSET" pad="LED-"/>
-<wire x1="234.6325" y1="23.495" x2="3.4925" y2="-147.6375" width="0" layer="19" extent="1-1"/>
+<wire x1="234.6325" y1="23.495" x2="211.93125" y2="122.555" width="0" layer="19" extent="1-1"/>
 <wire x1="225.1075" y1="42.545" x2="234.6325" y2="23.495" width="0" layer="19" extent="1-1"/>
 <wire x1="220.345" y1="61.595" x2="225.1075" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="210.82" y1="80.645" x2="220.345" y2="61.595" width="0" layer="19" extent="1-1"/>
@@ -5915,7 +5915,7 @@ design rules under a new name.</description>
 <signal name="N$194">
 <contactref element="KEY_12" pad="LED-"/>
 <contactref element="SJ_LED_C11" pad="2"/>
-<wire x1="229.87" y1="128.27" x2="6.0325" y2="-154.78125" width="0" layer="19" extent="1-1"/>
+<wire x1="229.87" y1="128.27" x2="230.98125" y2="125.095" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_11">
 <contactref element="SJ_LED_C11" pad="1"/>
@@ -5932,12 +5932,12 @@ design rules under a new name.</description>
 <wire x1="229.87" y1="80.645" x2="239.395" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="229.87" y1="109.22" x2="229.87" y2="80.645" width="0" layer="19" extent="1-1"/>
 <wire x1="239.395" y1="109.22" x2="229.87" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-154.78125" x2="251.30125" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="230.98125" y1="122.555" x2="251.30125" y2="4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$195">
 <contactref element="KEY_13" pad="LED-"/>
 <contactref element="SJ_LED_C12" pad="2"/>
-<wire x1="248.92" y1="128.27" x2="6.0325" y2="-161.925" width="0" layer="19" extent="1-1"/>
+<wire x1="250.03125" y1="125.095" x2="248.92" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_12">
 <contactref element="SJ_LED_C12" pad="1"/>
@@ -5948,7 +5948,7 @@ design rules under a new name.</description>
 <contactref element="KEY_53" pad="LED-"/>
 <contactref element="KEY_33" pad="LED-"/>
 <contactref element="KEY_33_OFFSET" pad="LED-"/>
-<wire x1="275.11375" y1="4.445" x2="3.4925" y2="-161.925" width="0" layer="19" extent="1-1"/>
+<wire x1="275.11375" y1="4.445" x2="250.03125" y2="122.555" width="0" layer="19" extent="1-1"/>
 <wire x1="272.7325" y1="23.495" x2="275.11375" y2="4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="263.2075" y1="42.545" x2="272.7325" y2="23.495" width="0" layer="19" extent="1-1"/>
 <wire x1="258.445" y1="61.595" x2="263.2075" y2="42.545" width="0" layer="19" extent="1-1"/>
@@ -5959,7 +5959,7 @@ design rules under a new name.</description>
 <signal name="N$196">
 <contactref element="KEY_14" pad="LED-"/>
 <contactref element="SJ_LED_C13" pad="2"/>
-<wire x1="267.97" y1="128.27" x2="6.0325" y2="-169.06875" width="0" layer="19" extent="1-1"/>
+<wire x1="269.08125" y1="125.095" x2="267.97" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_13">
 <contactref element="SJ_LED_C13" pad="1"/>
@@ -5968,35 +5968,35 @@ design rules under a new name.</description>
 <contactref element="KEY_77" pad="LED-"/>
 <contactref element="KEY_54" pad="LED-"/>
 <contactref element="KEY_34" pad="LED-"/>
-<wire x1="298.92625" y1="4.445" x2="3.4925" y2="-169.06875" width="0" layer="19" extent="1-1"/>
-<wire x1="282.2575" y1="42.545" x2="298.92625" y2="4.445" width="0" layer="19" extent="1-1"/>
-<wire x1="277.495" y1="61.595" x2="282.2575" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="267.97" y1="80.645" x2="277.495" y2="61.595" width="0" layer="19" extent="1-1"/>
-<wire x1="267.97" y1="109.22" x2="267.97" y2="80.645" width="0" layer="19" extent="1-1"/>
+<wire x1="267.97" y1="80.645" x2="267.97" y2="109.22" width="0" layer="19" extent="1-1"/>
+<wire x1="277.495" y1="61.595" x2="267.97" y2="80.645" width="0" layer="19" extent="1-1"/>
+<wire x1="282.2575" y1="42.545" x2="277.495" y2="61.595" width="0" layer="19" extent="1-1"/>
+<wire x1="298.92625" y1="4.445" x2="282.2575" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="269.08125" y1="122.555" x2="282.2575" y2="42.545" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$197">
 <contactref element="KEY_15" pad="LED-"/>
 <contactref element="SJ_LED_C14" pad="2"/>
-<wire x1="287.02" y1="128.27" x2="6.0325" y2="-176.2125" width="0" layer="19" extent="1-1"/>
+<wire x1="288.13125" y1="125.095" x2="287.02" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_14">
 <contactref element="SJ_LED_C14" pad="1"/>
 <contactref element="KEY_78" pad="LED-"/>
 <contactref element="KEY_55" pad="LED-"/>
 <contactref element="KEY_35" pad="LED-"/>
-<wire x1="296.545" y1="61.595" x2="3.4925" y2="-176.2125" width="0" layer="19" extent="1-1"/>
-<wire x1="287.02" y1="80.645" x2="296.545" y2="61.595" width="0" layer="19" extent="1-1"/>
-<wire x1="287.02" y1="109.22" x2="287.02" y2="80.645" width="0" layer="19" extent="1-1"/>
+<wire x1="287.02" y1="80.645" x2="287.02" y2="109.22" width="0" layer="19" extent="1-1"/>
+<wire x1="296.545" y1="61.595" x2="287.02" y2="80.645" width="0" layer="19" extent="1-1"/>
+<wire x1="288.13125" y1="122.555" x2="296.545" y2="61.595" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$198">
 <contactref element="KEY_16" pad="LED-"/>
 <contactref element="SJ_LED_C15" pad="2"/>
-<wire x1="6.0325" y1="-183.35625" x2="306.07" y2="128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="307.18125" y1="125.095" x2="306.07" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_15">
 <contactref element="SJ_LED_C15" pad="1"/>
 <contactref element="KEY_36" pad="LED-"/>
-<wire x1="306.07" y1="109.22" x2="3.4925" y2="-183.35625" width="0" layer="19" extent="1-1"/>
+<wire x1="307.18125" y1="122.555" x2="306.07" y2="109.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_16">
 <contactref element="KEY_138" pad="LED-"/>
@@ -6006,12 +6006,12 @@ design rules under a new name.</description>
 <contactref element="KEY_56" pad="LED-"/>
 <contactref element="KEY_37" pad="LED-"/>
 <contactref element="SJ_LED_C16" pad="1"/>
-<wire x1="308.45125" y1="23.495" x2="3.4925" y2="-190.5" width="0" layer="19" extent="1-1"/>
-<wire x1="313.21375" y1="42.545" x2="308.45125" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="320.3575" y1="61.595" x2="313.21375" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="315.595" y1="80.645" x2="320.3575" y2="61.595" width="0" layer="19" extent="1-1"/>
+<wire x1="315.595" y1="80.645" x2="325.12" y2="109.22" width="0" layer="19" extent="1-1"/>
+<wire x1="320.3575" y1="61.595" x2="315.595" y2="80.645" width="0" layer="19" extent="1-1"/>
+<wire x1="313.21375" y1="42.545" x2="320.3575" y2="61.595" width="0" layer="19" extent="1-1"/>
+<wire x1="308.45125" y1="23.495" x2="313.21375" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="322.73875" y1="4.445" x2="308.45125" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="325.12" y1="109.22" x2="315.595" y2="80.645" width="0" layer="19" extent="1-1"/>
+<wire x1="326.23125" y1="122.555" x2="308.45125" y2="23.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_17">
 <contactref element="KEY_139" pad="LED-"/>
@@ -6026,22 +6026,22 @@ design rules under a new name.</description>
 <wire x1="353.695" y1="42.545" x2="353.695" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="353.695" y1="23.495" x2="353.695" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="353.695" y1="4.445" x2="353.695" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-197.64375" x2="353.695" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="354.80625" y1="122.555" x2="353.695" y2="4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$199">
 <contactref element="KEY_17" pad="LED-"/>
 <contactref element="SJ_LED_C16" pad="2"/>
-<wire x1="6.0325" y1="-190.5" x2="325.12" y2="128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="326.23125" y1="125.095" x2="325.12" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$200">
 <contactref element="KEY_18" pad="LED-"/>
 <contactref element="SJ_LED_C17" pad="2"/>
-<wire x1="6.0325" y1="-197.64375" x2="353.695" y2="128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="354.80625" y1="125.095" x2="353.695" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$201">
 <contactref element="KEY_19" pad="LED-"/>
 <contactref element="SJ_LED_C18" pad="2"/>
-<wire x1="6.0325" y1="-204.7875" x2="372.745" y2="128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="373.85625" y1="125.095" x2="372.745" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_18">
 <contactref element="SJ_LED_C18" pad="1"/>
@@ -6056,12 +6056,12 @@ design rules under a new name.</description>
 <wire x1="372.745" y1="42.545" x2="372.745" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="372.745" y1="23.495" x2="372.745" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="372.745" y1="4.445" x2="372.745" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-204.7875" x2="372.745" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="373.85625" y1="122.555" x2="372.745" y2="4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$202">
 <contactref element="KEY_20" pad="LED-"/>
 <contactref element="SJ_LED_C1" pad="2"/>
-<wire x1="391.795" y1="128.27" x2="6.0325" y2="-211.93125" width="0" layer="19" extent="1-1"/>
+<wire x1="391.795" y1="128.27" x2="392.90625" y2="125.095" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_19">
 <contactref element="SJ_LED_C1" pad="1"/>
@@ -6076,7 +6076,7 @@ design rules under a new name.</description>
 <wire x1="391.795" y1="42.545" x2="391.795" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="391.795" y1="23.495" x2="391.795" y2="42.545" width="0" layer="19" extent="1-1"/>
 <wire x1="391.795" y1="4.445" x2="391.795" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-211.93125" x2="391.795" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="392.90625" y1="122.555" x2="391.795" y2="4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_COL_20">
 <contactref element="KEY_60" pad="LED-"/>
