@@ -1654,10 +1654,10 @@
 <part name="KEY_27" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_28" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_29" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_30" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
-<part name="KEY_31" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_30" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_31" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_32" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
-<part name="KEY_33" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_33" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_34" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
 <part name="KEY_35" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_36" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
@@ -1924,10 +1924,10 @@
 <part name="SJ_R4_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_R5_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_R6_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
-<part name="KEY_30_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_31_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_32_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
-<part name="KEY_33_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_30_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_31_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_32_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
+<part name="KEY_33_OFFSET" library="cherrymx" deviceset="CHERRY-MX-LED-NOPIN" device=""/>
 <part name="SJ_LED_R1_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_LED_R2_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_LED_R2_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
