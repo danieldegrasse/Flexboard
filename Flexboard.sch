@@ -2545,9 +2545,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-7.62" y="205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="PTE12"/>
-<wire x1="-48.26" y1="33.02" x2="-55.88" y2="33.02" width="0.1524" layer="91"/>
-<label x="-73.66" y="33.02" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="PTE6"/>
+<wire x1="-48.26" y1="48.26" x2="-55.88" y2="48.26" width="0.1524" layer="91"/>
+<label x="-71.12" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW_2{MCU}" class="0">
@@ -2557,9 +2557,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-7.62" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="PTE10"/>
-<wire x1="-48.26" y1="38.1" x2="-55.88" y2="38.1" width="0.1524" layer="91"/>
-<label x="-71.12" y="38.1" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="PTE7"/>
+<wire x1="-48.26" y1="45.72" x2="-55.88" y2="45.72" width="0.1524" layer="91"/>
+<label x="-71.12" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW_3{MCU}" class="0">
@@ -2631,26 +2631,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="LED_ROW_2{MCU}" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="PTE9"/>
-<wire x1="-48.26" y1="40.64" x2="-55.88" y2="40.64" width="0.1524" layer="91"/>
-<label x="-78.74" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SJ_MCU_LED_ROW2" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="198.12" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
 <label x="66.04" y="198.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="PTE5"/>
+<wire x1="-48.26" y1="50.8" x2="-55.88" y2="50.8" width="0.1524" layer="91"/>
+<label x="-76.2" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED_ROW_1{MCU}" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PTE11"/>
-<wire x1="-48.26" y1="35.56" x2="-55.88" y2="35.56" width="0.1524" layer="91"/>
-<label x="-78.74" y="35.56" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SJ_MCU_LED_ROW1" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="205.74" x2="66.04" y2="205.74" width="0.1524" layer="91"/>
 <label x="66.04" y="205.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="PTE8"/>
+<wire x1="-48.26" y1="43.18" x2="-55.88" y2="43.18" width="0.1524" layer="91"/>
+<label x="-76.2" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_ROW_5{MCU}" class="0">
