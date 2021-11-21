@@ -92,6 +92,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -145,6 +147,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -1125,6 +1129,48 @@
 </package>
 </packages>
 </library>
+<library name="SparkFun-Jumpers">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:footprint:39257/1" locally_modified="yes">
+<smd name="1" x="-0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.1905" y="0.127"/>
+<vertex x="0.1905" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.6985" y="0.127"/>
+<vertex x="0.18415" y="0.127"/>
+<vertex x="0.18415" y="-0.127"/>
+<vertex x="-0.6985" y="-0.127"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:package:39286/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NC_TRACE_NO-SILK"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1766,14 +1812,14 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-27.305" y="138.58875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-27.305" y="138.58875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="D37" library="BAS16LT3G" package="SOT95P240X111-3N" value="BAS16LT3G" x="333.375" y="111.91875" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="In Stock" x="-19.685" y="146.20875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-19.685" y="146.20875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="-19.685" y="146.20875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="BAS16LT3G" x="-19.685" y="146.20875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="331.374859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
-<attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-19.685" y="146.20875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="-19.685" y="146.20875" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="D37" library="BAS16LT3G" package="SOT95P240X111-3N" value="BAS16LT3G" x="333.375" y="119.0625" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="In Stock" x="-19.685" y="153.3525" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-19.685" y="153.3525" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-19.685" y="153.3525" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="BAS16LT3G" x="-19.685" y="153.3525" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="331.374859375" y="117.062359375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-19.685" y="153.3525" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="-19.685" y="153.3525" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="D38" library="BAS16LT3G" package="SOT95P240X111-3N" value="BAS16LT3G" x="361.95" y="111.91875" smashed="yes" rot="MR180">
 <attribute name="AVAILABILITY" value="In Stock" x="-2.54" y="153.82875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3364,18 +3410,234 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="3" x="392.90625" y="123.825" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="392.90625" y="124.825" size="0.02" layer="27" rot="R90"/>
 </element>
-<element name="U1" library="MK22FX512AVLQ12" package="LQFP-144_20X20X1.6" value="MK22FX512AVLQ12" x="334.8375" y="96.33125" smashed="yes" rot="MR270">
-<attribute name="CPU" value="ARM Cortex-M4" x="334.8375" y="96.33125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="FLASHKB" value="512" x="334.8375" y="96.33125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MK22FX512AVLQ12" x="334.8375" y="96.33125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MAXFREQUENCY" value="120" x="334.8375" y="96.33125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="PINCOUNT" value="144" x="334.8375" y="96.33125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SRAMKB" value="128" x="334.8375" y="96.33125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VENDOR" value="NXP" x="334.8375" y="96.33125" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="U1" library="MK22FX512AVLQ12" package="LQFP-144_20X20X1.6" value="MK22FX512AVLQ12" x="334.8375" y="96.93125" smashed="yes" rot="MR270">
+<attribute name="CPU" value="ARM Cortex-M4" x="334.8375" y="96.93125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FLASHKB" value="512" x="334.8375" y="96.93125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MK22FX512AVLQ12" x="334.8375" y="96.93125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MAXFREQUENCY" value="120" x="334.8375" y="96.93125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PINCOUNT" value="144" x="334.8375" y="96.93125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SRAMKB" value="128" x="334.8375" y="96.93125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VENDOR" value="NXP" x="334.8375" y="96.93125" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="SJ_MCU_ROW1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="336.1375" y="120.13125" smashed="yes" rot="R270">
+<attribute name="NAME" x="337.2805" y="120.13125" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_ROW2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="340.51875" y="114.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="341.66175" y="114.3" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_ROW3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="330.01875" y="79.76875" smashed="yes" rot="R90">
+<attribute name="NAME" x="328.87575" y="79.76875" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_ROW4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="332.60625" y="69.43125" smashed="yes" rot="R90">
+<attribute name="NAME" x="331.46325" y="69.43125" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_ROW5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="338.6" y="50.00625" smashed="yes" rot="R90">
+<attribute name="NAME" x="337.457" y="50.00625" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_ROW6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="328.6125" y="30.95625" smashed="yes" rot="R90">
+<attribute name="NAME" x="327.4695" y="30.95625" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_ROW7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="335.43125" y="11.53125" smashed="yes" rot="R90">
+<attribute name="NAME" x="334.28825" y="11.53125" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_ROW1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="340.3375" y="119.7625" smashed="yes" rot="R270">
+<attribute name="NAME" x="341.4805" y="119.7625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_ROW2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="338.1375" y="114.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="339.2805" y="114.3" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_ROW3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="332.61875" y="79.79375" smashed="yes" rot="R90">
+<attribute name="NAME" x="331.47575" y="79.79375" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_ROW4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="329.825" y="69.43125" smashed="yes" rot="R90">
+<attribute name="NAME" x="328.682" y="69.43125" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_ROW5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="341.3125" y="50.025" smashed="yes" rot="R90">
+<attribute name="NAME" x="340.1695" y="50.025" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_ROW6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="330.99375" y="30.95625" smashed="yes" rot="R90">
+<attribute name="NAME" x="329.85075" y="30.95625" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_ROW7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="338.2375" y="11.2875" smashed="yes" rot="R90">
+<attribute name="NAME" x="337.0945" y="11.2875" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
+<element name="SJ_R1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="335.75625" y="123.825" smashed="yes" rot="R270">
+<attribute name="NAME" x="337.53425" y="125.984" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="3" x="335.75625" y="123.825" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="335.75625" y="122.825" size="0.02" layer="27" rot="R270"/>
+</element>
+<element name="SJ_LED_R1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="340.51875" y="123.825" smashed="yes" rot="R270">
+<attribute name="NAME" x="342.29675" y="125.984" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="3" x="340.51875" y="123.825" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="340.51875" y="122.825" size="0.02" layer="27" rot="R270"/>
+</element>
+<element name="SJ_C1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="47.58125" y="89.225" smashed="yes" rot="MR180">
+<attribute name="NAME" x="45.42225" y="87.447" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="POPULARITY" value="3" x="47.58125" y="89.225" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="48.58125" y="89.225" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="SJ_LED_C1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="47.7375" y="93.79375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="45.5785" y="92.01575" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="POPULARITY" value="3" x="47.7375" y="93.79375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="48.7375" y="93.79375" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="SJ_C2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="47.4625" y="98.8375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="45.3035" y="97.0595" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="POPULARITY" value="3" x="47.4625" y="98.8375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="48.4625" y="98.8375" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="SJ_LED_C2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="47.3625" y="103.68125" smashed="yes" rot="MR180">
+<attribute name="NAME" x="49.5965" y="100.59675" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="POPULARITY" value="3" x="47.3625" y="103.68125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="48.3625" y="103.68125" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="SJ_MCU_COL1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="52.525" y="91.45625" smashed="yes" rot="MR90">
+<attribute name="NAME" x="53.668" y="91.45625" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="59.725" y="101.7875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="59.725" y="100.6445" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="56.2" y="95.88125" smashed="yes" rot="MR180">
+<attribute name="NAME" x="56.2" y="94.73825" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="75.2" y="97.51875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="75.2" y="96.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="94.4" y="97.51875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="94.4" y="96.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="113.4" y="102.51875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="113.4" y="101.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="132.3" y="102.71875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="132.3" y="101.57575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="151.3" y="96.21875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="151.3" y="95.07575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL9" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="170.6" y="95.71875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="170.6" y="94.57575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL10" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="189.7375" y="95.9" smashed="yes" rot="MR180">
+<attribute name="NAME" x="189.7375" y="94.757" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL11" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="208.7" y="94.91875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="208.7" y="93.77575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL12" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="228.2" y="94.61875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="228.2" y="93.47575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL13" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="246.9" y="93.81875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="246.9" y="92.67575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL14" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="265.88125" y="93.51875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="265.88125" y="92.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL15" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="284.9" y="92.51875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="284.9" y="91.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL16" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="304.9875" y="104.9" smashed="yes" rot="MR180">
+<attribute name="NAME" x="304.9875" y="103.757" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL17" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="330.99375" y="111.91875" smashed="yes" rot="MR0">
+<attribute name="NAME" x="330.99375" y="113.06175" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL18" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="348.9625" y="91.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="348.9625" y="92.443" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL19" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="361.96875" y="91.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="361.96875" y="92.743" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL20" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="382.0125" y="94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="382.0125" y="95.143" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL21" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="407.95625" y="95.63125" smashed="yes" rot="MR0">
+<attribute name="NAME" x="407.95625" y="96.77425" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="51.15" y="96.3" smashed="yes" rot="MR90">
+<attribute name="NAME" x="52.293" y="96.3" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="59.65625" y="104.34375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="59.65625" y="103.20075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="61.05625" y="96.725" smashed="yes" rot="MR180">
+<attribute name="NAME" x="61.05625" y="95.582" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="81.25625" y="97.84375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="81.25625" y="96.70075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="100.95625" y="97.24375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="100.95625" y="96.10075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="119.74375" y="102.45625" smashed="yes" rot="MR180">
+<attribute name="NAME" x="119.74375" y="101.31325" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="138.05625" y="103.24375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="138.05625" y="102.10075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="156.35625" y="96.84375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="156.35625" y="95.70075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL9" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="175.45625" y="96.24375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="175.45625" y="95.10075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL10" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="196.75" y="95.375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="196.75" y="94.232" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL11" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="215.85625" y="94.74375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="215.85625" y="93.60075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL12" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="235.55625" y="94.04375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="235.55625" y="92.90075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL13" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="254.05625" y="93.64375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="254.05625" y="92.50075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL14" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="274.25625" y="93.04375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="274.25625" y="91.90075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL15" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="294.25625" y="92.34375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="294.25625" y="91.20075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL16" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="311.34375" y="105.725" smashed="yes" rot="MR180">
+<attribute name="NAME" x="311.34375" y="104.582" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL17" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="330.8375" y="109.29375" smashed="yes" rot="MR0">
+<attribute name="NAME" x="330.8375" y="110.43675" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL18" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="349.10625" y="93.575" smashed="yes" rot="MR0">
+<attribute name="NAME" x="349.10625" y="94.718" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL19" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="361.93125" y="94.475" smashed="yes" rot="MR0">
+<attribute name="NAME" x="361.93125" y="95.618" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL20" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="381.75625" y="97.075" smashed="yes" rot="MR0">
+<attribute name="NAME" x="381.75625" y="98.218" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL21" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="411.1" y="98.30625" smashed="yes" rot="MR0">
+<attribute name="NAME" x="411.1" y="99.44925" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL22" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="423.7" y="96.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="423.7" y="97.343" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL23" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="443.8375" y="95.975" smashed="yes" rot="MR0">
+<attribute name="NAME" x="443.8375" y="97.118" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_COL24" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="446.94375" y="101.54375" smashed="yes" rot="MR0">
+<attribute name="NAME" x="446.94375" y="102.68675" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL22" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="428.3" y="97.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="428.3" y="99.043" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL23" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="446.0375" y="98.75" smashed="yes" rot="MR0">
+<attribute name="NAME" x="446.0375" y="99.893" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="SJ_MCU_LED_COL24" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="446.9" y="104.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="446.9" y="105.343" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 </elements>
 <signals>
-<signal name="COL_1">
+<signal name="COL_1{SB}">
 <contactref element="KEY_129" pad="SW1"/>
 <contactref element="KEY_109" pad="SW1"/>
 <contactref element="KEY_87" pad="SW1"/>
@@ -3402,14 +3664,14 @@ design rules under a new name.</description>
 <wire x1="5.715" y1="135.89" x2="6.377" y2="135.228" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="6.377" y1="117.502" x2="5.715" y2="116.84" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="6.377" y1="135.228" x2="6.377" y2="117.502" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="6.377" y1="102.39375" x2="8.75825" y2="100.0125" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="6.377" y="102.39375" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="133"/>
-<wire x1="317.72986875" y1="100.0125" x2="318.724715625" y2="99.017653125" width="0.1524" layer="16"/>
-<wire x1="8.75825" y1="100.0125" x2="317.72986875" y2="100.0125" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="318.724715625" y1="99.017653125" x2="324.212503125" y2="99.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_C1" pad="1"/>
+<wire x1="34.6347375" y1="89.225" x2="46.31125" y2="89.225" width="0.1524" layer="16"/>
+<wire x1="31.6831375" y1="92.1766" x2="34.6347375" y2="89.225" width="0.1524" layer="16"/>
+<wire x1="6.377" y1="102.39375" x2="16.59415" y2="92.1766" width="0.1524" layer="16"/>
+<wire x1="16.59415" y1="92.1766" x2="31.6831375" y2="92.1766" width="0.1524" layer="16"/>
 </signal>
-<signal name="COL_2">
+<signal name="COL_2{SB}">
 <contactref element="KEY_130" pad="SW1"/>
 <contactref element="KEY_110" pad="SW1"/>
 <contactref element="KEY_88" pad="SW1"/>
@@ -3436,12 +3698,10 @@ design rules under a new name.</description>
 <wire x1="24.765" y1="31.115" x2="25.427" y2="30.453" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="25.427" y1="12.727" x2="24.765" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="25.427" y1="30.453" x2="25.427" y2="12.727" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.5799" y1="100.6221" x2="25.427" y2="104.775" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="25.427" y="104.775" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="137"/>
-<wire x1="324.212503125" y1="101.58125" x2="318.45019375" y2="101.58125" width="0.1524" layer="16"/>
-<wire x1="318.45019375" y1="101.58125" x2="317.49104375" y2="100.6221" width="0.1524" layer="16"/>
-<wire x1="317.49104375" y1="100.6221" x2="29.5799" y2="100.6221" width="0.1524" layer="16"/>
+<contactref element="SJ_C2" pad="1"/>
+<wire x1="25.427" y1="104.775" x2="31.3645" y2="98.8375" width="0.1524" layer="16"/>
+<wire x1="31.3645" y1="98.8375" x2="46.1925" y2="98.8375" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_3">
 <contactref element="KEY_43" pad="SW1"/>
@@ -3469,12 +3729,10 @@ design rules under a new name.</description>
 <wire x1="65.24625" y1="31.115" x2="65.90825" y2="30.453" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="65.90825" y1="22.252" x2="55.72125" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="65.90825" y1="30.453" x2="65.90825" y2="22.252" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="54.002" y1="95.25" x2="58.4597" y2="99.7077" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="54.002" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="132"/>
-<wire x1="317.6036125" y1="99.7077" x2="318.793659375" y2="98.517653125" width="0.1524" layer="16"/>
-<wire x1="58.4597" y1="99.7077" x2="317.6036125" y2="99.7077" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="318.793659375" y1="98.517653125" x2="324.212503125" y2="99.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL3" pad="1"/>
+<wire x1="54.002" y1="95.25" x2="54.63325" y2="95.88125" width="0.1524" layer="16"/>
+<wire x1="54.63325" y1="95.88125" x2="55.6793" y2="95.88125" width="0.1524" layer="16"/>
 </signal>
 <signal name="ROW_1">
 <contactref element="D20" pad="1"/>
@@ -3498,8 +3756,6 @@ design rules under a new name.</description>
 <contactref element="D2" pad="1"/>
 <contactref element="D3" pad="1"/>
 <wire x1="340.51875" y1="143.825" x2="340.51875" y2="143.78585" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="340.51875" y1="143.78585" x2="338.1375" y2="141.4046" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="338.1375" y1="141.4046" x2="338.1375" y2="107.15625" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <via x="340.51875" y="143.78585" extent="1-16" drill="0.35"/>
 <wire x1="396.3475" y1="143.825" x2="382.06" y2="143.825" width="0.1524" layer="16"/>
 <wire x1="382.06" y1="143.825" x2="363.01" y2="143.825" width="0.1524" layer="16"/>
@@ -3523,8 +3779,9 @@ design rules under a new name.</description>
 <wire x1="86.785" y1="143.825" x2="67.735" y2="143.825" width="0.1524" layer="16"/>
 <wire x1="67.735" y1="143.825" x2="32.01625" y2="143.825" width="0.1524" layer="16"/>
 <wire x1="32.01625" y1="143.825" x2="20.11" y2="143.825" width="0.1524" layer="16"/>
-<contactref element="U1" pad="15"/>
-<wire x1="338.1375" y1="107.15625" x2="333.0875" y2="106.956246875" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_R1" pad="1"/>
+<wire x1="335.75625" y1="139.02335" x2="335.75625" y2="125.095" width="0.1524" layer="1"/>
+<wire x1="340.51875" y1="143.78585" x2="335.75625" y2="139.02335" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 </signal>
 <signal name="N$6">
 <contactref element="D1" pad="3"/>
@@ -3678,12 +3935,10 @@ design rules under a new name.</description>
 <wire x1="115.2525" y1="29.48034375" x2="115.5207" y2="29.21214375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="115.5207" y1="29.21214375" x2="115.5207" y2="24.23945" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="115.5207" y1="24.23945" x2="103.34625" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="92.102" y1="95.25" x2="95.3376" y2="98.4856" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="92.102" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="128"/>
-<wire x1="317.1014875" y1="98.4856" x2="319.069434375" y2="96.517653125" width="0.1524" layer="16"/>
-<wire x1="95.3376" y1="98.4856" x2="317.1014875" y2="98.4856" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="319.069434375" y1="96.517653125" x2="324.212503125" y2="97.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL5" pad="1"/>
+<wire x1="92.102" y1="95.25" x2="93.8793" y2="97.0273" width="0.1524" layer="16"/>
+<wire x1="93.8793" y1="97.0273" x2="93.8793" y2="97.51875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_6">
 <contactref element="KEY_46" pad="SW1"/>
@@ -3708,12 +3963,9 @@ design rules under a new name.</description>
 <wire x1="125.4395" y1="39.978" x2="134.3025" y2="31.115" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="125.4395" y1="49.503" x2="125.4395" y2="39.978" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <via x="111.152" y="104.775" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="139"/>
-<wire x1="317.1317" y1="101.2317" x2="318.5" y2="102.6" width="0.1524" layer="16"/>
-<wire x1="318.5" y1="102.6" x2="324.193753125" y2="102.6" width="0.1524" layer="16"/>
-<wire x1="324.193753125" y1="102.6" x2="324.212503125" y2="102.58125" width="0.1524" layer="16"/>
-<wire x1="111.152" y1="104.775" x2="114.6953" y2="101.2317" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="114.6953" y1="101.2317" x2="317.1317" y2="101.2317" width="0.1524" layer="16"/>
+<contactref element="SJ_MCU_COL6" pad="1"/>
+<wire x1="111.152" y1="104.775" x2="112.8793" y2="103.0477" width="0.1524" layer="16"/>
+<wire x1="112.8793" y1="103.0477" x2="112.8793" y2="102.51875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_4">
 <contactref element="KEY_44" pad="SW1"/>
@@ -3744,23 +3996,16 @@ design rules under a new name.</description>
 <wire x1="79.53375" y1="12.85875" x2="79.53375" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="96.8645" y1="30.453" x2="96.8645" y2="27.80825" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="96.8645" y1="27.80825" x2="85.725" y2="16.66875" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="73.052" y1="95.25" x2="76.8972" y2="99.0952" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="73.052" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="130"/>
-<wire x1="317.354" y1="99.0952" x2="318.931546875" y2="97.517653125" width="0.1524" layer="16"/>
-<wire x1="76.8972" y1="99.0952" x2="317.354" y2="99.0952" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="318.931546875" y1="97.517653125" x2="324.212503125" y2="98.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL4" pad="1"/>
+<wire x1="73.052" y1="95.25" x2="74.6793" y2="96.8773" width="0.1524" layer="16"/>
+<wire x1="74.6793" y1="96.8773" x2="74.6793" y2="97.51875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_7">
 <contactref element="KEY_47" pad="SW1"/>
 <contactref element="KEY_115" pad="SW1"/>
 <contactref element="KEY_93" pad="SW1"/>
 <contactref element="KEY_70" pad="SW1"/>
-<contactref element="KEY_27" pad="SW1"/>
-<contactref element="SJ_C7" pad="1"/>
-<wire x1="130.96875" y1="122.555" x2="130.96875" y2="118.26875" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="130.96875" y1="118.26875" x2="129.54" y2="116.84" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="129.54" y1="116.84" x2="130.202" y2="116.178" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="130.202" y1="88.927" x2="129.54" y2="88.265" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="130.202" y1="116.178" x2="130.202" y2="104.775" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="130.202" y1="104.775" x2="130.202" y2="88.927" width="0.2" layer="1" grouprefs="COL-TRACES"/>
@@ -3774,12 +4019,13 @@ design rules under a new name.</description>
 <wire x1="144.4895" y1="39.978" x2="153.3525" y2="31.115" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="144.4895" y1="49.503" x2="144.4895" y2="39.978" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <via x="130.202" y="104.775" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="141"/>
-<wire x1="316.7413" y1="101.8413" x2="318.5" y2="103.6" width="0.1524" layer="16"/>
-<wire x1="130.202" y1="104.775" x2="133.1357" y2="101.8413" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="133.1357" y1="101.8413" x2="316.7413" y2="101.8413" width="0.1524" layer="16"/>
-<wire x1="324.212503125" y1="103.58125" x2="324.193753125" y2="103.6" width="0.1524" layer="16"/>
-<wire x1="324.193753125" y1="103.6" x2="318.5" y2="103.6" width="0.1524" layer="16"/>
+<contactref element="SJ_MCU_COL7" pad="1"/>
+<wire x1="130.202" y1="104.775" x2="131.7793" y2="103.1977" width="0.1524" layer="16"/>
+<wire x1="131.7793" y1="103.1977" x2="131.7793" y2="102.71875" width="0.1524" layer="16"/>
+<contactref element="KEY_27" pad="SW1"/>
+<contactref element="SJ_C7" pad="1"/>
+<wire x1="129.54" y1="116.84" x2="130.96875" y2="122.555" width="0" layer="19" extent="1-1"/>
+<wire x1="130.202" y1="116.178" x2="129.54" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL_8">
 <contactref element="KEY_134" pad="SW1"/>
@@ -3808,12 +4054,10 @@ design rules under a new name.</description>
 <wire x1="172.4025" y1="31.115" x2="173.0645" y2="30.453" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="173.0645" y1="13.78425" x2="174.78375" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="173.0645" y1="30.453" x2="173.0645" y2="13.78425" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="149.252" y1="95.25" x2="151.878" y2="97.876" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="149.252" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="126"/>
-<wire x1="316.848975" y1="97.876" x2="319.207321875" y2="95.517653125" width="0.1524" layer="16"/>
-<wire x1="151.878" y1="97.876" x2="316.848975" y2="97.876" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="319.207321875" y1="95.517653125" x2="324.212503125" y2="96.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL8" pad="1"/>
+<wire x1="149.252" y1="95.25" x2="150.22075" y2="96.21875" width="0.1524" layer="16"/>
+<wire x1="150.22075" y1="96.21875" x2="150.7793" y2="96.21875" width="0.1524" layer="16"/>
 </signal>
 <signal name="ROW_2{SB}">
 <contactref element="D37" pad="1"/>
@@ -3835,9 +4079,6 @@ design rules under a new name.</description>
 <contactref element="D40" pad="1"/>
 <contactref element="D39" pad="1"/>
 <contactref element="D38" pad="1"/>
-<wire x1="340.51875" y1="110.96875" x2="338.7471" y2="109.1971" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="338.7471" y1="109.1971" x2="338.7471" y2="107.2" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<via x="340.51875" y="110.96875" extent="1-16" drill="0.35"/>
 <wire x1="48.695" y1="112.35625" x2="50.0825" y2="110.96875" width="0.1524" layer="16"/>
 <wire x1="50.0825" y1="110.96875" x2="65.615" y2="110.96875" width="0.1524" layer="16"/>
 <wire x1="65.615" y1="110.96875" x2="84.665" y2="110.96875" width="0.1524" layer="16"/>
@@ -3866,13 +4107,33 @@ design rules under a new name.</description>
 <wire x1="256.115" y1="103.825" x2="268.13125" y2="103.825" width="0.1524" layer="16"/>
 <wire x1="275.165" y1="110.96875" x2="294.215" y2="110.96875" width="0.1524" layer="16"/>
 <wire x1="294.215" y1="110.96875" x2="313.265" y2="110.96875" width="0.1524" layer="16"/>
-<wire x1="313.265" y1="110.96875" x2="332.315" y2="110.96875" width="0.1524" layer="16"/>
-<wire x1="332.315" y1="110.96875" x2="340.51875" y2="110.96875" width="0.1524" layer="16"/>
-<wire x1="340.51875" y1="110.96875" x2="360.89" y2="110.96875" width="0.1524" layer="16"/>
 <wire x1="360.89" y1="110.96875" x2="379.94" y2="110.96875" width="0.1524" layer="16"/>
 <wire x1="379.94" y1="110.96875" x2="398.99" y2="110.96875" width="0.1524" layer="16"/>
-<contactref element="U1" pad="13"/>
-<wire x1="332.315" y1="110.96875" x2="332.0875" y2="106.956246875" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_ROW2" pad="1"/>
+<wire x1="316.0946875" y1="111.39015" x2="316.2286" y2="111.5240625" width="0.1524" layer="16"/>
+<wire x1="325.8218625" y1="118.0084" x2="326.9581375" y2="118.0084" width="0.1524" layer="16"/>
+<wire x1="326.9581375" y1="118.0084" x2="327.0622375" y2="118.1125" width="0.1524" layer="16"/>
+<wire x1="327.0622375" y1="118.1125" x2="332.315" y2="118.1125" width="0.1524" layer="16"/>
+<wire x1="316.2286" y1="111.5240625" x2="316.2286" y2="114.9683375" width="0.1524" layer="16"/>
+<wire x1="316.2286" y1="114.9683375" x2="319.4718625" y2="118.2116" width="0.1524" layer="16"/>
+<wire x1="319.4718625" y1="118.2116" x2="325.6186625" y2="118.2116" width="0.1524" layer="16"/>
+<wire x1="325.6186625" y1="118.2116" x2="325.8218625" y2="118.0084" width="0.1524" layer="16"/>
+<wire x1="313.265" y1="110.96875" x2="315.66875" y2="110.96875" width="0.1524" layer="16"/>
+<wire x1="316.09015" y1="111.39015" x2="316.0946875" y2="111.39015" width="0.1524" layer="16"/>
+<wire x1="315.66875" y1="110.96875" x2="316.09015" y2="111.39015" width="0.1524" layer="16"/>
+<wire x1="332.315" y1="118.1125" x2="340.51875" y2="118.1125" width="0.1524" layer="16"/>
+<wire x1="342.9" y1="118.1125" x2="340.51875" y2="118.1125" width="0.1524" layer="16"/>
+<wire x1="342.9" y1="118.1125" x2="347.9477625" y2="118.1125" width="0.1524" layer="16"/>
+<wire x1="347.9477625" y1="118.1125" x2="348.0468625" y2="118.2116" width="0.1524" layer="16"/>
+<wire x1="358.1322875" y1="115.8144" x2="359.0194" y2="114.9272875" width="0.1524" layer="16"/>
+<wire x1="359.0194" y1="112.83935" x2="360.89" y2="110.96875" width="0.1524" layer="16"/>
+<wire x1="356.04435" y1="115.8144" x2="358.1322875" y2="115.8144" width="0.1524" layer="16"/>
+<wire x1="359.0194" y1="114.9272875" x2="359.0194" y2="112.83935" width="0.1524" layer="16"/>
+<wire x1="348.0468625" y1="118.2116" x2="353.64715" y2="118.2116" width="0.1524" layer="16"/>
+<wire x1="353.64715" y1="118.2116" x2="356.04435" y2="115.8144" width="0.1524" layer="16"/>
+<via x="342.9" y="118.1125" extent="1-16" drill="0.35"/>
+<wire x1="342.9" y1="118.1125" x2="340.51875" y2="115.73125" width="0.1524" layer="1"/>
+<wire x1="340.51875" y1="115.73125" x2="340.51875" y2="114.8207" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$22">
 <contactref element="D40" pad="3"/>
@@ -3901,10 +4162,8 @@ design rules under a new name.</description>
 <signal name="N$34">
 <contactref element="KEY_37" pad="SW2"/>
 <contactref element="D37" pad="3"/>
-<wire x1="334.435" y1="111.91875" x2="333.1586" y2="113.19515" width="0.1524" layer="16"/>
-<wire x1="333.1586" y1="113.19515" x2="333.1586" y2="113.2634375" width="0.1524" layer="16"/>
-<wire x1="333.1586" y1="113.2634375" x2="327.0420375" y2="119.38" width="0.1524" layer="16"/>
-<wire x1="327.0420375" y1="119.38" x2="326.39" y2="119.38" width="0.1524" layer="16"/>
+<wire x1="326.39" y1="119.38" x2="334.1175" y2="119.38" width="0.1524" layer="16"/>
+<wire x1="334.1175" y1="119.38" x2="334.435" y2="119.0625" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$38">
 <contactref element="KEY_36" pad="SW2"/>
@@ -4084,12 +4343,10 @@ design rules under a new name.</description>
 <wire x1="181.9275" y1="50.165" x2="182.5895" y2="49.503" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="182.5895" y1="39.978" x2="191.4525" y2="31.115" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="182.5895" y1="49.503" x2="182.5895" y2="39.978" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="168.302" y1="95.25" x2="170.3184" y2="97.2664" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="168.302" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="124"/>
-<wire x1="316.5964625" y1="97.2664" x2="319.345209375" y2="94.517653125" width="0.1524" layer="16"/>
-<wire x1="170.3184" y1="97.2664" x2="316.5964625" y2="97.2664" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="319.345209375" y1="94.517653125" x2="324.212503125" y2="95.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL9" pad="1"/>
+<wire x1="168.302" y1="95.25" x2="168.77075" y2="95.71875" width="0.1524" layer="16"/>
+<wire x1="168.77075" y1="95.71875" x2="170.0793" y2="95.71875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_10">
 <contactref element="KEY_118" pad="SW1"/>
@@ -4114,16 +4371,15 @@ design rules under a new name.</description>
 <wire x1="200.9775" y1="50.165" x2="201.6395" y2="49.503" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="201.6395" y1="39.978" x2="210.5025" y2="31.115" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="201.6395" y1="49.503" x2="201.6395" y2="39.978" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="187.352" y1="95.25" x2="188.7588" y2="96.6568" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="186.69" y1="116.84" x2="182.8532875" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="182.8532875" y1="116.84" x2="182.2690875" y2="117.4242" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="182.2690875" y1="117.4242" x2="179.6809125" y2="117.4242" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="179.6809125" y1="117.4242" x2="179.0967125" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="179.0967125" y1="116.84" x2="177.165" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <via x="187.352" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="120"/>
-<wire x1="188.7588" y1="96.6568" x2="316.34395" y2="96.6568" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="316.34395" y1="96.6568" x2="324.212503125" y2="93.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL10" pad="1"/>
+<wire x1="187.352" y1="95.25" x2="188.002" y2="95.9" width="0.1524" layer="16"/>
+<wire x1="188.002" y1="95.9" x2="189.2168" y2="95.9" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_11">
 <contactref element="KEY_119" pad="SW1"/>
@@ -4148,16 +4404,15 @@ design rules under a new name.</description>
 <wire x1="220.0275" y1="50.165" x2="220.6895" y2="49.503" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="220.6895" y1="49.503" x2="220.6895" y2="39.978" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="220.6895" y1="39.978" x2="229.5525" y2="31.115" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="206.402" y1="95.25" x2="207.1992" y2="96.0472" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="196.215" y1="116.84" x2="198.1467125" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="198.1467125" y1="116.84" x2="198.7309125" y2="117.4242" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="198.7309125" y1="117.4242" x2="201.3190875" y2="117.4242" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="201.3190875" y1="117.4242" x2="201.9032875" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="201.9032875" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <via x="206.402" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="118"/>
-<wire x1="207.1992" y1="96.0472" x2="316.0914375" y2="96.0472" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="316.0914375" y1="96.0472" x2="324.212503125" y2="92.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL11" pad="1"/>
+<wire x1="206.402" y1="95.25" x2="207.84805" y2="95.25" width="0.1524" layer="16"/>
+<wire x1="207.84805" y1="95.25" x2="208.1793" y2="94.91875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_12">
 <contactref element="KEY_135" pad="SW1"/>
@@ -4186,16 +4441,15 @@ design rules under a new name.</description>
 <wire x1="248.6025" y1="31.115" x2="249.2645" y2="30.453" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="249.2645" y1="15.10825" x2="246.22125" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="249.2645" y1="30.453" x2="249.2645" y2="15.10825" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="225.452" y1="92.86875" x2="228.02085" y2="95.4376" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="215.265" y1="116.84" x2="217.1967125" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="217.1967125" y1="116.84" x2="217.7809125" y2="117.4242" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="217.7809125" y1="117.4242" x2="220.3690875" y2="117.4242" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="220.3690875" y1="117.4242" x2="220.9532875" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="220.9532875" y1="116.84" x2="224.79" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <via x="225.452" y="92.86875" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="116"/>
-<wire x1="228.02085" y1="95.4376" x2="315.838925" y2="95.4376" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="315.838925" y1="95.4376" x2="324.212503125" y2="91.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL12" pad="1"/>
+<wire x1="225.452" y1="92.86875" x2="227.202" y2="94.61875" width="0.1524" layer="16"/>
+<wire x1="227.202" y1="94.61875" x2="227.6793" y2="94.61875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_13">
 <contactref element="KEY_136" pad="SW1"/>
@@ -4224,16 +4478,15 @@ design rules under a new name.</description>
 <wire x1="267.6525" y1="31.115" x2="268.3145" y2="30.453" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="268.3145" y1="13.78425" x2="270.03375" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="268.3145" y1="30.453" x2="268.3145" y2="13.78425" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="244.502" y1="92.86875" x2="246.46125" y2="94.828" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="243.84" y1="116.84" x2="240.0032875" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="240.0032875" y1="116.84" x2="239.4190875" y2="117.4242" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="239.4190875" y1="117.4242" x2="236.8309125" y2="117.4242" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="236.8309125" y1="117.4242" x2="236.2467125" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="236.2467125" y1="116.84" x2="234.315" y2="116.84" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <via x="244.502" y="92.86875" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="114"/>
-<wire x1="246.46125" y1="94.828" x2="315.5864125" y2="94.828" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="315.5864125" y1="94.828" x2="324.212503125" y2="90.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL13" pad="1"/>
+<wire x1="244.502" y1="92.86875" x2="245.452" y2="93.81875" width="0.1524" layer="16"/>
+<wire x1="245.452" y1="93.81875" x2="246.3793" y2="93.81875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_14">
 <contactref element="KEY_137" pad="SW1"/>
@@ -4261,12 +4514,9 @@ design rules under a new name.</description>
 <wire x1="277.8395" y1="49.503" x2="277.8395" y2="41.248" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="277.8395" y1="41.248" x2="285.75" y2="33.3375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <via x="263.552" y="92.86875" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="112"/>
-<wire x1="263.552" y1="92.86875" x2="264.90165" y2="94.2184" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="264.90165" y1="94.2184" x2="311.5118625" y2="94.2184" width="0.1524" layer="16"/>
-<wire x1="316.2968625" y1="89.4334" x2="320.1189" y2="89.4334" width="0.1524" layer="16"/>
-<wire x1="311.5118625" y1="94.2184" x2="316.2968625" y2="89.4334" width="0.1524" layer="16"/>
-<wire x1="320.1189" y1="89.4334" x2="324.212503125" y2="89.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL14" pad="1"/>
+<wire x1="263.552" y1="92.86875" x2="264.202" y2="93.51875" width="0.1524" layer="16"/>
+<wire x1="264.202" y1="93.51875" x2="265.36055" y2="93.51875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_15">
 <contactref element="KEY_78" pad="SW1"/>
@@ -4282,15 +4532,10 @@ design rules under a new name.</description>
 <wire x1="281.94" y1="88.265" x2="282.602" y2="87.603" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="282.602" y1="87.603" x2="282.602" y2="78.078" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="282.602" y1="78.078" x2="291.465" y2="69.215" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="282.602" y1="90.4875" x2="285.7233" y2="93.6088" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="282.602" y="90.4875" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="110"/>
-<wire x1="306.9912" y1="93.6088" x2="307" y2="93.6" width="0.1524" layer="16"/>
-<wire x1="285.7233" y1="93.6088" x2="306.9912" y2="93.6088" width="0.1524" layer="16"/>
-<wire x1="306.9912" y1="93.6088" x2="311.25935" y2="93.6088" width="0.1524" layer="16"/>
-<wire x1="311.25935" y1="93.6088" x2="316.07295" y2="88.7952" width="0.1524" layer="16"/>
-<wire x1="316.07295" y1="88.7952" x2="319.87374375" y2="88.7952" width="0.1524" layer="16"/>
-<wire x1="319.87374375" y1="88.7952" x2="324.212503125" y2="88.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL15" pad="1"/>
+<wire x1="282.602" y1="90.4875" x2="284.3793" y2="92.2648" width="0.1524" layer="16"/>
+<wire x1="284.3793" y1="92.2648" x2="284.3793" y2="92.51875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_16">
 <contactref element="KEY_36" pad="SW1"/>
@@ -4302,11 +4547,9 @@ design rules under a new name.</description>
 <wire x1="300.99" y1="116.84" x2="301.6758" y2="116.1542" width="0.1524" layer="1"/>
 <wire x1="301.6758" y1="116.1542" x2="301.6758" y2="109.49366875" width="0.1524" layer="1"/>
 <wire x1="301.6758" y1="109.49366875" x2="302.41875" y2="108.75071875" width="0.1524" layer="1"/>
-<wire x1="302.41875" y1="107.15625" x2="307.051" y2="102.524" width="0.1524" layer="16"/>
-<contactref element="U1" pad="143"/>
-<wire x1="318.58125" y1="104.58125" x2="324.212503125" y2="104.58125" width="0.1524" layer="16"/>
-<wire x1="307.051" y1="102.524" x2="316.524" y2="102.524" width="0.1524" layer="16"/>
-<wire x1="316.524" y1="102.524" x2="318.58125" y2="104.58125" width="0.1524" layer="16"/>
+<contactref element="SJ_MCU_COL16" pad="1"/>
+<wire x1="302.41875" y1="107.15625" x2="304.4668" y2="105.1082" width="0.1524" layer="16"/>
+<wire x1="304.4668" y1="105.1082" x2="304.4668" y2="104.9" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_17">
 <contactref element="KEY_138" pad="SW1"/>
@@ -4334,8 +4577,8 @@ design rules under a new name.</description>
 <wire x1="314.16625" y1="12.065" x2="317.65875" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="304.03325" y1="30.453" x2="304.03325" y2="22.198" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="304.03325" y1="22.198" x2="314.16625" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<contactref element="U1" pad="105"/>
-<wire x1="310.515" y1="88.265" x2="327.5875" y2="85.706253125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL17" pad="1"/>
+<wire x1="320.04" y1="116.84" x2="331.51445" y2="111.91875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL_18">
 <contactref element="KEY_139" pad="SW1"/>
@@ -4360,18 +4603,18 @@ design rules under a new name.</description>
 <wire x1="350.04375" y1="118.26875" x2="348.615" y2="116.84" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="348.615" y1="116.84" x2="349.3008" y2="116.1542" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="349.3008" y1="116.1542" x2="349.3008" y2="113.0059125" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="348.615" y1="88.265" x2="351.8375" y2="91.4875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="348.615" y1="88.265" x2="348.615" y2="88.2775" width="0.1524" layer="1"/>
+<wire x1="351.825" y1="91.4875" x2="351.11875" y2="90.78125" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="351.11875" y1="90.78125" x2="348.615" y2="88.2775" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="351.8375" y1="91.4875" x2="351.825" y2="91.4875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="348.615" y1="88.265" x2="349.277" y2="87.603" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="352.2726" y1="110.0341125" x2="352.2726" y2="92.86875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="352.2726" y1="92.86875" x2="352.2726" y2="91.9226" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="352.2726" y1="110.0341125" x2="352.2726" y2="91.9226" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="352.2726" y1="91.9226" x2="351.8375" y2="91.4875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="349.3008" y1="113.0059125" x2="352.2726" y2="110.0341125" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<via x="352.2726" y="92.86875" extent="1-16" drill="0.35"/>
-<wire x1="352.2726" y1="92.86875" x2="349.84135" y2="95.3" width="0.1524" layer="16"/>
-<wire x1="349.84135" y1="95.3" x2="346.640446875" y2="95.3" width="0.1524" layer="16"/>
-<contactref element="U1" pad="65"/>
-<wire x1="348.615" y1="88.265" x2="345.462496875" y2="91.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL18" pad="1"/>
+<wire x1="349.4832" y1="91.3" x2="350.00195" y2="90.78125" width="0.1524" layer="16"/>
+<wire x1="350.00195" y1="90.78125" x2="351.11875" y2="90.78125" width="0.1524" layer="16"/>
+<via x="351.11875" y="90.78125" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="COL_19">
 <contactref element="KEY_140" pad="SW1"/>
@@ -4385,8 +4628,8 @@ design rules under a new name.</description>
 <wire x1="369.09375" y1="118.26875" x2="367.665" y2="116.84" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="367.665" y1="116.84" x2="368.327" y2="116.178" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="368.327" y1="88.927" x2="367.665" y2="88.265" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="368.327" y1="116.178" x2="368.327" y2="92.86875" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="368.327" y1="92.86875" x2="368.327" y2="88.927" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="368.327" y1="116.178" x2="368.327" y2="90.4875" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="368.327" y1="90.4875" x2="368.327" y2="88.927" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="367.665" y1="88.265" x2="368.327" y2="87.603" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="368.327" y1="69.877" x2="367.665" y2="69.215" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="368.327" y1="87.603" x2="368.327" y2="69.877" width="0.2" layer="1" grouprefs="COL-TRACES"/>
@@ -4399,11 +4642,10 @@ design rules under a new name.</description>
 <wire x1="367.665" y1="31.115" x2="368.327" y2="30.453" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="368.327" y1="12.727" x2="367.665" y2="12.065" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="368.327" y1="30.453" x2="368.327" y2="12.727" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<via x="368.327" y="92.86875" extent="1-16" drill="0.35"/>
-<wire x1="368.327" y1="92.86875" x2="365.28615" y2="95.9096" width="0.1524" layer="16"/>
-<wire x1="365.28615" y1="95.9096" x2="346.7" y2="95.9096" width="0.1524" layer="16"/>
-<contactref element="U1" pad="63"/>
-<wire x1="346.7" y1="95.9096" x2="345.462496875" y2="92.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL19" pad="1"/>
+<via x="368.327" y="90.4875" extent="1-16" drill="0.35"/>
+<wire x1="368.327" y1="90.4875" x2="363.60195" y2="90.4875" width="0.1524" layer="16"/>
+<wire x1="363.60195" y1="90.4875" x2="362.48945" y2="91.6" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_20">
 <contactref element="KEY_141" pad="SW1"/>
@@ -4432,11 +4674,9 @@ design rules under a new name.</description>
 <wire x1="387.377" y1="116.178" x2="387.377" y2="92.86875" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="387.377" y1="92.86875" x2="387.377" y2="88.927" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <via x="387.377" y="92.86875" extent="1-16" drill="0.35"/>
-<wire x1="387.377" y1="92.86875" x2="373.60315" y2="92.86875" width="0.1524" layer="16"/>
-<wire x1="373.60315" y1="92.86875" x2="369.9527" y2="96.5192" width="0.1524" layer="16"/>
-<wire x1="369.9527" y1="96.5192" x2="346.7" y2="96.5192" width="0.1524" layer="16"/>
-<contactref element="U1" pad="61"/>
-<wire x1="346.7" y1="96.5192" x2="345.462496875" y2="93.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL20" pad="1"/>
+<wire x1="382.5332" y1="94" x2="383.66445" y2="92.86875" width="0.1524" layer="16"/>
+<wire x1="383.66445" y1="92.86875" x2="387.377" y2="92.86875" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_21">
 <contactref element="KEY_60" pad="SW1"/>
@@ -4456,12 +4696,9 @@ design rules under a new name.</description>
 <wire x1="415.29" y1="31.115" x2="415.9758" y2="30.4292" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="415.9758" y1="12.7508" x2="415.29" y2="12.065" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="415.9758" y1="30.4292" x2="415.9758" y2="12.7508" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="415.29" y1="88.265" x2="404.555" y2="99" width="0.1524" layer="16"/>
-<wire x1="368.9" y1="99" x2="367.0288" y2="97.1288" width="0.1524" layer="16"/>
-<wire x1="404.555" y1="99" x2="368.9" y2="99" width="0.1524" layer="16"/>
-<wire x1="367.0288" y1="97.1288" x2="346.8" y2="97.1288" width="0.1524" layer="16"/>
-<contactref element="U1" pad="59"/>
-<wire x1="346.8" y1="97.1288" x2="345.462496875" y2="94.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL21" pad="1"/>
+<wire x1="415.29" y1="88.265" x2="408.47695" y2="95.07805" width="0.1524" layer="16"/>
+<wire x1="408.47695" y1="95.07805" x2="408.47695" y2="95.63125" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_22">
 <contactref element="KEY_61" pad="SW1"/>
@@ -4482,12 +4719,9 @@ design rules under a new name.</description>
 <wire x1="434.34" y1="31.115" x2="435.0258" y2="30.4292" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="435.0258" y1="12.7508" x2="434.34" y2="12.065" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="435.0258" y1="30.4292" x2="435.0258" y2="12.7508" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="368.6474875" y1="99.6096" x2="366.7762875" y2="97.7384" width="0.1524" layer="16"/>
-<wire x1="434.34" y1="88.265" x2="422.9954" y2="99.6096" width="0.1524" layer="16"/>
-<wire x1="422.9954" y1="99.6096" x2="368.6474875" y2="99.6096" width="0.1524" layer="16"/>
-<wire x1="366.7762875" y1="97.7384" x2="346.8" y2="97.7384" width="0.1524" layer="16"/>
-<contactref element="U1" pad="54"/>
-<wire x1="346.8" y1="97.7384" x2="345.462496875" y2="96.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL22" pad="1"/>
+<wire x1="434.34" y1="88.265" x2="426.405" y2="96.2" width="0.1524" layer="16"/>
+<wire x1="426.405" y1="96.2" x2="424.2207" y2="96.2" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_23">
 <contactref element="KEY_62" pad="SW1"/>
@@ -4507,12 +4741,9 @@ design rules under a new name.</description>
 <wire x1="453.39" y1="31.115" x2="454.0758" y2="30.4292" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="454.0758" y1="12.7508" x2="453.39" y2="12.065" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="454.0758" y1="30.4292" x2="454.0758" y2="12.7508" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="366.523775" y1="98.348" x2="347.1" y2="98.348" width="0.1524" layer="16"/>
-<wire x1="368.394975" y1="100.2192" x2="366.523775" y2="98.348" width="0.1524" layer="16"/>
-<wire x1="453.39" y1="88.265" x2="441.4358" y2="100.2192" width="0.1524" layer="16"/>
-<wire x1="441.4358" y1="100.2192" x2="368.394975" y2="100.2192" width="0.1524" layer="16"/>
-<contactref element="U1" pad="48"/>
-<wire x1="347.1" y1="98.348" x2="345.462496875" y2="99.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL23" pad="1"/>
+<wire x1="453.39" y1="88.265" x2="445.68" y2="95.975" width="0.1524" layer="16"/>
+<wire x1="445.68" y1="95.975" x2="444.3582" y2="95.975" width="0.1524" layer="16"/>
 </signal>
 <signal name="COL_24">
 <contactref element="KEY_63" pad="SW1"/>
@@ -4531,11 +4762,9 @@ design rules under a new name.</description>
 <wire x1="472.44" y1="88.265" x2="458.31125" y2="102.39375" width="0.1524" layer="1"/>
 <wire x1="458.31125" y1="102.39375" x2="457.2" y2="102.39375" width="0.1524" layer="1"/>
 <via x="457.2" y="102.39375" extent="1-16" drill="0.35"/>
-<wire x1="457.2" y1="102.39375" x2="369.7074125" y2="102.39375" width="0.1524" layer="16"/>
-<wire x1="369.7074125" y1="102.39375" x2="366.2712625" y2="98.9576" width="0.1524" layer="16"/>
-<wire x1="366.2712625" y1="98.9576" x2="347.1" y2="98.9576" width="0.1524" layer="16"/>
-<contactref element="U1" pad="46"/>
-<wire x1="347.1" y1="98.9576" x2="345.462496875" y2="100.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_COL24" pad="1"/>
+<wire x1="457.2" y1="102.39375" x2="456.35" y2="101.54375" width="0.1524" layer="16"/>
+<wire x1="456.35" y1="101.54375" x2="447.46445" y2="101.54375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="KEY_3" pad="SW1"/>
@@ -4735,7 +4964,6 @@ design rules under a new name.</description>
 <wire x1="256.115" y1="82.39375" x2="275.165" y2="82.39375" width="0.1524" layer="16"/>
 <wire x1="275.165" y1="82.39375" x2="294.215" y2="82.39375" width="0.1524" layer="16"/>
 <wire x1="294.215" y1="82.39375" x2="322.79" y2="82.39375" width="0.1524" layer="16"/>
-<wire x1="322.79" y1="82.39375" x2="360.89" y2="82.39375" width="0.1524" layer="16"/>
 <wire x1="360.89" y1="82.39375" x2="379.94" y2="82.39375" width="0.1524" layer="16"/>
 <wire x1="394.3375" y1="96.31" x2="387.6641" y2="89.6366" width="0.1524" layer="16"/>
 <wire x1="387.6641" y1="89.6366" x2="386.1468625" y2="89.6366" width="0.1524" layer="16"/>
@@ -4747,8 +4975,16 @@ design rules under a new name.</description>
 <wire x1="395.6139" y1="95.0336" x2="395.6821875" y2="95.0336" width="0.1524" layer="16"/>
 <wire x1="395.6821875" y1="95.0336" x2="403.52375" y2="87.1920375" width="0.1524" layer="16"/>
 <wire x1="403.52375" y1="87.1920375" x2="403.52375" y2="83.34375" width="0.1524" layer="16"/>
-<contactref element="U1" pad="84"/>
-<wire x1="322.79" y1="82.39375" x2="338.0875" y2="85.706253125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_ROW3" pad="1"/>
+<wire x1="322.79" y1="82.39375" x2="329.28375" y2="75.9" width="0.1524" layer="16"/>
+<wire x1="360.61125" y1="82.115" x2="360.89" y2="82.39375" width="0.1524" layer="16"/>
+<wire x1="344.82946875" y1="75.9" x2="351.04446875" y2="82.115" width="0.1524" layer="16"/>
+<wire x1="351.04446875" y1="82.115" x2="360.61125" y2="82.115" width="0.1524" layer="16"/>
+<wire x1="329.28375" y1="75.9" x2="330.99375" y2="75.9" width="0.1524" layer="16"/>
+<wire x1="330.99375" y1="75.9" x2="344.82946875" y2="75.9" width="0.1524" layer="16"/>
+<via x="330.99375" y="75.9" extent="1-16" drill="0.35"/>
+<wire x1="330.99375" y1="75.9" x2="330.01875" y2="76.875" width="0.1524" layer="1"/>
+<wire x1="330.01875" y1="76.875" x2="330.01875" y2="79.24805" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$65">
 <contactref element="SJ_R3_1" pad="1"/>
@@ -4817,11 +5053,11 @@ design rules under a new name.</description>
 <signal name="N$73">
 <contactref element="KEY_57" pad="SW2"/>
 <contactref element="D57" pad="3"/>
-<wire x1="354.80625" y1="90.4875" x2="354.965" y2="90.805" width="0" layer="19" extent="16-16"/>
 <wire x1="363.01" y1="83.34375" x2="361.7336" y2="84.62015" width="0.1524" layer="16"/>
 <wire x1="361.7336" y1="84.62015" x2="361.7336" y2="84.6884375" width="0.1524" layer="16"/>
 <wire x1="361.7336" y1="84.6884375" x2="355.9345375" y2="90.4875" width="0.1524" layer="16"/>
 <wire x1="355.9345375" y1="90.4875" x2="354.80625" y2="90.4875" width="0.1524" layer="16"/>
+<wire x1="354.80625" y1="90.4875" x2="354.965" y2="90.805" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$76">
 <contactref element="D56" pad="3"/>
@@ -5015,11 +5251,9 @@ design rules under a new name.</description>
 <wire x1="406.7532875" y1="64.9125" x2="407.19375" y2="64.9125" width="0.1524" layer="16"/>
 <wire x1="395.6821875" y1="75.9836" x2="406.7532875" y2="64.9125" width="0.1524" layer="16"/>
 <via x="333.375" y="63.34375" extent="1-16" drill="0.35"/>
-<wire x1="333.375" y1="63.34375" x2="333.375" y2="64.44401875" width="0.1524" layer="1"/>
-<wire x1="333.375" y1="64.44401875" x2="334.3952" y2="65.46421875" width="0.1524" layer="1"/>
-<wire x1="334.3952" y1="65.46421875" x2="334.3952" y2="78" width="0.1524" layer="1"/>
-<contactref element="U1" pad="81"/>
-<wire x1="334.3952" y1="78" x2="339.5875" y2="85.706253125" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_MCU_ROW4" pad="1"/>
+<wire x1="333.375" y1="63.34375" x2="332.60625" y2="64.1125" width="0.1524" layer="1"/>
+<wire x1="332.60625" y1="64.1125" x2="332.60625" y2="68.91055" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$79">
 <contactref element="SJ_R4_1" pad="1"/>
@@ -5268,10 +5502,9 @@ design rules under a new name.</description>
 <wire x1="395.6139" y1="56.9336" x2="395.6821875" y2="56.9336" width="0.1524" layer="16"/>
 <wire x1="403.52375" y1="49.0920375" x2="403.52375" y2="45.625" width="0.1524" layer="16"/>
 <wire x1="395.6821875" y1="56.9336" x2="403.52375" y2="49.0920375" width="0.1524" layer="16"/>
-<wire x1="338.1375" y1="44.29375" x2="336.1" y2="46.33125" width="0.1524" layer="1"/>
-<wire x1="336.1" y1="46.33125" x2="336.1" y2="78.7" width="0.1524" layer="1"/>
-<contactref element="U1" pad="76"/>
-<wire x1="336.1" y1="78.7" x2="342.0875" y2="85.706253125" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_MCU_ROW5" pad="1"/>
+<wire x1="338.1375" y1="44.29375" x2="338.1375" y2="49.02305" width="0.1524" layer="1"/>
+<wire x1="338.1375" y1="49.02305" x2="338.6" y2="49.48555" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$103">
 <contactref element="SJ_R5_1" pad="1"/>
@@ -5509,7 +5742,6 @@ design rules under a new name.</description>
 <contactref element="D113" pad="1"/>
 <contactref element="D112" pad="1"/>
 <contactref element="D111" pad="1"/>
-<via x="330.99375" y="25.24375" extent="1-16" drill="0.35"/>
 <wire x1="48.695" y1="26.19375" x2="67.0192125" y2="26.19375" width="0.1524" layer="16"/>
 <wire x1="67.0192125" y1="26.19375" x2="67.7621625" y2="25.4508" width="0.1524" layer="16"/>
 <wire x1="77.3142" y1="25.4508" x2="77.52125" y2="25.24375" width="0.1524" layer="16"/>
@@ -5525,8 +5757,8 @@ design rules under a new name.</description>
 <wire x1="241.8275" y1="25.24375" x2="260.8775" y2="25.24375" width="0.1524" layer="16"/>
 <wire x1="260.8775" y1="25.24375" x2="279.9275" y2="25.24375" width="0.1524" layer="16"/>
 <wire x1="279.9275" y1="25.24375" x2="315.64625" y2="25.24375" width="0.1524" layer="16"/>
-<wire x1="315.64625" y1="25.24375" x2="330.99375" y2="25.24375" width="0.1524" layer="16"/>
-<wire x1="330.99375" y1="25.24375" x2="360.89" y2="25.24375" width="0.1524" layer="16"/>
+<wire x1="315.64625" y1="25.24375" x2="326.23125" y2="25.24375" width="0.1524" layer="16"/>
+<wire x1="326.23125" y1="25.24375" x2="360.89" y2="25.24375" width="0.1524" layer="16"/>
 <wire x1="360.89" y1="25.24375" x2="379.94" y2="25.24375" width="0.1524" layer="16"/>
 <wire x1="382.7696875" y1="25.66515" x2="382.9036" y2="25.7990625" width="0.1524" layer="16"/>
 <wire x1="379.94" y1="25.24375" x2="380.3614" y2="25.66515" width="0.1524" layer="16"/>
@@ -5541,10 +5773,10 @@ design rules under a new name.</description>
 <wire x1="395.6821875" y1="37.8836" x2="395.8161" y2="37.7496875" width="0.1524" layer="16"/>
 <wire x1="395.8161" y1="37.7496875" x2="395.8161" y2="34.28265" width="0.1524" layer="16"/>
 <wire x1="395.8161" y1="34.28265" x2="403.52375" y2="26.575" width="0.1524" layer="16"/>
-<wire x1="330.99375" y1="25.24375" x2="334.7" y2="28.95" width="0.1524" layer="1"/>
-<wire x1="334.7" y1="28.95" x2="334.7" y2="78.2" width="0.1524" layer="1"/>
-<contactref element="U1" pad="80"/>
-<wire x1="334.7" y1="78.2" x2="340.0875" y2="85.706253125" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_MCU_ROW6" pad="1"/>
+<via x="326.23125" y="25.24375" extent="1-16" drill="0.35"/>
+<wire x1="326.23125" y1="25.24375" x2="328.6125" y2="27.625" width="0.1524" layer="1"/>
+<wire x1="328.6125" y1="27.625" x2="328.6125" y2="30.43555" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$124">
 <contactref element="SJ_R6_1" pad="1"/>
@@ -5764,9 +5996,9 @@ design rules under a new name.</description>
 <via x="326.23125" y="6.19375" extent="1-16" drill="0.35"/>
 <wire x1="326.23125" y1="6.19375" x2="332.425" y2="6.19375" width="0.1524" layer="1"/>
 <wire x1="332.425" y1="6.19375" x2="335.45265" y2="9.2214" width="0.1524" layer="1"/>
-<wire x1="335.45265" y1="9.2214" x2="335.45265" y2="78.58125" width="0.1524" layer="1"/>
-<contactref element="U1" pad="78"/>
-<wire x1="335.45265" y1="78.58125" x2="341.0875" y2="85.706253125" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_MCU_ROW7" pad="1"/>
+<wire x1="335.45265" y1="9.2214" x2="335.45265" y2="10.98915" width="0.1524" layer="1"/>
+<wire x1="335.45265" y1="10.98915" x2="335.43125" y2="11.01055" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$151">
 <contactref element="SJ_R7_1" pad="1"/>
@@ -5981,12 +6213,7 @@ design rules under a new name.</description>
 <wire x1="307.6841875" y1="109.22" x2="322.58" y2="109.22" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="304.4558125" y1="109.22" x2="305.5972125" y2="110.3614" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="306.5427875" y1="110.3614" x2="307.6841875" y2="109.22" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="324.6472125" y1="110.3614" x2="325.5927875" y2="110.3614" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="322.58" y1="109.22" x2="323.5058125" y2="109.22" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="326.7341875" y1="109.22" x2="340.51875" y2="109.22" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="340.51875" y1="109.22" x2="351.155" y2="109.22" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="323.5058125" y1="109.22" x2="324.6472125" y2="110.3614" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="325.5927875" y1="110.3614" x2="326.7341875" y2="109.22" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="353.2222125" y1="110.3614" x2="354.1677875" y2="110.3614" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="351.155" y1="109.22" x2="352.0808125" y2="109.22" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="355.3091875" y1="109.22" x2="370.205" y2="109.22" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
@@ -5997,8 +6224,6 @@ design rules under a new name.</description>
 <wire x1="370.205" y1="109.22" x2="371.3464" y2="110.3614" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="371.3464" y1="110.3614" x2="373.2177875" y2="110.3614" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="388.9375" y1="109.5375" x2="389.255" y2="109.22" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="340.51875" y1="109.22" x2="339.0519" y2="107.75315" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="339.0519" y1="107.75315" x2="339.0519" y2="107.2" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="200.83206875" y1="110.3376" x2="201.75793125" y2="110.3376" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="198.755" y1="109.22" x2="199.71446875" y2="109.22" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="202.87553125" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
@@ -6047,13 +6272,21 @@ design rules under a new name.</description>
 <wire x1="267.50706875" y1="110.3376" x2="268.43293125" y2="110.3376" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="265.43" y1="109.22" x2="266.38946875" y2="109.22" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="266.38946875" y1="109.22" x2="267.50706875" y2="110.3376" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<via x="340.51875" y="109.22" extent="1-16" drill="0.35"/>
 <wire x1="269.0876" y1="109.68293125" x2="269.0876" y2="109.5375" width="0.1524" layer="16"/>
 <wire x1="268.43293125" y1="110.3376" x2="269.0876" y2="109.68293125" width="0.1524" layer="16"/>
 <wire x1="269.0876" y1="109.5375" x2="269.4051" y2="109.22" width="0.1524" layer="16"/>
 <wire x1="269.4051" y1="109.22" x2="284.48" y2="109.22" width="0.1524" layer="16"/>
-<contactref element="U1" pad="12"/>
-<wire x1="339.0519" y1="107.2" x2="331.5875" y2="106.956246875" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_MCU_LED_ROW2" pad="1"/>
+<wire x1="323.5058125" y1="109.22" x2="327.4" y2="113.1141875" width="0.1524" layer="16"/>
+<wire x1="327.4" y1="113.1141875" x2="327.4" y2="115.3" width="0.1524" layer="16"/>
+<wire x1="327.4" y1="115.3" x2="328.7" y2="116.6" width="0.1524" layer="16"/>
+<wire x1="348.98" y1="109.22" x2="352.0808125" y2="109.22" width="0.1524" layer="16"/>
+<wire x1="328.7" y1="116.6" x2="335.75625" y2="116.6" width="0.1524" layer="16"/>
+<wire x1="341.6" y1="116.6" x2="335.75625" y2="116.6" width="0.1524" layer="16"/>
+<wire x1="341.6" y1="116.6" x2="348.98" y2="109.22" width="0.1524" layer="16"/>
+<via x="335.75625" y="116.6" extent="1-16" drill="0.35"/>
+<wire x1="335.75625" y1="116.6" x2="336.3582" y2="116.6" width="0.1524" layer="1"/>
+<wire x1="336.3582" y1="116.6" x2="338.1375" y2="114.8207" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED_ROW_1">
 <contactref element="KEY_20" pad="LED+"/>
@@ -6158,8 +6391,8 @@ design rules under a new name.</description>
 <wire x1="306.5427875" y1="129.4114" x2="307.6841875" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="324.6472125" y1="129.4114" x2="325.5927875" y2="129.4114" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="322.58" y1="128.27" x2="323.5058125" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="326.7341875" y1="128.27" x2="340.51875" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="340.51875" y1="128.27" x2="351.155" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
+<wire x1="326.7341875" y1="128.27" x2="342.9" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
+<wire x1="342.9" y1="128.27" x2="351.155" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="323.5058125" y1="128.27" x2="324.6472125" y2="129.4114" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="325.5927875" y1="129.4114" x2="326.7341875" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="353.2222125" y1="129.4114" x2="354.1677875" y2="129.4114" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
@@ -6172,11 +6405,10 @@ design rules under a new name.</description>
 <wire x1="374.3591875" y1="128.27" x2="389.255" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="371.1308125" y1="128.27" x2="372.2722125" y2="129.4114" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="373.2177875" y1="129.4114" x2="374.3591875" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="340.51875" y1="128.27" x2="338.4423" y2="126.19355" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="338.4423" y1="126.19355" x2="338.4423" y2="107.2" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<via x="340.51875" y="128.27" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="14"/>
-<wire x1="338.4423" y1="107.2" x2="332.5875" y2="106.956246875" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_LED_R1" pad="1"/>
+<via x="342.9" y="128.27" extent="1-16" drill="0.35"/>
+<wire x1="342.9" y1="128.27" x2="340.51875" y2="125.88875" width="0.1524" layer="1"/>
+<wire x1="340.51875" y1="125.88875" x2="340.51875" y2="125.095" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED_ROW_3">
 <contactref element="SJ_LED_R3_0" pad="2"/>
@@ -6284,9 +6516,9 @@ design rules under a new name.</description>
 <wire x1="287.4927875" y1="81.7864" x2="288.6341875" y2="80.645" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="315.1222125" y1="81.7864" x2="316.0677875" y2="81.7864" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="313.055" y1="80.645" x2="313.9808125" y2="80.645" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="317.2091875" y1="80.645" x2="351.155" y2="80.645" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="313.9808125" y1="80.645" x2="315.1222125" y2="81.7864" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="316.0677875" y1="81.7864" x2="317.2091875" y2="80.645" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
+<wire x1="316.0677875" y1="81.7864" x2="316.79896875" y2="81.05521875" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
+<wire x1="316.79896875" y1="81.05521875" x2="317.2091875" y2="80.645" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="353.2222125" y1="81.7864" x2="354.1677875" y2="81.7864" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="351.155" y1="80.645" x2="352.0808125" y2="80.645" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="355.3091875" y1="80.645" x2="370.205" y2="80.645" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
@@ -6307,8 +6539,16 @@ design rules under a new name.</description>
 <wire x1="392.9364" y1="80.93235" x2="395.2875" y2="78.58125" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="395.2875" y1="78.58125" x2="403.44875" y2="78.58125" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="403.44875" y1="78.58125" x2="403.52375" y2="78.65625" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<contactref element="U1" pad="83"/>
-<wire x1="351.155" y1="80.645" x2="338.5875" y2="85.706253125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_ROW3" pad="1"/>
+<wire x1="316.79896875" y1="81.05521875" x2="322.8541875" y2="75" width="0.1524" layer="16"/>
+<wire x1="345.51" y1="75" x2="351.155" y2="80.645" width="0.1524" layer="16"/>
+<wire x1="322.8541875" y1="75" x2="330.99375" y2="75" width="0.1524" layer="16"/>
+<wire x1="330.99375" y1="75" x2="345.51" y2="75" width="0.1524" layer="16"/>
+<wire x1="330.99375" y1="75" x2="330.99375" y2="74.9912" width="0.1524" layer="16"/>
+<via x="330.99375" y="74.9912" extent="1-16" drill="0.35"/>
+<wire x1="330.99375" y1="74.9912" x2="332.7" y2="76.69745" width="0.1524" layer="1"/>
+<wire x1="332.7" y1="79.1918" x2="332.61875" y2="79.27305" width="0.1524" layer="1"/>
+<wire x1="332.7" y1="76.69745" x2="332.7" y2="79.1918" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$170">
 <contactref element="SJ_LED_R3_1" pad="1"/>
@@ -6458,11 +6698,9 @@ design rules under a new name.</description>
 <wire x1="391.3222125" y1="62.7364" x2="400.36235" y2="62.7364" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="400.36235" y1="62.7364" x2="403.52375" y2="59.575" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <via x="330.99375" y="61.595" extent="1-16" drill="0.35"/>
-<wire x1="330.99375" y1="61.595" x2="330.99375" y2="62.493825" width="0.1524" layer="1"/>
-<wire x1="330.99375" y1="62.493825" x2="334.0904" y2="65.590475" width="0.1524" layer="1"/>
-<wire x1="334.0904" y1="65.590475" x2="334.0904" y2="78" width="0.1524" layer="1"/>
-<contactref element="U1" pad="82"/>
-<wire x1="334.0904" y1="78" x2="339.0875" y2="85.706253125" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_MCU_LED_ROW4" pad="1"/>
+<wire x1="330.99375" y1="61.595" x2="329.825" y2="62.76375" width="0.1524" layer="1"/>
+<wire x1="329.825" y1="62.76375" x2="329.825" y2="68.91055" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$173">
 <contactref element="SJ_LED_R4_1" pad="1"/>
@@ -6604,12 +6842,9 @@ design rules under a new name.</description>
 <wire x1="48.695" y1="38.1" x2="53.14" y2="42.545" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="53.14" y1="42.545" x2="63.02375" y2="42.545" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <via x="340.51875" y="42.545" extent="1-16" drill="0.35"/>
-<wire x1="340.51875" y1="42.545" x2="338.7443" y2="44.31945" width="0.1524" layer="1"/>
-<wire x1="338.7443" y1="44.31945" x2="338.7443" y2="44.5451" width="0.1524" layer="1"/>
-<wire x1="338.7443" y1="44.5451" x2="336.4048" y2="46.8846" width="0.1524" layer="1"/>
-<wire x1="336.4048" y1="46.8846" x2="336.4048" y2="78.6" width="0.1524" layer="1"/>
-<contactref element="U1" pad="75"/>
-<wire x1="336.4048" y1="78.6" x2="342.5875" y2="85.706253125" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_MCU_LED_ROW5" pad="1"/>
+<wire x1="340.51875" y1="42.545" x2="340.51875" y2="48.71055" width="0.1524" layer="1"/>
+<wire x1="340.51875" y1="48.71055" x2="341.3125" y2="49.5043" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$179">
 <contactref element="SJ_LED_R5_1" pad="1"/>
@@ -6727,8 +6962,8 @@ design rules under a new name.</description>
 <wire x1="273.2052875" y1="24.6364" x2="274.3466875" y2="23.495" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="307.9784625" y1="24.6364" x2="308.9240375" y2="24.6364" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="305.91125" y1="23.495" x2="306.8370625" y2="23.495" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="310.0654375" y1="23.495" x2="330.99375" y2="23.495" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="330.99375" y1="23.495" x2="351.155" y2="23.495" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
+<wire x1="310.0654375" y1="23.495" x2="326.23125" y2="23.495" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
+<wire x1="326.23125" y1="23.495" x2="351.155" y2="23.495" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="306.8370625" y1="23.495" x2="307.9784625" y2="24.6364" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="308.9240375" y1="24.6364" x2="310.0654375" y2="23.495" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="353.2222125" y1="24.6364" x2="354.1677875" y2="24.6364" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
@@ -6745,11 +6980,10 @@ design rules under a new name.</description>
 <wire x1="374.3591875" y1="23.495" x2="389.255" y2="23.495" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="371.1308125" y1="23.495" x2="372.2722125" y2="24.6364" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="373.2177875" y1="24.6364" x2="374.3591875" y2="23.495" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<via x="330.99375" y="23.495" extent="1-16" drill="0.35"/>
-<wire x1="330.99375" y1="23.495" x2="335.1" y2="27.60125" width="0.1524" layer="1"/>
-<wire x1="335.1" y1="27.60125" x2="335.1" y2="78.3" width="0.1524" layer="1"/>
-<contactref element="U1" pad="79"/>
-<wire x1="335.1" y1="78.3" x2="340.5875" y2="85.706253125" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_MCU_LED_ROW6" pad="1"/>
+<via x="326.23125" y="23.495" extent="1-16" drill="0.35"/>
+<wire x1="326.23125" y1="23.495" x2="330.99375" y2="28.2575" width="0.1524" layer="1"/>
+<wire x1="330.99375" y1="28.2575" x2="330.99375" y2="30.43555" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$182">
 <contactref element="SJ_LED_R6_1" pad="1"/>
@@ -6858,10 +7092,9 @@ design rules under a new name.</description>
 <via x="326.23125" y="4.445" extent="1-16" drill="0.35"/>
 <wire x1="326.23125" y1="4.445" x2="326.54875" y2="4.7625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="326.54875" y1="4.7625" x2="333.375" y2="4.7625" width="0.1524" layer="1"/>
-<wire x1="333.375" y1="4.7625" x2="335.75745" y2="7.14495" width="0.1524" layer="1"/>
-<wire x1="335.75745" y1="7.14495" x2="335.75745" y2="78.58125" width="0.1524" layer="1"/>
-<contactref element="U1" pad="77"/>
-<wire x1="335.75745" y1="78.58125" x2="341.5875" y2="85.706253125" width="0" layer="19" extent="1-16"/>
+<contactref element="SJ_MCU_LED_ROW7" pad="1"/>
+<wire x1="338.2375" y1="9.625" x2="338.2375" y2="10.7668" width="0.1524" layer="1"/>
+<wire x1="333.375" y1="4.7625" x2="338.2375" y2="9.625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$185">
 <contactref element="SJ_LED_R7_1" pad="1"/>
@@ -6889,7 +7122,7 @@ design rules under a new name.</description>
 <wire x1="471.4875" y1="2.38125" x2="474.98" y2="5.87375" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="474.98" y1="5.87375" x2="474.98" y2="13.97" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 </signal>
-<signal name="LED_COL_1">
+<signal name="LED_COL_1{SB}">
 <contactref element="KEY_1" pad="LED-"/>
 <contactref element="KEY_129" pad="LED-"/>
 <contactref element="KEY_109" pad="LED-"/>
@@ -6941,71 +7174,9 @@ design rules under a new name.</description>
 <wire x1="10.6696" y1="15.18299375" x2="10.6696" y2="12.83235" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="10.6696" y1="12.83235" x2="12.673" y2="10.82895" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <via x="10.795" y="102.39375" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="136"/>
-<wire x1="317.6173" y1="100.3173" x2="318.4" y2="101.1" width="0.1524" layer="16"/>
-<wire x1="318.4" y1="101.1" x2="324.193753125" y2="101.1" width="0.1524" layer="16"/>
-<wire x1="324.193753125" y1="101.1" x2="324.212503125" y2="101.08125" width="0.1524" layer="16"/>
-<wire x1="10.795" y1="102.39375" x2="12.87145" y2="100.3173" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="12.87145" y1="100.3173" x2="317.6173" y2="100.3173" width="0.1524" layer="16"/>
-</signal>
-<signal name="LED_COL_2">
-<contactref element="KEY_2" pad="LED-"/>
-<contactref element="KEY_130" pad="LED-"/>
-<contactref element="KEY_110" pad="LED-"/>
-<contactref element="KEY_88" pad="LED-"/>
-<contactref element="KEY_65" pad="LED-"/>
-<contactref element="KEY_42" pad="LED-"/>
-<contactref element="KEY_22" pad="LED-"/>
-<wire x1="29.7196" y1="14.02700625" x2="29.7196" y2="15.18299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="15.18299375" x2="29.845" y2="15.30839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="15.30839375" x2="29.845" y2="23.495" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="4.445" x2="29.845" y2="6.34305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="6.34305" x2="31.723" y2="8.22105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="8.22105" x2="31.723" y2="12.02360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="12.02360625" x2="29.7196" y2="14.02700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="33.07700625" x2="29.7196" y2="34.23299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="34.23299375" x2="29.845" y2="34.35839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="34.35839375" x2="29.845" y2="42.545" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="23.495" x2="29.845" y2="25.39305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="25.39305" x2="31.723" y2="27.27105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="27.27105" x2="31.723" y2="31.07360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="31.07360625" x2="29.7196" y2="33.07700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="52.12700625" x2="29.7196" y2="53.28299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="53.28299375" x2="29.845" y2="53.40839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="53.40839375" x2="29.845" y2="61.595" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="42.545" x2="29.845" y2="44.44305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="44.44305" x2="31.723" y2="46.32105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="46.32105" x2="31.723" y2="50.12360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="50.12360625" x2="29.7196" y2="52.12700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="71.17700625" x2="29.7196" y2="72.33299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="72.33299375" x2="29.845" y2="72.45839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="72.45839375" x2="29.845" y2="80.645" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="61.595" x2="29.845" y2="63.49305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="63.49305" x2="31.723" y2="65.37105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="65.37105" x2="31.723" y2="69.17360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="69.17360625" x2="29.7196" y2="71.17700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="90.22700625" x2="29.7196" y2="91.38299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="91.38299375" x2="29.845" y2="91.50839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="91.50839375" x2="29.845" y2="104.775" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="104.775" x2="29.845" y2="109.22" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="80.645" x2="29.845" y2="82.54305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="82.54305" x2="31.723" y2="84.42105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="84.42105" x2="31.723" y2="88.22360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="88.22360625" x2="29.7196" y2="90.22700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="118.80200625" x2="29.7196" y2="119.95799375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.7196" y1="119.95799375" x2="29.845" y2="120.08339375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="120.08339375" x2="29.845" y2="128.27" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="109.22" x2="29.845" y2="111.11805" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="29.845" y1="111.11805" x2="31.723" y2="112.99605" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="112.99605" x2="31.723" y2="116.79860625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="31.723" y1="116.79860625" x2="29.7196" y2="118.80200625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<via x="29.845" y="104.775" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="138"/>
-<wire x1="317.3269" y1="100.9269" x2="318.5" y2="102.1" width="0.1524" layer="16"/>
-<wire x1="318.5" y1="102.1" x2="324.193753125" y2="102.1" width="0.1524" layer="16"/>
-<wire x1="324.193753125" y1="102.1" x2="324.212503125" y2="102.08125" width="0.1524" layer="16"/>
-<wire x1="29.845" y1="104.775" x2="33.6931" y2="100.9269" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="33.6931" y1="100.9269" x2="317.3269" y2="100.9269" width="0.1524" layer="16"/>
+<contactref element="SJ_LED_C1" pad="1"/>
+<wire x1="10.795" y1="102.39375" x2="19.395" y2="93.79375" width="0.1524" layer="16"/>
+<wire x1="19.395" y1="93.79375" x2="46.4675" y2="93.79375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$175">
 <contactref element="KEY_3" pad="LED-"/>
@@ -7058,12 +7229,10 @@ design rules under a new name.</description>
 <wire x1="62.67925" y1="11.67925" x2="62.67925" y2="8.22105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="62.67925" y1="8.22105" x2="60.80125" y2="6.34305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="70.32625" y1="19.32625" x2="62.67925" y2="11.67925" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="58.42" y1="95.25" x2="62.57" y2="99.4" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="58.42" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="131"/>
-<wire x1="317.48025625" y1="99.4" x2="318.862603125" y2="98.017653125" width="0.1524" layer="16"/>
-<wire x1="62.57" y1="99.4" x2="317.48025625" y2="99.4" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="318.862603125" y1="98.017653125" x2="324.212503125" y2="98.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL3" pad="1"/>
+<wire x1="58.42" y1="95.25" x2="59.895" y2="96.725" width="0.1524" layer="16"/>
+<wire x1="59.895" y1="96.725" x2="60.53555" y2="96.725" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$186">
 <contactref element="KEY_4" pad="LED-"/>
@@ -7116,12 +7285,10 @@ design rules under a new name.</description>
 <wire x1="79.348" y1="116.79860625" x2="77.3446" y2="118.80200625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="77.3446" y1="118.80200625" x2="77.3446" y2="121.31835" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="77.3446" y1="121.31835" x2="78.58125" y2="122.555" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="77.47" y1="95.25" x2="81.0104" y2="98.7904" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="77.47" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="129"/>
-<wire x1="317.22774375" y1="98.7904" x2="319.000490625" y2="97.017653125" width="0.1524" layer="16"/>
-<wire x1="81.0104" y1="98.7904" x2="317.22774375" y2="98.7904" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="319.000490625" y1="97.017653125" x2="324.212503125" y2="97.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL4" pad="1"/>
+<wire x1="77.47" y1="95.25" x2="80.06375" y2="97.84375" width="0.1524" layer="16"/>
+<wire x1="80.06375" y1="97.84375" x2="80.73555" y2="97.84375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$187">
 <contactref element="KEY_5" pad="LED-"/>
@@ -7168,12 +7335,10 @@ design rules under a new name.</description>
 <wire x1="122.2105" y1="27.27105" x2="120.3325" y2="25.39305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="120.2071" y1="33.1454" x2="120.2071" y2="31.88235" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="120.2071" y1="31.88235" x2="122.2105" y2="29.87895" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="96.52" y1="95.25" x2="99.4508" y2="98.1808" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="96.52" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="127"/>
-<wire x1="316.97523125" y1="98.1808" x2="319.138378125" y2="96.017653125" width="0.1524" layer="16"/>
-<wire x1="99.4508" y1="98.1808" x2="316.97523125" y2="98.1808" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="319.138378125" y1="96.017653125" x2="324.212503125" y2="96.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL5" pad="1"/>
+<wire x1="96.52" y1="95.25" x2="98.51375" y2="97.24375" width="0.1524" layer="16"/>
+<wire x1="98.51375" y1="97.24375" x2="100.43555" y2="97.24375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$188">
 <contactref element="KEY_6" pad="LED-"/>
@@ -7221,11 +7386,9 @@ design rules under a new name.</description>
 <wire x1="139.2571" y1="33.1454" x2="139.2571" y2="31.88235" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="139.2571" y1="31.88235" x2="141.2605" y2="29.87895" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <via x="115.57" y="104.775" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="140"/>
-<wire x1="324.212503125" y1="103.08125" x2="318.48125" y2="103.08125" width="0.1524" layer="16"/>
-<wire x1="318.48125" y1="103.08125" x2="316.9365" y2="101.5365" width="0.1524" layer="16"/>
-<wire x1="316.9365" y1="101.5365" x2="118.8085" y2="101.5365" width="0.1524" layer="16"/>
-<wire x1="118.8085" y1="101.5365" x2="115.57" y2="104.775" width="0.1524" layer="16"/>
+<contactref element="SJ_MCU_LED_COL6" pad="1"/>
+<wire x1="115.57" y1="104.775" x2="117.88875" y2="102.45625" width="0.1524" layer="16"/>
+<wire x1="117.88875" y1="102.45625" x2="119.22305" y2="102.45625" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$189">
 <contactref element="KEY_7" pad="LED-"/>
@@ -7234,53 +7397,43 @@ design rules under a new name.</description>
 <wire x1="135.73125" y1="127.15875" x2="134.62" y2="128.27" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 </signal>
 <signal name="LED_COL_7">
-<contactref element="SJ_LED_C7" pad="1"/>
-<contactref element="KEY_115" pad="LED-"/>
-<contactref element="KEY_93" pad="LED-"/>
-<contactref element="KEY_70" pad="LED-"/>
-<contactref element="KEY_47" pad="LED-"/>
-<contactref element="KEY_27" pad="LED-"/>
-<wire x1="158.3071" y1="33.07700625" x2="158.3071" y2="33.1454" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="158.3071" y1="33.1454" x2="148.9075" y2="42.545" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="158.4325" y1="23.495" x2="158.4325" y2="25.39305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="158.4325" y1="25.39305" x2="160.3105" y2="27.27105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="160.3105" y1="27.27105" x2="160.3105" y2="31.07360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="160.3105" y1="31.07360625" x2="158.3071" y2="33.07700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="148.9075" y1="42.545" x2="148.9075" y2="44.44305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="148.9075" y1="44.44305" x2="150.7855" y2="46.32105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="148.7821" y1="56.9579" x2="144.145" y2="61.595" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="148.7821" y1="52.12700625" x2="148.7821" y2="56.9579" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="150.7855" y1="46.32105" x2="150.7855" y2="50.12360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="150.7855" y1="50.12360625" x2="148.7821" y2="52.12700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="144.0196" y1="71.17700625" x2="144.0196" y2="71.2454" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="144.0196" y1="71.2454" x2="134.62" y2="80.645" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="144.145" y1="61.595" x2="144.145" y2="63.49305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="144.145" y1="63.49305" x2="146.023" y2="65.37105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="146.023" y1="65.37105" x2="146.023" y2="69.17360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="146.023" y1="69.17360625" x2="144.0196" y2="71.17700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="134.4946" y1="90.22700625" x2="134.4946" y2="91.38299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="134.4946" y1="91.38299375" x2="134.62" y2="91.50839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="134.62" y1="91.50839375" x2="134.62" y2="104.775" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="134.62" y1="104.775" x2="134.62" y2="109.22" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="134.62" y1="80.645" x2="134.62" y2="82.54305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="134.62" y1="82.54305" x2="136.498" y2="84.42105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="136.498" y1="84.42105" x2="136.498" y2="88.22360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="136.498" y1="88.22360625" x2="136.498" y2="84.42105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="136.498" y1="88.22360625" x2="134.4946" y2="90.22700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="134.62" y1="109.22" x2="134.62" y2="111.11805" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="134.62" y1="111.11805" x2="136.498" y2="112.99605" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="136.498" y1="112.99605" x2="136.498" y2="116.79860625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="136.498" y1="116.79860625" x2="134.4946" y2="118.80200625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="134.4946" y1="118.80200625" x2="134.4946" y2="121.31835" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="134.4946" y1="121.31835" x2="135.73125" y2="122.555" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <via x="134.62" y="104.775" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="142"/>
-<wire x1="137.2489" y1="102.1461" x2="138.9" y2="102.1461" width="0.1524" layer="16"/>
-<wire x1="138.9" y1="102.1461" x2="138.9731" y2="102.2192" width="0.1524" layer="16"/>
-<wire x1="138.9731" y1="102.2192" x2="316.68814375" y2="102.2192" width="0.1524" layer="16"/>
-<wire x1="134.62" y1="104.775" x2="137.2489" y2="102.1461" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="316.68814375" y1="102.2192" x2="318.56894375" y2="104.1" width="0.1524" layer="16"/>
-<wire x1="318.56894375" y1="104.1" x2="324.193753125" y2="104.1" width="0.1524" layer="16"/>
-<wire x1="324.193753125" y1="104.1" x2="324.212503125" y2="104.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL7" pad="1"/>
+<wire x1="134.62" y1="104.775" x2="136.15125" y2="103.24375" width="0.1524" layer="16"/>
+<wire x1="136.15125" y1="103.24375" x2="137.53555" y2="103.24375" width="0.1524" layer="16"/>
+<contactref element="KEY_115" pad="LED-"/>
+<contactref element="SJ_LED_C7" pad="1"/>
+<contactref element="KEY_27" pad="LED-"/>
+<contactref element="KEY_70" pad="LED-"/>
+<contactref element="KEY_93" pad="LED-"/>
+<wire x1="158.4325" y1="23.495" x2="158.4325" y2="25.4267125" width="0.1524" layer="1"/>
+<wire x1="158.4325" y1="25.4267125" x2="160.2867" y2="27.2809125" width="0.1524" layer="1"/>
+<wire x1="160.2867" y1="27.2809125" x2="160.2867" y2="30.0133" width="0.1524" layer="1"/>
+<wire x1="157.2" y1="33.1" x2="160.2867" y2="30.0133" width="0.1524" layer="1"/>
+<wire x1="148.9075" y1="42.545" x2="157.2" y2="34.2525" width="0.1524" layer="1"/>
+<wire x1="157.2" y1="34.2525" x2="157.2" y2="33.1" width="0.1524" layer="1"/>
+<wire x1="150.7617" y1="48.9190875" x2="150.7617" y2="46.3309125" width="0.1524" layer="1"/>
+<wire x1="148.9075" y1="44.4767125" x2="148.9075" y2="42.545" width="0.1524" layer="1"/>
+<wire x1="150.7617" y1="46.3309125" x2="148.9075" y2="44.4767125" width="0.1524" layer="1"/>
+<wire x1="144.145" y1="61.595" x2="148.8059" y2="56.9341" width="0.1524" layer="1"/>
+<wire x1="148.8059" y1="56.9341" x2="148.8059" y2="50.8748875" width="0.1524" layer="1"/>
+<wire x1="148.8059" y1="50.8748875" x2="150.7617" y2="48.9190875" width="0.1524" layer="1"/>
+<contactref element="KEY_47" pad="LED-"/>
+<wire x1="136.498" y1="84.42105" x2="136.498" y2="82.523" width="0.1524" layer="1"/>
+<wire x1="136.498" y1="82.523" x2="134.62" y2="80.645" width="0.1524" layer="1"/>
+<wire x1="134.62" y1="80.645" x2="144.0434" y2="71.2216" width="0.1524" layer="1"/>
+<wire x1="145.9992" y1="67.9690875" x2="145.9992" y2="65.3809125" width="0.1524" layer="1"/>
+<wire x1="144.145" y1="63.5267125" x2="144.145" y2="61.595" width="0.1524" layer="1"/>
+<wire x1="145.9992" y1="65.3809125" x2="144.145" y2="63.5267125" width="0.1524" layer="1"/>
+<wire x1="144.0434" y1="71.2216" x2="144.0434" y2="69.9248875" width="0.1524" layer="1"/>
+<wire x1="144.0434" y1="69.9248875" x2="145.9992" y2="67.9690875" width="0.1524" layer="1"/>
+<wire x1="134.62" y1="104.775" x2="134.62" y2="109.22" width="0" layer="19" extent="1-1"/>
+<wire x1="135.73125" y1="122.555" x2="134.62" y2="109.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$190">
 <contactref element="KEY_8" pad="LED-"/>
@@ -7334,12 +7487,10 @@ design rules under a new name.</description>
 <wire x1="177.4825" y1="23.495" x2="179.73835" y2="21.23915" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="179.73835" y1="21.23915" x2="179.73835" y2="12.83235" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="179.73835" y1="12.83235" x2="181.74175" y2="10.82895" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="153.67" y1="95.25" x2="155.9912" y2="97.5712" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="153.67" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="125"/>
-<wire x1="316.72271875" y1="97.5712" x2="319.276265625" y2="95.017653125" width="0.1524" layer="16"/>
-<wire x1="155.9912" y1="97.5712" x2="316.72271875" y2="97.5712" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="319.276265625" y1="95.017653125" x2="324.212503125" y2="95.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL8" pad="1"/>
+<wire x1="153.67" y1="95.25" x2="155.26375" y2="96.84375" width="0.1524" layer="16"/>
+<wire x1="155.26375" y1="96.84375" x2="155.83555" y2="96.84375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$191">
 <contactref element="KEY_9" pad="LED-"/>
@@ -7379,7 +7530,6 @@ design rules under a new name.</description>
 <wire x1="172.72" y1="82.54305" x2="174.598" y2="84.42105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="174.598" y1="84.42105" x2="174.598" y2="88.22360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="174.598" y1="88.22360625" x2="172.5946" y2="90.22700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="172.72" y1="95.25" x2="174.4316" y2="96.9616" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="173.83125" y1="122.555" x2="173.83125" y2="121.1609875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="173.83125" y1="121.1609875" x2="172.6184" y2="119.9481375" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="172.6184" y1="119.9481375" x2="172.6184" y2="117.5498875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
@@ -7387,10 +7537,9 @@ design rules under a new name.</description>
 <wire x1="174.5742" y1="115.5940875" x2="174.5742" y2="111.0742" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="174.5742" y1="111.0742" x2="172.72" y2="109.22" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <via x="172.72" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="123"/>
-<wire x1="316.47020625" y1="96.9616" x2="319.414153125" y2="94.017653125" width="0.1524" layer="16"/>
-<wire x1="174.4316" y1="96.9616" x2="316.47020625" y2="96.9616" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="319.414153125" y1="94.017653125" x2="324.212503125" y2="94.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL9" pad="1"/>
+<wire x1="172.72" y1="95.25" x2="173.71375" y2="96.24375" width="0.1524" layer="16"/>
+<wire x1="173.71375" y1="96.24375" x2="174.93555" y2="96.24375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$192">
 <contactref element="KEY_10" pad="LED-"/>
@@ -7432,7 +7581,6 @@ design rules under a new name.</description>
 <wire x1="217.4605" y1="27.27105" x2="215.5825" y2="25.39305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="215.4571" y1="33.1454" x2="215.4571" y2="31.88235" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="215.4571" y1="31.88235" x2="217.4605" y2="29.87895" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="191.77" y1="95.25" x2="192.872" y2="96.352" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="192.88125" y1="122.555" x2="192.88125" y2="121.1609875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="192.88125" y1="121.1609875" x2="191.6684" y2="119.9481375" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="191.6684" y1="119.9481375" x2="191.6684" y2="117.5498875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
@@ -7445,9 +7593,9 @@ design rules under a new name.</description>
 <wire x1="183.394475" y1="109.22" x2="184.512075" y2="108.1024" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="184.512075" y1="108.1024" x2="189.69293125" y2="108.1024" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="191.77" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="119"/>
-<wire x1="192.872" y1="96.352" x2="316.21769375" y2="96.352" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="316.21769375" y1="96.352" x2="324.212503125" y2="92.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL10" pad="1"/>
+<wire x1="191.77" y1="95.25" x2="191.895" y2="95.375" width="0.1524" layer="16"/>
+<wire x1="191.895" y1="95.375" x2="196.2293" y2="95.375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$193">
 <contactref element="KEY_11" pad="LED-"/>
@@ -7490,7 +7638,6 @@ design rules under a new name.</description>
 <wire x1="220.345" y1="63.49305" x2="222.223" y2="65.37105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="222.223" y1="65.37105" x2="222.223" y2="69.17360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="222.223" y1="69.17360625" x2="220.2196" y2="71.17700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="210.82" y1="95.25" x2="211.3124" y2="95.7424" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="211.93125" y1="122.555" x2="211.93125" y2="121.1609875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="211.93125" y1="121.1609875" x2="210.7184" y2="119.9481375" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="210.7184" y1="119.9481375" x2="210.7184" y2="117.5498875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
@@ -7503,9 +7650,9 @@ design rules under a new name.</description>
 <wire x1="202.444475" y1="109.22" x2="203.562075" y2="108.1024" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="203.562075" y1="108.1024" x2="208.74293125" y2="108.1024" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="210.82" y="95.25" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="117"/>
-<wire x1="211.3124" y1="95.7424" x2="315.96518125" y2="95.7424" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="315.96518125" y1="95.7424" x2="324.212503125" y2="91.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL11" pad="1"/>
+<wire x1="210.82" y1="95.25" x2="214.8293" y2="95.25" width="0.1524" layer="16"/>
+<wire x1="214.8293" y1="95.25" x2="215.33555" y2="94.74375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$194">
 <contactref element="KEY_12" pad="LED-"/>
@@ -7554,7 +7701,6 @@ design rules under a new name.</description>
 <wire x1="253.57305" y1="10.16214375" x2="253.57305" y2="6.7168" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="253.96665" y1="15.18299375" x2="253.96665" y2="10.55574375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="253.96665" y1="10.55574375" x2="253.57305" y2="10.16214375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="229.87" y1="92.86875" x2="232.13405" y2="95.1328" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="230.98125" y1="122.555" x2="230.98125" y2="121.1609875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="230.98125" y1="121.1609875" x2="229.7684" y2="119.9481375" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="229.7684" y1="119.9481375" x2="229.7684" y2="117.5498875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
@@ -7567,9 +7713,9 @@ design rules under a new name.</description>
 <wire x1="221.494475" y1="109.22" x2="222.612075" y2="108.1024" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="222.612075" y1="108.1024" x2="227.79293125" y2="108.1024" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="229.87" y="92.86875" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="115"/>
-<wire x1="232.13405" y1="95.1328" x2="315.71266875" y2="95.1328" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="315.71266875" y1="95.1328" x2="324.212503125" y2="90.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL12" pad="1"/>
+<wire x1="229.87" y1="92.86875" x2="231.045" y2="94.04375" width="0.1524" layer="16"/>
+<wire x1="231.045" y1="94.04375" x2="235.03555" y2="94.04375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$195">
 <contactref element="KEY_13" pad="LED-"/>
@@ -7619,7 +7765,6 @@ design rules under a new name.</description>
 <wire x1="258.445" y1="63.49305" x2="260.323" y2="65.37105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="260.323" y1="65.37105" x2="260.323" y2="69.17360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="260.323" y1="69.17360625" x2="258.3196" y2="71.17700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="248.92" y1="92.86875" x2="250.57445" y2="94.5232" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="250.03125" y1="122.555" x2="250.03125" y2="121.1609875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="250.03125" y1="121.1609875" x2="248.8184" y2="119.9481375" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="248.8184" y1="119.9481375" x2="248.8184" y2="117.5498875" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
@@ -7632,9 +7777,9 @@ design rules under a new name.</description>
 <wire x1="240.544475" y1="109.22" x2="241.662075" y2="108.1024" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="241.662075" y1="108.1024" x2="246.84293125" y2="108.1024" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
 <via x="248.92" y="92.86875" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="113"/>
-<wire x1="250.57445" y1="94.5232" x2="315.46015625" y2="94.5232" width="0.1524" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="315.46015625" y1="94.5232" x2="324.212503125" y2="89.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL13" pad="1"/>
+<wire x1="248.92" y1="92.86875" x2="249.695" y2="93.64375" width="0.1524" layer="16"/>
+<wire x1="249.695" y1="93.64375" x2="253.53555" y2="93.64375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$196">
 <contactref element="KEY_14" pad="LED-"/>
@@ -7681,12 +7826,9 @@ design rules under a new name.</description>
 <wire x1="298.80085" y1="26.00165" x2="298.80085" y2="12.83235" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="298.80085" y1="12.83235" x2="300.80425" y2="10.82895" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <via x="267.97" y="92.86875" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="111"/>
-<wire x1="269.01485" y1="93.9136" x2="267.97" y2="92.86875" width="0.1524" layer="16"/>
-<wire x1="311.38560625" y1="93.9136" x2="269.01485" y2="93.9136" width="0.1524" layer="16"/>
-<wire x1="311.38560625" y1="93.9136" x2="316.19920625" y2="89.1" width="0.1524" layer="16"/>
-<wire x1="316.19920625" y1="89.1" x2="320" y2="89.1" width="0.1524" layer="16"/>
-<wire x1="320" y1="89.1" x2="324.212503125" y2="88.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL14" pad="1"/>
+<wire x1="267.97" y1="92.86875" x2="268.145" y2="93.04375" width="0.1524" layer="16"/>
+<wire x1="268.145" y1="93.04375" x2="273.73555" y2="93.04375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$197">
 <contactref element="KEY_15" pad="LED-"/>
@@ -7721,10 +7863,9 @@ design rules under a new name.</description>
 <wire x1="286.8946" y1="91.38299375" x2="286.8946" y2="90.2054" width="0.2" layer="1"/>
 <wire x1="286.8946" y1="90.2054" x2="289" y2="88.1" width="0.2" layer="1"/>
 <via x="287.02" y="92.86875" extent="1-16" drill="0.35"/>
-<contactref element="U1" pad="109"/>
-<wire x1="287.02" y1="92.86875" x2="287.45125" y2="93.3" width="0.1524" layer="16"/>
-<wire x1="287.45125" y1="93.3" x2="306.8" y2="93.3" width="0.1524" layer="16"/>
-<wire x1="324.212503125" y1="87.58125" x2="306.8" y2="93.3" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL15" pad="1"/>
+<wire x1="287.02" y1="92.86875" x2="293.21055" y2="92.86875" width="0.1524" layer="16"/>
+<wire x1="293.21055" y1="92.86875" x2="293.73555" y2="92.34375" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$198">
 <contactref element="KEY_16" pad="LED-"/>
@@ -7741,12 +7882,9 @@ design rules under a new name.</description>
 <wire x1="305.9446" y1="117.60735" x2="307.948" y2="115.60395" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="307.948" y1="115.60395" x2="307.948" y2="111.098" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="307.948" y1="111.098" x2="306.07" y2="109.22" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="306.07" y1="109.22" x2="312.42" y2="102.87" width="0.1524" layer="16"/>
-<contactref element="U1" pad="144"/>
-<wire x1="312.42" y1="102.87" x2="316.27" y2="102.87" width="0.1524" layer="16"/>
-<wire x1="316.27" y1="102.87" x2="318.5" y2="105.1" width="0.1524" layer="16"/>
-<wire x1="318.5" y1="105.1" x2="324.193753125" y2="105.1" width="0.1524" layer="16"/>
-<wire x1="324.193753125" y1="105.1" x2="324.212503125" y2="105.08125" width="0.1524" layer="16"/>
+<contactref element="SJ_MCU_LED_COL16" pad="1"/>
+<wire x1="306.07" y1="109.22" x2="309.565" y2="105.725" width="0.1524" layer="16"/>
+<wire x1="309.565" y1="105.725" x2="310.82305" y2="105.725" width="0.1524" layer="16"/>
 </signal>
 <signal name="LED_COL_17">
 <contactref element="KEY_138" pad="LED-"/>
@@ -7793,8 +7931,8 @@ design rules under a new name.</description>
 <wire x1="321.0306" y1="98.3158875" x2="321.0306" y2="104.33685" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="316.70625" y1="92.5859875" x2="316.70625" y2="93.9915375" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="321.0306" y1="104.33685" x2="325.12" y2="108.42625" width="0.1524" layer="1" grouprefs="COL-TRACES"/>
-<contactref element="U1" pad="106"/>
-<wire x1="315.595" y1="80.645" x2="327.0875" y2="85.706253125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL17" pad="1"/>
+<wire x1="325.12" y1="109.22" x2="331.3582" y2="109.29375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LED_COL_18">
 <contactref element="KEY_139" pad="LED-"/>
@@ -7843,13 +7981,12 @@ design rules under a new name.</description>
 <wire x1="353.5696" y1="109.0946" x2="353.695" y2="109.22" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="355.573" y1="84.42105" x2="355.573" y2="88.22360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="355.573" y1="88.22360625" x2="353.5696" y2="90.22700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="353.5696" y1="90.22700625" x2="353.5696" y2="92.86875" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="353.5696" y1="92.86875" x2="353.5696" y2="109.0946" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<via x="353.5696" y="92.86875" extent="1-16" drill="0.35"/>
-<wire x1="353.5696" y1="92.86875" x2="350.83355" y2="95.6048" width="0.1524" layer="16"/>
-<wire x1="350.83355" y1="95.6048" x2="346.7" y2="95.6048" width="0.1524" layer="16"/>
-<contactref element="U1" pad="64"/>
-<wire x1="346.7" y1="95.6048" x2="345.462496875" y2="91.58125" width="0" layer="19" extent="16-16"/>
+<wire x1="353.5696" y1="90.22700625" x2="353.5696" y2="95.25" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<contactref element="SJ_MCU_LED_COL18" pad="1"/>
+<wire x1="353.5696" y1="95.25" x2="353.5696" y2="109.0946" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<via x="353.5696" y="95.25" extent="1-16" drill="0.35"/>
+<wire x1="353.5696" y1="95.25" x2="351.8946" y2="93.575" width="0.1524" layer="16"/>
+<wire x1="351.8946" y1="93.575" x2="349.62695" y2="93.575" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$199">
 <contactref element="KEY_17" pad="LED-"/>
@@ -7920,11 +8057,11 @@ design rules under a new name.</description>
 <wire x1="372.6196" y1="15.18299375" x2="372.6196" y2="12.83235" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="372.6196" y1="12.83235" x2="374.623" y2="10.82895" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <via x="372.745" y="92.86875" extent="1-16" drill="0.35"/>
+<contactref element="SJ_MCU_LED_COL19" pad="1"/>
 <wire x1="372.745" y1="92.86875" x2="369.18515" y2="92.86875" width="0.1524" layer="16"/>
-<wire x1="369.18515" y1="92.86875" x2="365.8395" y2="96.2144" width="0.1524" layer="16"/>
-<wire x1="365.8395" y1="96.2144" x2="346.7" y2="96.2144" width="0.1524" layer="16"/>
-<contactref element="U1" pad="62"/>
-<wire x1="346.7" y1="96.2144" x2="345.462496875" y2="92.58125" width="0" layer="19" extent="16-16"/>
+<wire x1="369.18515" y1="92.86875" x2="368.57835" y2="92.26195" width="0.1524" layer="16"/>
+<wire x1="368.57835" y1="92.26195" x2="364.665" y2="92.26195" width="0.1524" layer="16"/>
+<wire x1="364.665" y1="92.26195" x2="362.45195" y2="94.475" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$202">
 <contactref element="KEY_20" pad="LED-"/>
@@ -7946,8 +8083,8 @@ design rules under a new name.</description>
 <wire x1="391.6696" y1="117.60735" x2="393.673" y2="115.60395" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="393.673" y1="115.60395" x2="393.673" y2="111.098" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="393.673" y1="111.098" x2="391.795" y2="109.22" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="391.795" y1="109.22" x2="391.795" y2="95.25" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<wire x1="391.795" y1="95.25" x2="391.795" y2="91.50839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="391.795" y1="109.22" x2="391.795" y2="97.63125" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="391.795" y1="97.63125" x2="391.795" y2="91.50839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="391.795" y1="91.50839375" x2="391.6696" y2="91.38299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="393.673" y1="87.02895" x2="393.673" y2="84.42105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="391.795" y1="82.54305" x2="391.795" y2="80.645" width="0.2" layer="1" grouprefs="COL-TRACES"/>
@@ -7982,12 +8119,11 @@ design rules under a new name.</description>
 <wire x1="393.673" y1="8.22105" x2="391.795" y2="6.34305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="391.6696" y1="15.18299375" x2="391.6696" y2="12.83235" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="391.6696" y1="12.83235" x2="393.673" y2="10.82895" width="0.2" layer="1" grouprefs="COL-TRACES"/>
-<via x="391.795" y="95.25" extent="1-16" drill="0.35"/>
-<wire x1="391.795" y1="95.25" x2="371.65295625" y2="95.25" width="0.1524" layer="16"/>
-<wire x1="371.65295625" y1="95.25" x2="370.07895625" y2="96.824" width="0.1524" layer="16"/>
-<wire x1="370.07895625" y1="96.824" x2="346.8" y2="96.824" width="0.1524" layer="16"/>
-<contactref element="U1" pad="60"/>
-<wire x1="346.8" y1="96.824" x2="345.462496875" y2="93.58125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL20" pad="1"/>
+<wire x1="384.10195" y1="95.25" x2="382.27695" y2="97.075" width="0.1524" layer="16"/>
+<via x="391.795" y="97.63125" extent="1-16" drill="0.35"/>
+<wire x1="391.795" y1="97.63125" x2="389.41375" y2="95.25" width="0.1524" layer="16"/>
+<wire x1="389.41375" y1="95.25" x2="384.10195" y2="95.25" width="0.1524" layer="16"/>
 </signal>
 <signal name="LED_COL_21">
 <contactref element="KEY_60" pad="LED-"/>
@@ -8023,20 +8159,16 @@ design rules under a new name.</description>
 <wire x1="420.37" y1="63.49305" x2="422.248" y2="65.37105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="422.248" y1="65.37105" x2="422.248" y2="69.17360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="422.248" y1="69.17360625" x2="420.2446" y2="71.17700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<contactref element="SJ_MCU_LED_COL21" pad="1"/>
+<wire x1="411.6207" y1="98.30625" x2="416.71875" y2="93.2082" width="0.1524" layer="16"/>
+<wire x1="416.71875" y1="93.2082" x2="416.71875" y2="90.4875" width="0.1524" layer="16"/>
 <via x="416.71875" y="90.4875" extent="1-16" drill="0.35"/>
-<wire x1="422.248" y1="84.42105" x2="422.248" y2="87.02895" width="0.2" layer="1"/>
-<wire x1="422.248" y1="87.02895" x2="420.40395" y2="88.873" width="0.2" layer="1"/>
-<wire x1="420.37" y1="80.645" x2="420.37" y2="82.54305" width="0.2" layer="1"/>
-<wire x1="420.37" y1="82.54305" x2="422.248" y2="84.42105" width="0.2" layer="1"/>
-<wire x1="420.40395" y1="88.873" x2="418.33325" y2="88.873" width="0.2" layer="1"/>
-<wire x1="418.33325" y1="88.873" x2="416.71875" y2="90.4875" width="0.2" layer="1"/>
-<wire x1="416.71875" y1="90.4875" x2="413.49855625" y2="90.4875" width="0.1524" layer="16"/>
-<wire x1="413.49855625" y1="90.4875" x2="404.68125625" y2="99.3048" width="0.1524" layer="16"/>
-<wire x1="366.90254375" y1="97.4336" x2="346.8" y2="97.4336" width="0.1524" layer="16"/>
-<wire x1="404.68125625" y1="99.3048" x2="368.77374375" y2="99.3048" width="0.1524" layer="16"/>
-<wire x1="368.77374375" y1="99.3048" x2="366.90254375" y2="97.4336" width="0.1524" layer="16"/>
-<contactref element="U1" pad="58"/>
-<wire x1="346.8" y1="97.4336" x2="345.462496875" y2="94.58125" width="0" layer="19" extent="16-16"/>
+<wire x1="416.71875" y1="90.4875" x2="418.35705" y2="88.8492" width="0.1524" layer="1"/>
+<wire x1="418.35705" y1="88.8492" x2="420.3940875" y2="88.8492" width="0.1524" layer="1"/>
+<wire x1="420.3940875" y1="88.8492" x2="422.2242" y2="87.0190875" width="0.1524" layer="1"/>
+<wire x1="422.2242" y1="87.0190875" x2="422.2242" y2="84.4309125" width="0.1524" layer="1"/>
+<wire x1="420.37" y1="82.5767125" x2="420.37" y2="80.645" width="0.1524" layer="1"/>
+<wire x1="422.2242" y1="84.4309125" x2="420.37" y2="82.5767125" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED_COL_22">
 <contactref element="KEY_61" pad="LED-"/>
@@ -8072,6 +8204,7 @@ design rules under a new name.</description>
 <wire x1="441.298" y1="8.22105" x2="439.42" y2="6.34305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="439.2946" y1="15.18299375" x2="439.2946" y2="12.83235" width="0.2" layer="1" grouprefs="COL-TRACES"/>
 <wire x1="439.2946" y1="12.83235" x2="441.298" y2="10.82895" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<contactref element="SJ_MCU_LED_COL22" pad="1"/>
 <via x="435.76875" y="90.4875" extent="1-16" drill="0.35"/>
 <wire x1="441.2742" y1="84.4309125" x2="441.2742" y2="87.0190875" width="0.1524" layer="1"/>
 <wire x1="441.2742" y1="87.0190875" x2="439.4440875" y2="88.8492" width="0.1524" layer="1"/>
@@ -8079,13 +8212,8 @@ design rules under a new name.</description>
 <wire x1="437.40705" y1="88.8492" x2="435.76875" y2="90.4875" width="0.1524" layer="1"/>
 <wire x1="439.42" y1="80.645" x2="439.42" y2="82.5767125" width="0.1524" layer="1"/>
 <wire x1="439.42" y1="82.5767125" x2="441.2742" y2="84.4309125" width="0.1524" layer="1"/>
-<wire x1="435.76875" y1="90.4875" x2="432.54855625" y2="90.4875" width="0.1524" layer="16"/>
-<wire x1="432.54855625" y1="90.4875" x2="423.12165625" y2="99.9144" width="0.1524" layer="16"/>
-<wire x1="366.65003125" y1="98.0432" x2="346.9" y2="98.0432" width="0.1524" layer="16"/>
-<wire x1="423.12165625" y1="99.9144" x2="368.52123125" y2="99.9144" width="0.1524" layer="16"/>
-<wire x1="368.52123125" y1="99.9144" x2="366.65003125" y2="98.0432" width="0.1524" layer="16"/>
-<contactref element="U1" pad="49"/>
-<wire x1="346.9" y1="98.0432" x2="345.462496875" y2="99.08125" width="0" layer="19" extent="16-16"/>
+<wire x1="435.76875" y1="90.4875" x2="428.8207" y2="97.43555" width="0.1524" layer="16"/>
+<wire x1="428.8207" y1="97.43555" x2="428.8207" y2="97.9" width="0.1524" layer="16"/>
 </signal>
 <signal name="LED_COL_23">
 <contactref element="KEY_62" pad="LED-"/>
@@ -8128,12 +8256,9 @@ design rules under a new name.</description>
 <wire x1="458.47" y1="82.5767125" x2="460.3242" y2="84.4309125" width="0.1524" layer="1"/>
 <wire x1="460.3242" y1="87.0190875" x2="457.7066875" y2="89.6366" width="0.1524" layer="1"/>
 <wire x1="457.7066875" y1="89.6366" x2="453.2884" y2="89.6366" width="0.1524" layer="1"/>
-<wire x1="366.39751875" y1="98.6528" x2="347.1" y2="98.6528" width="0.1524" layer="16"/>
-<wire x1="368.26871875" y1="100.524" x2="366.39751875" y2="98.6528" width="0.1524" layer="16"/>
-<wire x1="450.05625" y1="92.86875" x2="442.401" y2="100.524" width="0.1524" layer="16"/>
-<wire x1="442.401" y1="100.524" x2="368.26871875" y2="100.524" width="0.1524" layer="16"/>
-<contactref element="U1" pad="47"/>
-<wire x1="347.1" y1="98.6528" x2="345.462496875" y2="100.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL23" pad="1"/>
+<wire x1="450.05625" y1="92.86875" x2="446.5582" y2="96.3668" width="0.1524" layer="16"/>
+<wire x1="446.5582" y1="96.3668" x2="446.5582" y2="98.75" width="0.1524" layer="16"/>
 </signal>
 <signal name="LED_COL_24">
 <contactref element="KEY_63" pad="LED-"/>
@@ -8169,11 +8294,9 @@ design rules under a new name.</description>
 <wire x1="476.7566875" y1="89.6366" x2="471.7634" y2="89.6366" width="0.1524" layer="1"/>
 <wire x1="458.1" y1="103.3" x2="451.2" y2="103.3" width="0.1524" layer="1"/>
 <via x="451.2" y="103.3" extent="1-16" drill="0.35"/>
-<wire x1="451.2" y1="103.3" x2="370.18260625" y2="103.3" width="0.1524" layer="16"/>
-<wire x1="370.18260625" y1="103.3" x2="366.14500625" y2="99.2624" width="0.1524" layer="16"/>
-<wire x1="366.14500625" y1="99.2624" x2="347.3" y2="99.2624" width="0.1524" layer="16"/>
-<contactref element="U1" pad="45"/>
-<wire x1="347.3" y1="99.2624" x2="345.462496875" y2="101.08125" width="0" layer="19" extent="16-16"/>
+<contactref element="SJ_MCU_LED_COL24" pad="1"/>
+<wire x1="451.2" y1="103.3" x2="450.3" y2="104.2" width="0.1524" layer="16"/>
+<wire x1="450.3" y1="104.2" x2="447.4207" y2="104.2" width="0.1524" layer="16"/>
 </signal>
 <signal name="VOUT33">
 <contactref element="U1" pad="21"/>
@@ -8206,14 +8329,14 @@ design rules under a new name.</description>
 <contactref element="U1" pad="16"/>
 <contactref element="U1" pad="135"/>
 <contactref element="U1" pad="122"/>
-<wire x1="345.462496875" y1="95.58125" x2="345.462496875" y2="102.08125" width="0" layer="19" extent="16-16"/>
-<wire x1="345.462496875" y1="88.58125" x2="345.462496875" y2="95.58125" width="0" layer="19" extent="16-16"/>
-<wire x1="333.0875" y1="85.706253125" x2="345.462496875" y2="88.58125" width="0" layer="19" extent="16-16"/>
-<wire x1="326.0875" y1="85.706253125" x2="333.0875" y2="85.706253125" width="0" layer="19" extent="16-16"/>
-<wire x1="324.212503125" y1="94.08125" x2="326.0875" y2="85.706253125" width="0" layer="19" extent="16-16"/>
-<wire x1="324.212503125" y1="100.58125" x2="324.212503125" y2="94.08125" width="0" layer="19" extent="16-16"/>
-<wire x1="328.0875" y1="106.956246875" x2="324.212503125" y2="100.58125" width="0" layer="19" extent="16-16"/>
-<wire x1="333.5875" y1="106.956246875" x2="328.0875" y2="106.956246875" width="0" layer="19" extent="16-16"/>
+<wire x1="345.462496875" y1="96.18125" x2="345.462496875" y2="102.68125" width="0" layer="19" extent="16-16"/>
+<wire x1="345.462496875" y1="89.18125" x2="345.462496875" y2="96.18125" width="0" layer="19" extent="16-16"/>
+<wire x1="333.0875" y1="86.306253125" x2="345.462496875" y2="89.18125" width="0" layer="19" extent="16-16"/>
+<wire x1="326.0875" y1="86.306253125" x2="333.0875" y2="86.306253125" width="0" layer="19" extent="16-16"/>
+<wire x1="324.212503125" y1="94.68125" x2="326.0875" y2="86.306253125" width="0" layer="19" extent="16-16"/>
+<wire x1="324.212503125" y1="101.18125" x2="324.212503125" y2="94.68125" width="0" layer="19" extent="16-16"/>
+<wire x1="328.0875" y1="107.556246875" x2="324.212503125" y2="101.18125" width="0" layer="19" extent="16-16"/>
+<wire x1="333.5875" y1="107.556246875" x2="328.0875" y2="107.556246875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="107"/>
@@ -8226,15 +8349,15 @@ design rules under a new name.</description>
 <contactref element="U1" pad="17"/>
 <contactref element="U1" pad="134"/>
 <contactref element="U1" pad="121"/>
-<wire x1="345.462496875" y1="95.08125" x2="345.462496875" y2="101.58125" width="0" layer="19" extent="16-16"/>
-<wire x1="345.462496875" y1="88.08125" x2="345.462496875" y2="95.08125" width="0" layer="19" extent="16-16"/>
-<wire x1="334.5875" y1="106.956246875" x2="345.462496875" y2="101.58125" width="0" layer="19" extent="16-16"/>
-<wire x1="334.0875" y1="106.956246875" x2="334.5875" y2="106.956246875" width="0" layer="19" extent="16-16"/>
-<wire x1="328.5875" y1="106.956246875" x2="334.0875" y2="106.956246875" width="0" layer="19" extent="16-16"/>
-<wire x1="324.212503125" y1="100.08125" x2="328.5875" y2="106.956246875" width="0" layer="19" extent="16-16"/>
-<wire x1="324.212503125" y1="93.58125" x2="324.212503125" y2="100.08125" width="0" layer="19" extent="16-16"/>
-<wire x1="326.5875" y1="85.706253125" x2="324.212503125" y2="93.58125" width="0" layer="19" extent="16-16"/>
-<wire x1="333.5875" y1="85.706253125" x2="326.5875" y2="85.706253125" width="0" layer="19" extent="16-16"/>
+<wire x1="345.462496875" y1="95.68125" x2="345.462496875" y2="102.18125" width="0" layer="19" extent="16-16"/>
+<wire x1="345.462496875" y1="88.68125" x2="345.462496875" y2="95.68125" width="0" layer="19" extent="16-16"/>
+<wire x1="334.5875" y1="107.556246875" x2="345.462496875" y2="102.18125" width="0" layer="19" extent="16-16"/>
+<wire x1="334.0875" y1="107.556246875" x2="334.5875" y2="107.556246875" width="0" layer="19" extent="16-16"/>
+<wire x1="328.5875" y1="107.556246875" x2="334.0875" y2="107.556246875" width="0" layer="19" extent="16-16"/>
+<wire x1="324.212503125" y1="100.68125" x2="328.5875" y2="107.556246875" width="0" layer="19" extent="16-16"/>
+<wire x1="324.212503125" y1="94.18125" x2="324.212503125" y2="100.68125" width="0" layer="19" extent="16-16"/>
+<wire x1="326.5875" y1="86.306253125" x2="324.212503125" y2="94.18125" width="0" layer="19" extent="16-16"/>
+<wire x1="333.5875" y1="86.306253125" x2="326.5875" y2="86.306253125" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="JTAG_TCLK/SWD_CLK">
 <contactref element="U1" pad="50"/>
@@ -8253,6 +8376,646 @@ design rules under a new name.</description>
 </signal>
 <signal name="RESET">
 <contactref element="U1" pad="74"/>
+</signal>
+<signal name="ROW_1{MCU}">
+<contactref element="SJ_MCU_ROW1" pad="2"/>
+<contactref element="U1" pad="15"/>
+<wire x1="339.0011" y1="113.3544125" x2="339" y2="113.3533125" width="0.1524" layer="1"/>
+<wire x1="339" y1="113.3533125" x2="339" y2="111.7" width="0.1524" layer="1"/>
+<wire x1="336.1375" y1="119.61055" x2="339.0011" y2="116.74695" width="0.1524" layer="1"/>
+<wire x1="339.0011" y1="116.74695" x2="339.0011" y2="113.3544125" width="0.1524" layer="1"/>
+<wire x1="333.0875" y1="107.556246875" x2="339" y2="111.7" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="ROW_2{MCU}">
+<contactref element="SJ_MCU_ROW2" pad="2"/>
+<contactref element="U1" pad="13"/>
+<wire x1="332.0875" y1="107.556246875" x2="340.51875" y2="113.7793" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="ROW_3{MCU}">
+<contactref element="SJ_MCU_ROW3" pad="2"/>
+<contactref element="U1" pad="84"/>
+<wire x1="330.01875" y1="80.28945" x2="338.0875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="ROW_4{MCU}">
+<contactref element="SJ_MCU_ROW4" pad="2"/>
+<contactref element="U1" pad="81"/>
+<wire x1="332.60625" y1="69.95195" x2="334.1" y2="71.4457" width="0.1524" layer="1"/>
+<wire x1="334.1" y1="71.4457" x2="334.1" y2="78" width="0.1524" layer="1"/>
+<wire x1="334.1" y1="78" x2="339.5875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="ROW_5{MCU}">
+<contactref element="SJ_MCU_ROW5" pad="2"/>
+<contactref element="U1" pad="76"/>
+<wire x1="338.6" y1="50.52695" x2="336.3" y2="52.82695" width="0.1524" layer="1"/>
+<wire x1="336.3" y1="52.82695" x2="336.3" y2="78.5" width="0.1524" layer="1"/>
+<wire x1="336.3" y1="78.5" x2="342.0875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="ROW_6{MCU}">
+<contactref element="SJ_MCU_ROW6" pad="2"/>
+<contactref element="U1" pad="80"/>
+<wire x1="328.6125" y1="31.47695" x2="334.7" y2="37.56445" width="0.1524" layer="1"/>
+<wire x1="334.7" y1="37.56445" x2="334.7" y2="78.1" width="0.1524" layer="1"/>
+<wire x1="334.7" y1="78.1" x2="340.0875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="ROW_7{MCU}">
+<contactref element="SJ_MCU_ROW7" pad="2"/>
+<contactref element="U1" pad="78"/>
+<wire x1="335.43125" y1="12.05195" x2="335.43125" y2="78.33125" width="0.1524" layer="1"/>
+<wire x1="335.43125" y1="78.33125" x2="341.0875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="LED_ROW_2{MCU}">
+<contactref element="U1" pad="12"/>
+<contactref element="SJ_MCU_LED_ROW2" pad="2"/>
+<wire x1="331.5875" y1="107.556246875" x2="338.1375" y2="113.7793" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="LED_ROW_1{MCU}">
+<contactref element="U1" pad="14"/>
+<contactref element="SJ_MCU_LED_ROW1" pad="2"/>
+<wire x1="340.3375" y1="119.2418" x2="340.3375" y2="117.6375" width="0.1524" layer="1"/>
+<wire x1="339.4" y1="116.7" x2="339.4" y2="111.7" width="0.1524" layer="1"/>
+<wire x1="340.3375" y1="117.6375" x2="339.4" y2="116.7" width="0.1524" layer="1"/>
+<wire x1="332.5875" y1="107.556246875" x2="339.4" y2="111.7" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="LED_ROW_5{MCU}">
+<contactref element="U1" pad="75"/>
+<contactref element="SJ_MCU_LED_ROW5" pad="2"/>
+<wire x1="341.3125" y1="50.5457" x2="336.8" y2="55.0582" width="0.1524" layer="1"/>
+<wire x1="336.8" y1="55.0582" x2="336.8" y2="78.5" width="0.1524" layer="1"/>
+<wire x1="336.8" y1="78.5" x2="342.5875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="LED_ROW_7{MCU}">
+<contactref element="U1" pad="77"/>
+<contactref element="SJ_MCU_LED_ROW7" pad="2"/>
+<wire x1="338.2375" y1="11.8082" x2="335.73605" y2="14.30965" width="0.1524" layer="1"/>
+<wire x1="335.73605" y1="14.30965" x2="335.73605" y2="78.3" width="0.1524" layer="1"/>
+<wire x1="335.73605" y1="78.3" x2="341.5875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="LED_ROW_6{MCU}">
+<contactref element="U1" pad="79"/>
+<contactref element="SJ_MCU_LED_ROW6" pad="2"/>
+<wire x1="330.99375" y1="31.47695" x2="335.1" y2="35.5832" width="0.1524" layer="1"/>
+<wire x1="335.1" y1="35.5832" x2="335.1" y2="78.4" width="0.1524" layer="1"/>
+<wire x1="335.1" y1="78.4" x2="340.5875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="LED_ROW_4{MCU}">
+<contactref element="U1" pad="82"/>
+<contactref element="SJ_MCU_LED_ROW4" pad="2"/>
+<wire x1="329.825" y1="69.95195" x2="333.6" y2="73.72695" width="0.1524" layer="1"/>
+<wire x1="333.6" y1="73.72695" x2="333.6" y2="78.1" width="0.1524" layer="1"/>
+<wire x1="333.6" y1="78.1" x2="339.0875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="LED_ROW_3{MCU}">
+<contactref element="U1" pad="83"/>
+<contactref element="SJ_MCU_LED_ROW3" pad="2"/>
+<wire x1="332.61875" y1="80.31445" x2="338.5875" y2="86.306253125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="ROW_1{SB}">
+<contactref element="SJ_MCU_ROW1" pad="1"/>
+<contactref element="SJ_R1" pad="2"/>
+<wire x1="335.75625" y1="122.555" x2="336.1375" y2="122.17375" width="0.1524" layer="1"/>
+<wire x1="336.1375" y1="122.17375" x2="336.1375" y2="120.65195" width="0.1524" layer="1"/>
+</signal>
+<signal name="LED_ROW_1{SB}">
+<contactref element="SJ_MCU_LED_ROW1" pad="1"/>
+<contactref element="SJ_LED_R1" pad="2"/>
+<wire x1="340.51875" y1="122.555" x2="340.51875" y2="120.46445" width="0.1524" layer="1"/>
+<wire x1="340.51875" y1="120.46445" x2="340.3375" y2="120.2832" width="0.1524" layer="1"/>
+</signal>
+<signal name="LED_COL_2">
+<contactref element="SJ_LED_C2" pad="2"/>
+<contactref element="SJ_MCU_LED_COL2" pad="1"/>
+<wire x1="48.6325" y1="103.68125" x2="49.295" y2="104.34375" width="0.1524" layer="16"/>
+<wire x1="49.295" y1="104.34375" x2="59.13555" y2="104.34375" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_2">
+<contactref element="SJ_C2" pad="2"/>
+<contactref element="SJ_MCU_COL2" pad="1"/>
+<wire x1="48.7325" y1="98.8375" x2="51.6825" y2="101.7875" width="0.1524" layer="16"/>
+<wire x1="51.6825" y1="101.7875" x2="59.2043" y2="101.7875" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_1">
+<contactref element="SJ_LED_C1" pad="2"/>
+<contactref element="SJ_MCU_LED_COL1" pad="1"/>
+<wire x1="49.0075" y1="93.79375" x2="50.99305" y2="95.7793" width="0.1524" layer="16"/>
+<wire x1="50.99305" y1="95.7793" x2="51.15" y2="95.7793" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_2{SB}">
+<contactref element="KEY_2" pad="LED-"/>
+<contactref element="KEY_130" pad="LED-"/>
+<contactref element="KEY_110" pad="LED-"/>
+<contactref element="KEY_88" pad="LED-"/>
+<contactref element="KEY_65" pad="LED-"/>
+<contactref element="KEY_42" pad="LED-"/>
+<contactref element="KEY_22" pad="LED-"/>
+<contactref element="SJ_LED_C2" pad="1"/>
+<wire x1="29.7196" y1="14.02700625" x2="29.7196" y2="15.18299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.7196" y1="15.18299375" x2="29.845" y2="15.30839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="15.30839375" x2="29.845" y2="23.495" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="4.445" x2="29.845" y2="6.34305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="6.34305" x2="31.723" y2="8.22105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="8.22105" x2="31.723" y2="12.02360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="12.02360625" x2="29.7196" y2="14.02700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.7196" y1="33.07700625" x2="29.7196" y2="34.23299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.7196" y1="34.23299375" x2="29.845" y2="34.35839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="34.35839375" x2="29.845" y2="42.545" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="23.495" x2="29.845" y2="25.39305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="25.39305" x2="31.723" y2="27.27105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="27.27105" x2="31.723" y2="31.07360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="31.07360625" x2="29.7196" y2="33.07700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.7196" y1="52.12700625" x2="29.7196" y2="53.28299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.7196" y1="53.28299375" x2="29.845" y2="53.40839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="53.40839375" x2="29.845" y2="61.595" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="42.545" x2="29.845" y2="44.44305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="44.44305" x2="31.723" y2="46.32105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="46.32105" x2="31.723" y2="50.12360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="50.12360625" x2="29.7196" y2="52.12700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.7196" y1="71.17700625" x2="29.7196" y2="72.33299375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.7196" y1="72.33299375" x2="29.845" y2="72.45839375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="72.45839375" x2="29.845" y2="80.645" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="61.595" x2="29.845" y2="63.49305" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="63.49305" x2="31.723" y2="65.37105" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="65.37105" x2="31.723" y2="69.17360625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="69.17360625" x2="29.7196" y2="71.17700625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.7196" y1="118.80200625" x2="29.7196" y2="119.95799375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.7196" y1="119.95799375" x2="29.845" y2="120.08339375" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="120.08339375" x2="29.845" y2="128.27" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="109.22" x2="29.845" y2="111.11805" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="111.11805" x2="31.723" y2="112.99605" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="112.99605" x2="31.723" y2="116.79860625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="31.723" y1="116.79860625" x2="29.7196" y2="118.80200625" width="0.2" layer="1" grouprefs="COL-TRACES"/>
+<wire x1="29.845" y1="109.22" x2="29.845" y2="104.775" width="0.1524" layer="1"/>
+<wire x1="29.845" y1="104.775" x2="29.845" y2="91.4747375" width="0.1524" layer="1"/>
+<wire x1="29.845" y1="91.4747375" x2="29.7434" y2="91.3731375" width="0.1524" layer="1"/>
+<wire x1="31.6992" y1="87.0190875" x2="31.6992" y2="84.4309125" width="0.1524" layer="1"/>
+<wire x1="29.845" y1="82.5767125" x2="29.845" y2="80.645" width="0.1524" layer="1"/>
+<wire x1="31.6992" y1="84.4309125" x2="29.845" y2="82.5767125" width="0.1524" layer="1"/>
+<wire x1="29.7434" y1="91.3731375" x2="29.7434" y2="88.9748875" width="0.1524" layer="1"/>
+<wire x1="29.7434" y1="88.9748875" x2="31.6992" y2="87.0190875" width="0.1524" layer="1"/>
+<via x="29.845" y="104.775" extent="1-16" drill="0.35"/>
+<wire x1="29.845" y1="104.775" x2="30.93875" y2="103.68125" width="0.1524" layer="16"/>
+<wire x1="30.93875" y1="103.68125" x2="46.0925" y2="103.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_1">
+<contactref element="SJ_C1" pad="2"/>
+<contactref element="SJ_MCU_COL1" pad="1"/>
+<wire x1="48.85125" y1="89.225" x2="50.81445" y2="89.225" width="0.1524" layer="16"/>
+<wire x1="50.81445" y1="89.225" x2="52.525" y2="90.93555" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_1{MCU}">
+<contactref element="U1" pad="133"/>
+<contactref element="SJ_MCU_COL1" pad="2"/>
+<wire x1="52.525" y1="91.97695" x2="52.525" y2="96.8202" width="0.1524" layer="16"/>
+<wire x1="52.525" y1="96.8202" x2="55.243025" y2="99.538225" width="0.1524" layer="16"/>
+<wire x1="55.243025" y1="99.538225" x2="57.85916875" y2="99.538225" width="0.1524" layer="16"/>
+<wire x1="57.85916875" y1="99.538225" x2="58.33344375" y2="100.0125" width="0.1524" layer="16"/>
+<wire x1="58.33344375" y1="100.0125" x2="316.70625" y2="100.0125" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="100.0125" x2="317.54355625" y2="100.0125" width="0.1524" layer="16"/>
+<wire x1="317.54355625" y1="100.0125" x2="317.71230625" y2="100.18125" width="0.1524" layer="16"/>
+<wire x1="317.71230625" y1="100.18125" x2="324.212503125" y2="100.18125" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_3{MCU}">
+<contactref element="U1" pad="132"/>
+<contactref element="SJ_MCU_COL3" pad="2"/>
+<wire x1="56.7207" y1="95.88125" x2="60.54715" y2="99.7077" width="0.1524" layer="16"/>
+<wire x1="60.54715" y1="99.7077" x2="316.70625" y2="99.7077" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="99.7077" x2="317.6036125" y2="99.7077" width="0.1524" layer="16"/>
+<wire x1="317.6036125" y1="99.7077" x2="324.186053125" y2="99.7077" width="0.1524" layer="16"/>
+<wire x1="324.186053125" y1="99.7077" x2="324.212503125" y2="99.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_3{MCU}">
+<contactref element="U1" pad="131"/>
+<contactref element="SJ_MCU_LED_COL3" pad="2"/>
+<wire x1="61.57695" y1="96.725" x2="61.57695" y2="97.27985" width="0.1524" layer="16"/>
+<wire x1="61.57695" y1="97.27985" x2="63.7" y2="99.4029" width="0.1524" layer="16"/>
+<wire x1="63.7" y1="99.4029" x2="316.70625" y2="99.4029" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="99.4029" x2="317.47735625" y2="99.4029" width="0.1524" layer="16"/>
+<wire x1="317.47735625" y1="99.4029" x2="317.7971" y2="99.4029" width="0.1524" layer="16"/>
+<wire x1="318.01875" y1="99.18125" x2="324.212503125" y2="99.18125" width="0.1524" layer="16"/>
+<wire x1="317.7971" y1="99.4029" x2="318.01875" y2="99.18125" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_4{MCU}">
+<contactref element="U1" pad="130"/>
+<contactref element="SJ_MCU_COL4" pad="2"/>
+<wire x1="75.7207" y1="97.51875" x2="77.30005" y2="99.0981" width="0.1524" layer="16"/>
+<wire x1="324.205853125" y1="98.6746" x2="324.212503125" y2="98.68125" width="0.1524" layer="16"/>
+<wire x1="77.30005" y1="99.0981" x2="316.70625" y2="99.0981" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="99.0981" x2="317.3511" y2="99.0981" width="0.1524" layer="16"/>
+<wire x1="317.3511" y1="99.0981" x2="317.6019" y2="99.0981" width="0.1524" layer="16"/>
+<wire x1="318.0254" y1="98.6746" x2="324.205853125" y2="98.6746" width="0.1524" layer="16"/>
+<wire x1="317.6019" y1="99.0981" x2="318.0254" y2="98.6746" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_18{MCU}">
+<contactref element="U1" pad="65"/>
+<contactref element="SJ_MCU_COL18" pad="2"/>
+<wire x1="348.4418" y1="91.3" x2="347.5" y2="91.3" width="0.1524" layer="16"/>
+<wire x1="347.5" y1="91.3" x2="347.1" y2="91.7" width="0.1524" layer="16"/>
+<wire x1="347.1" y1="91.7" x2="345.481246875" y2="91.7" width="0.1524" layer="16"/>
+<wire x1="345.481246875" y1="91.7" x2="345.462496875" y2="91.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_18{MCU}">
+<contactref element="U1" pad="64"/>
+<contactref element="SJ_MCU_LED_COL18" pad="2"/>
+<wire x1="345.462496875" y1="92.18125" x2="346.98125" y2="92.18125" width="0.1524" layer="16"/>
+<wire x1="348.375" y1="93.575" x2="348.58555" y2="93.575" width="0.1524" layer="16"/>
+<wire x1="346.98125" y1="92.18125" x2="348.375" y2="93.575" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_19{MCU}">
+<contactref element="U1" pad="63"/>
+<contactref element="SJ_MCU_COL19" pad="2"/>
+<wire x1="361.44805" y1="91.6" x2="360.6" y2="91.6" width="0.1524" layer="16"/>
+<wire x1="360.6" y1="91.6" x2="356.2904" y2="95.9096" width="0.1524" layer="16"/>
+<wire x1="356.2904" y1="95.9096" x2="348" y2="95.9096" width="0.1524" layer="16"/>
+<wire x1="345.462496875" y1="92.68125" x2="348" y2="95.9096" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="LED_COL_19{MCU}">
+<contactref element="U1" pad="62"/>
+<contactref element="SJ_MCU_LED_COL19" pad="2"/>
+<wire x1="361.41055" y1="94.475" x2="359.625" y2="94.475" width="0.1524" layer="16"/>
+<wire x1="359.625" y1="94.475" x2="357.8856" y2="96.2144" width="0.1524" layer="16"/>
+<wire x1="357.8856" y1="96.2144" x2="348" y2="96.2144" width="0.1524" layer="16"/>
+<wire x1="345.462496875" y1="93.18125" x2="348" y2="96.2144" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="COL_20{MCU}">
+<contactref element="U1" pad="61"/>
+<contactref element="SJ_MCU_COL20" pad="2"/>
+<wire x1="381.4918" y1="94" x2="368.48495625" y2="94" width="0.1524" layer="16"/>
+<wire x1="368.48495625" y1="94" x2="365.96575625" y2="96.5192" width="0.1524" layer="16"/>
+<wire x1="365.96575625" y1="96.5192" x2="348" y2="96.5192" width="0.1524" layer="16"/>
+<wire x1="345.462496875" y1="93.68125" x2="348" y2="96.5192" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="LED_COL_20{MCU}">
+<contactref element="U1" pad="60"/>
+<contactref element="SJ_MCU_LED_COL20" pad="2"/>
+<wire x1="381.23555" y1="97.075" x2="367.40605625" y2="97.075" width="0.1524" layer="16"/>
+<wire x1="367.40605625" y1="97.075" x2="367.15505625" y2="96.824" width="0.1524" layer="16"/>
+<wire x1="367.15505625" y1="96.824" x2="347.9" y2="96.824" width="0.1524" layer="16"/>
+<wire x1="345.462496875" y1="94.18125" x2="347.9" y2="96.824" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="COL_21{MCU}">
+<contactref element="U1" pad="59"/>
+<contactref element="SJ_MCU_COL21" pad="2"/>
+<wire x1="407.43555" y1="95.63125" x2="403.586" y2="99.4808" width="0.1524" layer="16"/>
+<wire x1="369.3808" y1="99.4808" x2="367.0288" y2="97.1288" width="0.1524" layer="16"/>
+<wire x1="367.0288" y1="97.1288" x2="347.8" y2="97.1288" width="0.1524" layer="16"/>
+<wire x1="403.586" y1="99.4808" x2="369.3808" y2="99.4808" width="0.1524" layer="16"/>
+<wire x1="345.462496875" y1="94.68125" x2="347.8" y2="97.1288" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="LED_COL_21{MCU}">
+<contactref element="U1" pad="58"/>
+<contactref element="SJ_MCU_LED_COL21" pad="2"/>
+<wire x1="410.5793" y1="98.30625" x2="409.09995" y2="99.7856" width="0.1524" layer="16"/>
+<wire x1="409.09995" y1="99.7856" x2="369.25454375" y2="99.7856" width="0.1524" layer="16"/>
+<wire x1="369.25454375" y1="99.7856" x2="366.90254375" y2="97.4336" width="0.1524" layer="16"/>
+<wire x1="366.90254375" y1="97.4336" x2="347.8" y2="97.4336" width="0.1524" layer="16"/>
+<wire x1="347.8" y1="97.4336" x2="345.462496875" y2="95.18125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="COL_22{MCU}">
+<contactref element="U1" pad="54"/>
+<contactref element="SJ_MCU_COL22" pad="2"/>
+<wire x1="423.1793" y1="96.2" x2="416.9" y2="96.2" width="0.1524" layer="16"/>
+<wire x1="416.9" y1="96.2" x2="413.0096" y2="100.0904" width="0.1524" layer="16"/>
+<wire x1="369.1282875" y1="100.0904" x2="366.7762875" y2="97.7384" width="0.1524" layer="16"/>
+<wire x1="413.0096" y1="100.0904" x2="369.1282875" y2="100.0904" width="0.1524" layer="16"/>
+<wire x1="366.7762875" y1="97.7384" x2="347.8" y2="97.7384" width="0.1524" layer="16"/>
+<wire x1="347.8" y1="97.7384" x2="345.462496875" y2="97.18125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="LED_COL_22{MCU}">
+<contactref element="U1" pad="49"/>
+<contactref element="SJ_MCU_LED_COL22" pad="2"/>
+<wire x1="427.7793" y1="97.9" x2="425.2841" y2="100.3952" width="0.1524" layer="16"/>
+<wire x1="369.00203125" y1="100.3952" x2="366.65003125" y2="98.0432" width="0.1524" layer="16"/>
+<wire x1="425.2841" y1="100.3952" x2="369.00203125" y2="100.3952" width="0.1524" layer="16"/>
+<wire x1="366.65003125" y1="98.0432" x2="347.8" y2="98.0432" width="0.1524" layer="16"/>
+<wire x1="347.8" y1="98.0432" x2="345.462496875" y2="99.68125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="COL_23{MCU}">
+<contactref element="U1" pad="48"/>
+<contactref element="SJ_MCU_COL23" pad="2"/>
+<wire x1="443.3168" y1="95.975" x2="438.5918" y2="100.7" width="0.1524" layer="16"/>
+<wire x1="368.875775" y1="100.7" x2="366.523775" y2="98.348" width="0.1524" layer="16"/>
+<wire x1="366.523775" y1="98.348" x2="347.7" y2="98.348" width="0.1524" layer="16"/>
+<wire x1="438.5918" y1="100.7" x2="368.875775" y2="100.7" width="0.1524" layer="16"/>
+<wire x1="347.7" y1="98.348" x2="345.462496875" y2="100.18125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="LED_COL_23{MCU}">
+<contactref element="U1" pad="47"/>
+<contactref element="SJ_MCU_LED_COL23" pad="2"/>
+<wire x1="445.5168" y1="98.75" x2="443.1668" y2="101.1" width="0.1524" layer="16"/>
+<wire x1="443.1668" y1="101.1" x2="369.1" y2="101.1" width="0.1524" layer="16"/>
+<wire x1="369.1" y1="101.1" x2="368.84471875" y2="101.1" width="0.1524" layer="16"/>
+<wire x1="368.84471875" y1="101.1" x2="366.39751875" y2="98.6528" width="0.1524" layer="16"/>
+<wire x1="366.39751875" y1="98.6528" x2="347.7" y2="98.6528" width="0.1524" layer="16"/>
+<wire x1="347.7" y1="98.6528" x2="345.462496875" y2="100.68125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="COL_24{MCU}">
+<contactref element="U1" pad="46"/>
+<contactref element="SJ_MCU_COL24" pad="2"/>
+<wire x1="446.42305" y1="101.54375" x2="369.44375" y2="101.54375" width="0.1524" layer="16"/>
+<wire x1="369.4" y1="101.5" x2="369.44375" y2="101.54375" width="0.1524" layer="16"/>
+<wire x1="369.44375" y1="101.54375" x2="368.8574125" y2="101.54375" width="0.1524" layer="16"/>
+<wire x1="368.8574125" y1="101.54375" x2="366.2712625" y2="98.9576" width="0.1524" layer="16"/>
+<wire x1="366.2712625" y1="98.9576" x2="347.7" y2="98.9576" width="0.1524" layer="16"/>
+<wire x1="347.7" y1="98.9576" x2="345.462496875" y2="101.18125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="LED_COL_24{MCU}">
+<contactref element="U1" pad="45"/>
+<contactref element="SJ_MCU_LED_COL24" pad="2"/>
+<wire x1="446.3793" y1="104.2" x2="371.08260625" y2="104.2" width="0.1524" layer="16"/>
+<wire x1="366.14500625" y1="99.2624" x2="347.8" y2="99.2624" width="0.1524" layer="16"/>
+<wire x1="371.08260625" y1="104.2" x2="366.14500625" y2="99.2624" width="0.1524" layer="16"/>
+<wire x1="347.8" y1="99.2624" x2="345.462496875" y2="101.68125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="LED_COL_16{MCU}">
+<contactref element="U1" pad="144"/>
+<contactref element="SJ_MCU_LED_COL16" pad="2"/>
+<wire x1="311.86445" y1="105.725" x2="311.9082" y2="105.68125" width="0.1524" layer="16"/>
+<wire x1="311.9082" y1="105.68125" x2="324.212503125" y2="105.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_16{MCU}">
+<contactref element="U1" pad="143"/>
+<contactref element="SJ_MCU_COL16" pad="2"/>
+<wire x1="305.5082" y1="104.9" x2="310.3595625" y2="104.9" width="0.1524" layer="16"/>
+<wire x1="310.3595625" y1="104.9" x2="310.3981625" y2="104.8614" width="0.1524" layer="16"/>
+<wire x1="310.3981625" y1="104.8614" x2="315.5614" y2="104.8614" width="0.1524" layer="16"/>
+<wire x1="315.5614" y1="104.8614" x2="315.9" y2="105.2" width="0.1524" layer="16"/>
+<wire x1="315.9" y1="105.2" x2="324.193753125" y2="105.2" width="0.1524" layer="16"/>
+<wire x1="324.193753125" y1="105.2" x2="324.212503125" y2="105.18125" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_7{MCU}">
+<contactref element="U1" pad="142"/>
+<contactref element="SJ_MCU_LED_COL7" pad="2"/>
+<wire x1="138.57695" y1="103.24375" x2="139.6746" y2="102.1461" width="0.1524" layer="16"/>
+<wire x1="316.6461" y1="102.1461" x2="319.2" y2="104.7" width="0.1524" layer="16"/>
+<wire x1="319.2" y1="104.7" x2="324.193753125" y2="104.7" width="0.1524" layer="16"/>
+<wire x1="139.6746" y1="102.1461" x2="316.6461" y2="102.1461" width="0.1524" layer="16"/>
+<wire x1="324.193753125" y1="104.7" x2="324.212503125" y2="104.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_7{MCU}">
+<contactref element="U1" pad="141"/>
+<contactref element="SJ_MCU_COL7" pad="2"/>
+<wire x1="132.8207" y1="102.71875" x2="133.69815" y2="101.8413" width="0.1524" layer="16"/>
+<wire x1="324.193753125" y1="104.2" x2="324.212503125" y2="104.18125" width="0.1524" layer="16"/>
+<wire x1="133.69815" y1="101.8413" x2="316.70625" y2="101.8413" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="101.8413" x2="316.7413" y2="101.8413" width="0.1524" layer="16"/>
+<wire x1="316.7413" y1="101.8413" x2="316.77235625" y2="101.8413" width="0.1524" layer="16"/>
+<wire x1="319.13105625" y1="104.2" x2="324.193753125" y2="104.2" width="0.1524" layer="16"/>
+<wire x1="316.77235625" y1="101.8413" x2="319.13105625" y2="104.2" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_6{MCU}">
+<contactref element="U1" pad="140"/>
+<contactref element="SJ_MCU_LED_COL6" pad="2"/>
+<wire x1="120.26445" y1="102.45625" x2="121.1842" y2="101.5365" width="0.1524" layer="16"/>
+<wire x1="324.193753125" y1="103.7" x2="324.212503125" y2="103.68125" width="0.1524" layer="16"/>
+<wire x1="121.1842" y1="101.5365" x2="316.70625" y2="101.5365" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="101.5365" x2="316.8986125" y2="101.5365" width="0.1524" layer="16"/>
+<wire x1="316.8986125" y1="101.5365" x2="319.0621125" y2="103.7" width="0.1524" layer="16"/>
+<wire x1="319.0621125" y1="103.7" x2="324.193753125" y2="103.7" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_6{MCU}">
+<contactref element="U1" pad="139"/>
+<contactref element="SJ_MCU_COL6" pad="2"/>
+<wire x1="113.9207" y1="102.51875" x2="115.20775" y2="101.2317" width="0.1524" layer="16"/>
+<wire x1="324.20928125" y1="103.184471875" x2="324.212503125" y2="103.18125" width="0.1524" layer="16"/>
+<wire x1="115.20775" y1="101.2317" x2="316.70625" y2="101.2317" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="101.2317" x2="317.02486875" y2="101.2317" width="0.1524" layer="16"/>
+<wire x1="317.02486875" y1="101.2317" x2="318.99316875" y2="103.2" width="0.1524" layer="16"/>
+<wire x1="324.193753125" y1="103.2" x2="324.212503125" y2="103.18125" width="0.1524" layer="16"/>
+<wire x1="318.99316875" y1="103.2" x2="324.193753125" y2="103.2" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_2{MCU}">
+<contactref element="U1" pad="138"/>
+<contactref element="SJ_MCU_LED_COL2" pad="2"/>
+<wire x1="60.17695" y1="104.34375" x2="63.5938" y2="100.9269" width="0.1524" layer="16"/>
+<wire x1="63.5938" y1="100.9269" x2="316.70625" y2="100.9269" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="100.9269" x2="317.151125" y2="100.9269" width="0.1524" layer="16"/>
+<wire x1="317.151125" y1="100.9269" x2="318.924225" y2="102.7" width="0.1524" layer="16"/>
+<wire x1="324.193753125" y1="102.7" x2="324.212503125" y2="102.68125" width="0.1524" layer="16"/>
+<wire x1="318.924225" y1="102.7" x2="324.193753125" y2="102.7" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_2{MCU}">
+<contactref element="U1" pad="137"/>
+<contactref element="SJ_MCU_COL2" pad="2"/>
+<wire x1="60.2457" y1="101.7875" x2="62.30214375" y2="101.7875" width="0.1524" layer="16"/>
+<wire x1="62.30214375" y1="101.7875" x2="63.46754375" y2="100.6221" width="0.1524" layer="16"/>
+<wire x1="324.193753125" y1="102.2" x2="324.212503125" y2="102.18125" width="0.1524" layer="16"/>
+<wire x1="63.46754375" y1="100.6221" x2="316.70625" y2="100.6221" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="100.6221" x2="317.27738125" y2="100.6221" width="0.1524" layer="16"/>
+<wire x1="317.27738125" y1="100.6221" x2="318.85528125" y2="102.2" width="0.1524" layer="16"/>
+<wire x1="318.85528125" y1="102.2" x2="324.193753125" y2="102.2" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_1{MCU}">
+<contactref element="U1" pad="136"/>
+<contactref element="SJ_MCU_LED_COL1" pad="2"/>
+<wire x1="51.15" y1="96.8207" x2="54.6293" y2="100.3" width="0.1524" layer="16"/>
+<wire x1="54.6293" y1="100.3" x2="57.76279375" y2="100.3" width="0.1524" layer="16"/>
+<wire x1="57.76279375" y1="100.3" x2="57.78009375" y2="100.3173" width="0.1524" layer="16"/>
+<wire x1="57.78009375" y1="100.3173" x2="316.70625" y2="100.3173" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="100.3173" x2="317.4173" y2="100.3173" width="0.1524" layer="16"/>
+<wire x1="317.4173" y1="100.3173" x2="318.8" y2="101.7" width="0.1524" layer="16"/>
+<wire x1="318.8" y1="101.7" x2="324.193753125" y2="101.7" width="0.1524" layer="16"/>
+<wire x1="324.193753125" y1="101.7" x2="324.212503125" y2="101.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_4{MCU}">
+<contactref element="U1" pad="129"/>
+<contactref element="SJ_MCU_LED_COL4" pad="2"/>
+<wire x1="81.77695" y1="97.84375" x2="82.7265" y2="98.7933" width="0.1524" layer="16"/>
+<wire x1="315.5442" y1="98.7933" x2="315.5471" y2="98.7904" width="0.1524" layer="16"/>
+<wire x1="82.7265" y1="98.7933" x2="315.5442" y2="98.7933" width="0.1524" layer="16"/>
+<wire x1="315.5442" y1="98.7933" x2="317.4067" y2="98.7933" width="0.1524" layer="16"/>
+<wire x1="318.01875" y1="98.18125" x2="324.212503125" y2="98.18125" width="0.1524" layer="16"/>
+<wire x1="317.4067" y1="98.7933" x2="318.01875" y2="98.18125" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_5{MCU}">
+<contactref element="U1" pad="128"/>
+<contactref element="SJ_MCU_COL5" pad="2"/>
+<wire x1="94.9207" y1="97.51875" x2="98.35769375" y2="97.51875" width="0.1524" layer="16"/>
+<wire x1="98.35769375" y1="97.51875" x2="99.32454375" y2="98.4856" width="0.1524" layer="16"/>
+<wire x1="324.174796875" y1="97.64354375" x2="324.212503125" y2="97.68125" width="0.1524" layer="16"/>
+<wire x1="99.32454375" y1="98.4856" x2="316.70625" y2="98.4856" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="98.4856" x2="317.1014875" y2="98.4856" width="0.1524" layer="16"/>
+<wire x1="317.1014875" y1="98.4856" x2="317.2144" y2="98.4856" width="0.1524" layer="16"/>
+<wire x1="318.05645625" y1="97.64354375" x2="324.174796875" y2="97.64354375" width="0.1524" layer="16"/>
+<wire x1="317.2144" y1="98.4856" x2="318.05645625" y2="97.64354375" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_5{MCU}">
+<contactref element="U1" pad="127"/>
+<contactref element="SJ_MCU_LED_COL5" pad="2"/>
+<wire x1="101.47695" y1="97.24375" x2="102.414" y2="98.1808" width="0.1524" layer="16"/>
+<wire x1="324.20926875" y1="97.178015625" x2="324.212503125" y2="97.18125" width="0.1524" layer="16"/>
+<wire x1="102.414" y1="98.1808" x2="316.70625" y2="98.1808" width="0.1524" layer="16"/>
+<wire x1="316.70625" y1="98.1808" x2="316.97523125" y2="98.1808" width="0.1524" layer="16"/>
+<wire x1="316.97523125" y1="98.1808" x2="317.0192" y2="98.1808" width="0.1524" layer="16"/>
+<wire x1="318.01875" y1="97.18125" x2="324.212503125" y2="97.18125" width="0.1524" layer="16"/>
+<wire x1="317.0192" y1="98.1808" x2="318.01875" y2="97.18125" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_8{MCU}">
+<contactref element="U1" pad="126"/>
+<contactref element="SJ_MCU_COL8" pad="2"/>
+<wire x1="151.8207" y1="96.21875" x2="153.37795" y2="97.776" width="0.1524" layer="16"/>
+<wire x1="324.193740625" y1="96.6624875" x2="324.212503125" y2="96.68125" width="0.1524" layer="16"/>
+<wire x1="317.81875" y1="96.68125" x2="324.212503125" y2="96.68125" width="0.1524" layer="16"/>
+<wire x1="153.37795" y1="97.776" x2="316.724" y2="97.776" width="0.1524" layer="16"/>
+<wire x1="316.724" y1="97.776" x2="317.81875" y2="96.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_8{MCU}">
+<contactref element="U1" pad="125"/>
+<contactref element="SJ_MCU_LED_COL8" pad="2"/>
+<wire x1="156.87695" y1="96.84375" x2="169.46469375" y2="96.84375" width="0.1524" layer="16"/>
+<wire x1="169.46469375" y1="96.84375" x2="170.09214375" y2="97.4712" width="0.1524" layer="16"/>
+<wire x1="316.5288" y1="97.4712" x2="317.9" y2="96.1" width="0.1524" layer="16"/>
+<wire x1="317.9" y1="96.1" x2="324.131253125" y2="96.1" width="0.1524" layer="16"/>
+<wire x1="324.131253125" y1="96.1" x2="324.212503125" y2="96.18125" width="0.1524" layer="16"/>
+<wire x1="170.09214375" y1="97.4712" x2="316.5288" y2="97.4712" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_9{MCU}">
+<contactref element="U1" pad="124"/>
+<contactref element="SJ_MCU_COL9" pad="2"/>
+<wire x1="171.1207" y1="95.71875" x2="172.56835" y2="97.1664" width="0.1524" layer="16"/>
+<wire x1="316.3964625" y1="97.1664" x2="172.56835" y2="97.1664" width="0.1524" layer="16"/>
+<wire x1="324.212503125" y1="95.68125" x2="317.8816125" y2="95.68125" width="0.1524" layer="16"/>
+<wire x1="317.8816125" y1="95.68125" x2="316.3964625" y2="97.1664" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_9{MCU}">
+<contactref element="U1" pad="123"/>
+<contactref element="SJ_MCU_LED_COL9" pad="2"/>
+<wire x1="175.97695" y1="96.24375" x2="176.5948" y2="96.8616" width="0.1524" layer="16"/>
+<wire x1="316.27020625" y1="96.8616" x2="176.5948" y2="96.8616" width="0.1524" layer="16"/>
+<wire x1="324.212503125" y1="95.18125" x2="317.95055625" y2="95.18125" width="0.1524" layer="16"/>
+<wire x1="317.95055625" y1="95.18125" x2="316.27020625" y2="96.8616" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_10{MCU}">
+<contactref element="U1" pad="120"/>
+<contactref element="SJ_MCU_COL10" pad="2"/>
+<wire x1="190.2582" y1="95.9" x2="190.915" y2="96.5568" width="0.1524" layer="16"/>
+<wire x1="190.915" y1="96.5568" x2="316.14395" y2="96.5568" width="0.1524" layer="16"/>
+<wire x1="324.193753125" y1="93.7" x2="324.212503125" y2="93.68125" width="0.1524" layer="16"/>
+<wire x1="316.14395" y1="96.5568" x2="317.8243" y2="94.87645" width="0.1524" layer="16"/>
+<wire x1="322.91875" y1="93.68125" x2="324.212503125" y2="93.68125" width="0.1524" layer="16"/>
+<wire x1="317.8243" y1="94.87645" x2="321.72355" y2="94.87645" width="0.1524" layer="16"/>
+<wire x1="321.72355" y1="94.87645" x2="322.91875" y2="93.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_10{MCU}">
+<contactref element="U1" pad="119"/>
+<contactref element="SJ_MCU_LED_COL10" pad="2"/>
+<wire x1="197.2707" y1="95.375" x2="198.475" y2="95.375" width="0.1524" layer="16"/>
+<wire x1="198.475" y1="95.375" x2="199.352" y2="96.252" width="0.1524" layer="16"/>
+<wire x1="316.01769375" y1="96.252" x2="317.69804375" y2="94.57165" width="0.1524" layer="16"/>
+<wire x1="317.69804375" y1="94.57165" x2="321.46875" y2="94.57165" width="0.1524" layer="16"/>
+<wire x1="199.352" y1="96.252" x2="316.01769375" y2="96.252" width="0.1524" layer="16"/>
+<wire x1="324.212503125" y1="93.18125" x2="322.85915" y2="93.18125" width="0.1524" layer="16"/>
+<wire x1="322.85915" y1="93.18125" x2="321.46875" y2="94.57165" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_11{MCU}">
+<contactref element="U1" pad="118"/>
+<contactref element="SJ_MCU_COL11" pad="2"/>
+<wire x1="209.2207" y1="94.91875" x2="210.24915" y2="95.9472" width="0.1524" layer="16"/>
+<wire x1="317.5717875" y1="94.26685" x2="315.8914375" y2="95.9472" width="0.1524" layer="16"/>
+<wire x1="210.24915" y1="95.9472" x2="315.8914375" y2="95.9472" width="0.1524" layer="16"/>
+<wire x1="324.212503125" y1="92.68125" x2="322.92809375" y2="92.68125" width="0.1524" layer="16"/>
+<wire x1="322.92809375" y1="92.68125" x2="321.34249375" y2="94.26685" width="0.1524" layer="16"/>
+<wire x1="321.34249375" y1="94.26685" x2="317.5717875" y2="94.26685" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_11{MCU}">
+<contactref element="U1" pad="117"/>
+<contactref element="SJ_MCU_LED_COL11" pad="2"/>
+<wire x1="216.37695" y1="94.74375" x2="216.84375" y2="94.74375" width="0.1524" layer="16"/>
+<wire x1="216.84375" y1="94.74375" x2="217.7424" y2="95.6424" width="0.1524" layer="16"/>
+<wire x1="317.44553125" y1="93.96205" x2="315.76518125" y2="95.6424" width="0.1524" layer="16"/>
+<wire x1="217.7424" y1="95.6424" x2="315.76518125" y2="95.6424" width="0.1524" layer="16"/>
+<wire x1="324.212503125" y1="92.18125" x2="322.9970375" y2="92.18125" width="0.1524" layer="16"/>
+<wire x1="322.9970375" y1="92.18125" x2="321.2162375" y2="93.96205" width="0.1524" layer="16"/>
+<wire x1="321.2162375" y1="93.96205" x2="317.44553125" y2="93.96205" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_12{MCU}">
+<contactref element="U1" pad="116"/>
+<contactref element="SJ_MCU_COL12" pad="2"/>
+<wire x1="228.7207" y1="94.61875" x2="229.43955" y2="95.3376" width="0.1524" layer="16"/>
+<wire x1="315.638925" y1="95.3376" x2="317.319275" y2="93.65725" width="0.1524" layer="16"/>
+<wire x1="323.01875" y1="91.68125" x2="324.212503125" y2="91.68125" width="0.1524" layer="16"/>
+<wire x1="229.43955" y1="95.3376" x2="315.638925" y2="95.3376" width="0.1524" layer="16"/>
+<wire x1="317.319275" y1="93.65725" x2="321.04275" y2="93.65725" width="0.1524" layer="16"/>
+<wire x1="321.04275" y1="93.65725" x2="323.01875" y2="91.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_12{MCU}">
+<contactref element="U1" pad="115"/>
+<contactref element="SJ_MCU_LED_COL12" pad="2"/>
+<wire x1="236.07695" y1="94.04375" x2="237.066" y2="95.0328" width="0.1524" layer="16"/>
+<wire x1="315.51266875" y1="95.0328" x2="317.19301875" y2="93.35245" width="0.1524" layer="16"/>
+<wire x1="322.91875" y1="91.18125" x2="324.212503125" y2="91.18125" width="0.1524" layer="16"/>
+<wire x1="237.066" y1="95.0328" x2="315.51266875" y2="95.0328" width="0.1524" layer="16"/>
+<wire x1="317.19301875" y1="93.35245" x2="320.74755" y2="93.35245" width="0.1524" layer="16"/>
+<wire x1="320.74755" y1="93.35245" x2="322.91875" y2="91.18125" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_13{MCU}">
+<contactref element="U1" pad="114"/>
+<contactref element="SJ_MCU_COL13" pad="2"/>
+<wire x1="247.4207" y1="93.81875" x2="248.32995" y2="94.728" width="0.1524" layer="16"/>
+<wire x1="248.32995" y1="94.728" x2="314.325" y2="94.728" width="0.1524" layer="16"/>
+<wire x1="314.325" y1="94.728" x2="315.347775" y2="94.728" width="0.1524" layer="16"/>
+<wire x1="315.347775" y1="94.728" x2="317.028125" y2="93.04765" width="0.1524" layer="16"/>
+<wire x1="322.91875" y1="90.68125" x2="324.212503125" y2="90.68125" width="0.1524" layer="16"/>
+<wire x1="317.028125" y1="93.04765" x2="320.55235" y2="93.04765" width="0.1524" layer="16"/>
+<wire x1="320.55235" y1="93.04765" x2="322.91875" y2="90.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_13{MCU}">
+<contactref element="U1" pad="113"/>
+<contactref element="SJ_MCU_LED_COL13" pad="2"/>
+<wire x1="255.3564" y1="94.4232" x2="254.57695" y2="93.64375" width="0.1524" layer="16"/>
+<wire x1="315.22151875" y1="94.4232" x2="255.3564" y2="94.4232" width="0.1524" layer="16"/>
+<wire x1="316.90186875" y1="92.74285" x2="315.22151875" y2="94.4232" width="0.1524" layer="16"/>
+<wire x1="324.212503125" y1="90.18125" x2="322.98769375" y2="90.18125" width="0.1524" layer="16"/>
+<wire x1="322.98769375" y1="90.18125" x2="320.42609375" y2="92.74285" width="0.1524" layer="16"/>
+<wire x1="320.42609375" y1="92.74285" x2="316.90186875" y2="92.74285" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_14{MCU}">
+<contactref element="U1" pad="112"/>
+<contactref element="SJ_MCU_COL14" pad="2"/>
+<wire x1="266.40195" y1="93.51875" x2="267.0016" y2="94.1184" width="0.1524" layer="16"/>
+<wire x1="267.0016" y1="94.1184" x2="315.0952625" y2="94.1184" width="0.1524" layer="16"/>
+<wire x1="315.0952625" y1="94.1184" x2="316.7756125" y2="92.43805" width="0.1524" layer="16"/>
+<wire x1="320.2998375" y1="92.43805" x2="316.7756125" y2="92.43805" width="0.1524" layer="16"/>
+<wire x1="324.212503125" y1="89.68125" x2="324.0761" y2="89.817653125" width="0.1524" layer="16"/>
+<wire x1="324.0761" y1="89.817653125" x2="322.920234375" y2="89.817653125" width="0.1524" layer="16"/>
+<wire x1="322.920234375" y1="89.817653125" x2="320.2998375" y2="92.43805" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_14{MCU}">
+<contactref element="U1" pad="111"/>
+<contactref element="SJ_MCU_LED_COL14" pad="2"/>
+<wire x1="274.77695" y1="93.04375" x2="275.5468" y2="93.8136" width="0.1524" layer="16"/>
+<wire x1="275.5468" y1="93.8136" x2="311.5041625" y2="93.8136" width="0.1524" layer="16"/>
+<wire x1="324.206253125" y1="89.175" x2="316.1427625" y2="89.175" width="0.1524" layer="16"/>
+<wire x1="324.206253125" y1="89.175" x2="324.212503125" y2="89.18125" width="0.1524" layer="16"/>
+<wire x1="311.5041625" y1="93.8136" x2="316.1427625" y2="89.175" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_15{MCU}">
+<contactref element="U1" pad="110"/>
+<contactref element="SJ_MCU_COL15" pad="2"/>
+<wire x1="285.4207" y1="92.51875" x2="286.41075" y2="93.5088" width="0.1524" layer="16"/>
+<wire x1="311.37790625" y1="93.5088" x2="316.01650625" y2="88.8702" width="0.1524" layer="16"/>
+<wire x1="316.01650625" y1="88.8702" x2="320.1298" y2="88.8702" width="0.1524" layer="16"/>
+<wire x1="320.31875" y1="88.68125" x2="324.212503125" y2="88.68125" width="0.1524" layer="16"/>
+<wire x1="286.41075" y1="93.5088" x2="311.37790625" y2="93.5088" width="0.1524" layer="16"/>
+<wire x1="320.1298" y1="88.8702" x2="320.31875" y2="88.68125" width="0.1524" layer="16"/>
+</signal>
+<signal name="LED_COL_15{MCU}">
+<contactref element="U1" pad="109"/>
+<contactref element="SJ_MCU_LED_COL15" pad="2"/>
+<wire x1="294.77695" y1="92.34375" x2="295.6372" y2="93.204" width="0.1524" layer="16"/>
+<wire x1="311.25165" y1="93.204" x2="316.08545" y2="88.3702" width="0.1524" layer="16"/>
+<wire x1="316.08545" y1="88.3702" x2="320.2298" y2="88.3702" width="0.1524" layer="16"/>
+<wire x1="320.41875" y1="88.18125" x2="324.212503125" y2="88.18125" width="0.1524" layer="16"/>
+<wire x1="295.6372" y1="93.204" x2="311.25165" y2="93.204" width="0.1524" layer="16"/>
+<wire x1="320.2298" y1="88.3702" x2="320.41875" y2="88.18125" width="0.1524" layer="16"/>
+</signal>
+<signal name="COL_17{MCU}">
+<contactref element="U1" pad="105"/>
+<contactref element="SJ_MCU_COL17" pad="2"/>
+<wire x1="327.5875" y1="86.306253125" x2="330.47305" y2="111.91875" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="LED_COL_17{MCU}">
+<contactref element="U1" pad="106"/>
+<contactref element="SJ_MCU_LED_COL17" pad="2"/>
+<wire x1="327.0875" y1="86.306253125" x2="330.3168" y2="109.29375" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
