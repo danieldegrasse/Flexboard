@@ -32,20 +32,20 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
@@ -53,13 +53,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -169,27 +169,27 @@
 <text x="48.75625" y="20.09375" size="2.1844" layer="21" rot="R270">Cut Point</text>
 <wire x1="404.8125" y1="140.49375" x2="404.8125" y2="2.38125" width="1.016" layer="21" style="dashdot"/>
 <text x="402.43125" y="2.38125" size="2.1844" layer="21" rot="R90">Cut Point</text>
-<dimension x1="33.3375" y1="104.775" x2="33.3375" y2="95.25" x3="23.8125" y3="100.0125" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="38.1" y1="128.5875" x2="47.625" y2="128.5875" x3="42.8625" y3="138.1125" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="180.975" y1="121.44375" x2="190.5" y2="121.44375" x3="185.7375" y3="104.775" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="276.225" y1="121.44375" x2="266.7" y2="121.44375" x3="271.4625" y3="104.775" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="400.05" y1="133.35" x2="409.575" y2="133.35" x3="404.8125" y3="19.05" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="333.375" y1="140.49375" x2="342.9" y2="140.49375" x3="338.1375" y3="19.05" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="295.275" y1="78.58125" x2="333.375" y2="78.58125" x3="314.325" y3="90.4875" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="304.8" y1="59.53125" x2="333.375" y2="59.53125" x3="319.0875" y3="73.81875" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="290.5125" y1="40.48125" x2="333.375" y2="40.48125" x3="311.94375" y3="52.3875" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="280.9875" y1="33.3375" x2="333.375" y2="33.3375" x3="307.18125" y3="23.8125" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="285.75" y1="16.66875" x2="309.5625" y2="16.66875" x3="297.65625" y3="4.7625" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="333.375" y1="16.66875" x2="309.5625" y2="16.66875" x3="321.46875" y3="4.7625" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="261.9375" y1="16.66875" x2="285.75" y2="16.66875" x3="273.84375" y3="4.7625" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="238.125" y1="16.66875" x2="261.9375" y2="16.66875" x3="250.03125" y3="4.7625" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="119.0625" y1="16.66875" x2="238.125" y2="16.66875" x3="178.59375" y3="4.7625" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="95.25" y1="16.66875" x2="119.0625" y2="16.66875" x3="107.15625" y3="4.7625" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="71.4375" y1="16.66875" x2="95.25" y2="16.66875" x3="83.34375" y3="4.7625" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="47.625" y1="16.66875" x2="71.4375" y2="16.66875" x3="59.53125" y3="4.7625" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="47.625" y1="23.8125" x2="90.4875" y2="23.8125" x3="69.05625" y3="33.3375" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="47.625" y1="40.48125" x2="80.9625" y2="40.48125" x3="64.29375" y3="52.3875" textsize="2.1844" layer="51" unit="inch"/>
-<dimension x1="47.625" y1="71.4375" x2="76.2" y2="71.4375" x3="61.9125" y3="61.9125" textsize="2.1844" layer="51" unit="inch"/>
+<dimension x1="33.3375" y1="104.775" x2="33.3375" y2="95.25" x3="23.8125" y3="100.0125" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="38.1" y1="128.5875" x2="47.625" y2="128.5875" x3="42.8625" y3="138.1125" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="180.975" y1="121.44375" x2="190.5" y2="121.44375" x3="185.7375" y3="104.775" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="276.225" y1="121.44375" x2="266.7" y2="121.44375" x3="271.4625" y3="104.775" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="400.05" y1="133.35" x2="409.575" y2="133.35" x3="404.8125" y3="19.05" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="333.375" y1="140.49375" x2="342.9" y2="140.49375" x3="338.1375" y3="19.05" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="295.275" y1="78.58125" x2="333.375" y2="78.58125" x3="314.325" y3="90.4875" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="304.8" y1="59.53125" x2="333.375" y2="59.53125" x3="319.0875" y3="73.81875" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="290.5125" y1="40.48125" x2="333.375" y2="40.48125" x3="311.94375" y3="52.3875" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="280.9875" y1="33.3375" x2="333.375" y2="33.3375" x3="307.18125" y3="23.8125" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="285.75" y1="16.66875" x2="309.5625" y2="16.66875" x3="297.65625" y3="4.7625" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="333.375" y1="16.66875" x2="309.5625" y2="16.66875" x3="321.46875" y3="4.7625" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="261.9375" y1="16.66875" x2="285.75" y2="16.66875" x3="273.84375" y3="4.7625" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="238.125" y1="16.66875" x2="261.9375" y2="16.66875" x3="250.03125" y3="4.7625" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="119.0625" y1="16.66875" x2="238.125" y2="16.66875" x3="178.59375" y3="4.7625" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="95.25" y1="16.66875" x2="119.0625" y2="16.66875" x3="107.15625" y3="4.7625" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="71.4375" y1="16.66875" x2="95.25" y2="16.66875" x3="83.34375" y3="4.7625" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="47.625" y1="16.66875" x2="71.4375" y2="16.66875" x3="59.53125" y3="4.7625" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="47.625" y1="23.8125" x2="90.4875" y2="23.8125" x3="69.05625" y3="33.3375" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="47.625" y1="40.48125" x2="80.9625" y2="40.48125" x3="64.29375" y3="52.3875" textsize="1.27" layer="51" unit="inch"/>
+<dimension x1="47.625" y1="71.4375" x2="76.2" y2="71.4375" x3="61.9125" y3="61.9125" textsize="1.27" layer="51" unit="inch"/>
 <dimension x1="19.05" y1="121.44375" x2="0" y2="121.44375" x3="9.525" y3="104.775" textsize="1.778" layer="21" unit="inch"/>
 </plain>
 <libraries>
@@ -1434,10 +1434,10 @@ design rules under a new name.</description>
 </groups>
 <elements>
 <element name="KEY_1" library="cherrymx" package="CHERRY-MX-LED" value="CHERRY-MX-LED" x="9.525" y="133.35" smashed="yes">
-<attribute name="NAME" x="1.905" y="138.58875" size="1.27" layer="25"/>
+<attribute name="NAME" x="1.905" y="141.38875" size="1.27" layer="25"/>
 </element>
 <element name="KEY_2" library="cherrymx" package="CHERRY-MX-LED" value="CHERRY-MX-LED" x="28.575" y="133.35" smashed="yes">
-<attribute name="NAME" x="20.955" y="138.58875" size="1.27" layer="25"/>
+<attribute name="NAME" x="20.855" y="141.48875" size="1.27" layer="25"/>
 </element>
 <element name="KEY_3" library="cherrymx" package="CHERRY-MX-LED" value="CHERRY-MX-LED" x="57.15" y="133.35" smashed="yes">
 <attribute name="NAME" x="49.53" y="138.58875" size="1.27" layer="25"/>
@@ -1498,7 +1498,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="19.05" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="19.05" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="19.05" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="21.050140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="21.050140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="19.05" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="19.05" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1507,7 +1507,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="30.95625" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="30.95625" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="30.95625" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="32.956390625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="32.956390625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="30.95625" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="30.95625" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1516,7 +1516,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="66.675" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="66.675" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="66.675" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="68.675140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="68.675140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="66.675" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="66.675" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1525,7 +1525,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="85.725" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="85.725" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="85.725" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="87.725140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="87.725140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="85.725" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="85.725" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1534,7 +1534,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="104.775" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="104.775" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="104.775" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="106.775140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="106.775140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="104.775" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="104.775" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1543,7 +1543,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="123.825" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="123.825" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="123.825" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="125.825140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="125.825140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="123.825" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="123.825" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1552,7 +1552,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="142.875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="142.875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="142.875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="144.875140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="144.875140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="142.875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="142.875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1561,7 +1561,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="161.925" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="161.925" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="161.925" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="163.925140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="163.925140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="161.925" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="161.925" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1570,7 +1570,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="180.975" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="180.975" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="180.975" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="182.975140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="182.975140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="180.975" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="180.975" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1579,7 +1579,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="200.025" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="200.025" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="200.025" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="202.025140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="202.025140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="200.025" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="200.025" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1588,7 +1588,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="219.075" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="219.075" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="219.075" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="221.075140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="221.075140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="219.075" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="219.075" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1597,7 +1597,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="238.125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="238.125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="238.125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="240.125140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="240.125140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="238.125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="238.125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1606,7 +1606,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="257.175" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="257.175" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="257.175" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="259.175140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="259.175140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="257.175" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="257.175" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1615,7 +1615,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="276.225" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="276.225" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="276.225" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="278.225140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="278.225140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="276.225" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="276.225" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1624,7 +1624,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="295.275" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="295.275" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="295.275" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="297.275140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="297.275140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="295.275" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="295.275" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1633,7 +1633,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="314.325" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="314.325" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="314.325" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="316.325140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="316.325140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="314.325" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="314.325" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1642,7 +1642,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="328.6125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="328.6125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="328.6125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="330.612640625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="330.612640625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="328.6125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="328.6125" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1651,7 +1651,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="361.95" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="361.95" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="361.95" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="363.950140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="363.950140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="361.95" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="361.95" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1660,7 +1660,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="381" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="381" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="381" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="383.000140625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="383.000140625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="381" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="381" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1669,7 +1669,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="395.2875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="395.2875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="395.2875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="397.287640625" y="140.112640625" size="1.270090625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="397.287640625" y="140.112640625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="395.2875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="395.2875" y="142.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1738,7 +1738,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-311.15" y="39.52875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-311.15" y="39.52875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-311.15" y="39.52875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="17.049859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="17.049859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-311.15" y="39.52875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-311.15" y="39.52875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1747,7 +1747,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-303.53" y="47.14875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-303.53" y="47.14875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-303.53" y="47.14875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="36.099859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="36.099859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-303.53" y="47.14875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-303.53" y="47.14875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1756,7 +1756,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-286.385" y="54.76875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-286.385" y="54.76875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-286.385" y="54.76875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="64.674859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="64.674859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-286.385" y="54.76875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-286.385" y="54.76875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1765,7 +1765,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-278.765" y="62.38875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-278.765" y="62.38875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-278.765" y="62.38875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="83.724859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="83.724859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-278.765" y="62.38875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-278.765" y="62.38875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1774,7 +1774,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-271.145" y="70.00875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-271.145" y="70.00875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-271.145" y="70.00875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="102.774859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="102.774859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-271.145" y="70.00875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-271.145" y="70.00875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1783,7 +1783,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-263.525" y="77.62875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-263.525" y="77.62875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-263.525" y="77.62875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="121.824859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="121.824859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-263.525" y="77.62875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-263.525" y="77.62875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1792,7 +1792,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-255.905" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-255.905" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-255.905" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="140.874859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="140.874859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-255.905" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-255.905" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1801,7 +1801,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-168.275" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-168.275" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-168.275" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="159.924859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="159.924859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-168.275" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-168.275" y="85.24875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1810,7 +1810,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-160.655" y="85.725" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-160.655" y="85.725" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-160.655" y="85.725" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="178.974859375" y="102.774859375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="178.974859375" y="102.774859375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-160.655" y="85.725" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-160.655" y="85.725" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1819,7 +1819,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-153.035" y="93.345" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-153.035" y="93.345" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-153.035" y="93.345" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="198.024859375" y="102.774859375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="198.024859375" y="102.774859375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-153.035" y="93.345" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-153.035" y="93.345" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1828,7 +1828,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-145.415" y="100.965" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-145.415" y="100.965" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-145.415" y="100.965" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="217.074859375" y="102.774859375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="217.074859375" y="102.774859375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-145.415" y="100.965" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-145.415" y="100.965" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1837,7 +1837,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-137.795" y="108.585" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-137.795" y="108.585" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-137.795" y="108.585" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="236.124859375" y="102.774859375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="236.124859375" y="102.774859375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-137.795" y="108.585" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-137.795" y="108.585" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1846,7 +1846,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-130.175" y="116.205" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-130.175" y="116.205" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-130.175" y="116.205" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="255.174859375" y="102.774859375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="255.174859375" y="102.774859375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-130.175" y="116.205" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-130.175" y="116.205" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1855,7 +1855,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-122.555" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-122.555" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-122.555" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="274.224859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="274.224859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-122.555" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-122.555" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1864,7 +1864,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-34.925" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-34.925" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-34.925" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="293.274859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="293.274859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-34.925" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-34.925" y="130.96875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1873,7 +1873,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-27.305" y="138.58875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-27.305" y="138.58875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-27.305" y="138.58875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="312.324859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="312.324859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-27.305" y="138.58875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-27.305" y="138.58875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1882,7 +1882,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-23.385" y="153.2525" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-23.385" y="153.2525" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-23.385" y="153.2525" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="327.674859375" y="116.962359375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="327.674859375" y="116.962359375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-23.385" y="153.2525" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-23.385" y="153.2525" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1891,7 +1891,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-2.54" y="153.82875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-2.54" y="153.82875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-2.54" y="153.82875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="359.949859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="359.949859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-2.54" y="153.82875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-2.54" y="153.82875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1900,7 +1900,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="5.08" y="161.44875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="5.08" y="161.44875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="5.08" y="161.44875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="378.999859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="378.999859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="5.08" y="161.44875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="5.08" y="161.44875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1909,7 +1909,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="12.7" y="169.06875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="12.7" y="169.06875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="12.7" y="169.06875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="398.049859375" y="109.918609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="398.049859375" y="109.918609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="12.7" y="169.06875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="12.7" y="169.06875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1963,7 +1963,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-311.15" y="10.95375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-311.15" y="10.95375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-311.15" y="10.95375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="17.049859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="17.049859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-311.15" y="10.95375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-311.15" y="10.95375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1972,7 +1972,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-303.53" y="18.57375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-303.53" y="18.57375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-303.53" y="18.57375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="36.099859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="36.099859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-303.53" y="18.57375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-303.53" y="18.57375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1981,7 +1981,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-286.385" y="26.19375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-286.385" y="26.19375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-286.385" y="26.19375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="64.674859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="64.674859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-286.385" y="26.19375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-286.385" y="26.19375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1990,7 +1990,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-278.765" y="33.81375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-278.765" y="33.81375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-278.765" y="33.81375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="83.724859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="83.724859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-278.765" y="33.81375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-278.765" y="33.81375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1999,7 +1999,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-271.145" y="41.43375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-271.145" y="41.43375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-271.145" y="41.43375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="102.774859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="102.774859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-271.145" y="41.43375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-271.145" y="41.43375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2008,7 +2008,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-263.525" y="49.05375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-263.525" y="49.05375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-263.525" y="49.05375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="121.824859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="121.824859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-263.525" y="49.05375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-263.525" y="49.05375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2017,7 +2017,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-255.905" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-255.905" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-255.905" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="140.874859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="140.874859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-255.905" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-255.905" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2026,7 +2026,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-168.275" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-168.275" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-168.275" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="159.924859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="159.924859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-168.275" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-168.275" y="56.67375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2035,7 +2035,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-160.655" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-160.655" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-160.655" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="178.974859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="178.974859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-160.655" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-160.655" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2044,7 +2044,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-153.035" y="71.91375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-153.035" y="71.91375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-153.035" y="71.91375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="198.024859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="198.024859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-153.035" y="71.91375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-153.035" y="71.91375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2053,7 +2053,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-145.415" y="79.53375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-145.415" y="79.53375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-145.415" y="79.53375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="217.074859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="217.074859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-145.415" y="79.53375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-145.415" y="79.53375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2062,7 +2062,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-137.795" y="87.15375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-137.795" y="87.15375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-137.795" y="87.15375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="236.124859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="236.124859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-137.795" y="87.15375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-137.795" y="87.15375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2071,7 +2071,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-130.175" y="94.77375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-130.175" y="94.77375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-130.175" y="94.77375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="255.174859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="255.174859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-130.175" y="94.77375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-130.175" y="94.77375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2080,7 +2080,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-122.555" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-122.555" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-122.555" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="274.224859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="274.224859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-122.555" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-122.555" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2089,7 +2089,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-34.925" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-34.925" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-34.925" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="293.274859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="293.274859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-34.925" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-34.925" y="102.39375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2101,7 +2101,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="307.34" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="307.34" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="307.34" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="321.849859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="321.849859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="307.34" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="307.34" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2113,7 +2113,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="345.44" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="345.44" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="345.44" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="359.949859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="359.949859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="345.44" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="345.44" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2125,7 +2125,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="364.49" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="364.49" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="364.49" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="378.999859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="378.999859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="364.49" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="364.49" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2137,7 +2137,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="376.2375" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="376.2375" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="376.2375" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="393.287359375" y="97.250140625" size="1.270090625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="393.287359375" y="97.250140625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="376.2375" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="376.2375" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -2149,7 +2149,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="412.115" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="412.115" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="412.115" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="426.624859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="426.624859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="412.115" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="412.115" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2161,7 +2161,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="431.165" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="431.165" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="431.165" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="445.674859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="445.674859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="431.165" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="431.165" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2173,7 +2173,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="450.215" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="450.215" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="450.215" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="464.724859375" y="81.343609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="464.724859375" y="81.343609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="450.215" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="450.215" y="64.29375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2185,7 +2185,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="457.2" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="457.2" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="457.2" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="474.249859375" y="97.250140625" size="1.270090625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="474.249859375" y="97.250140625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="457.2" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="457.2" y="111.76" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -2239,7 +2239,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-278.13" y="-8.09625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-278.13" y="-8.09625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-278.13" y="-8.09625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="17.049859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="17.049859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-278.13" y="-8.09625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-278.13" y="-8.09625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2248,7 +2248,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-270.51" y="-0.47625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-270.51" y="-0.47625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-270.51" y="-0.47625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="36.099859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="36.099859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-270.51" y="-0.47625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-270.51" y="-0.47625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2257,7 +2257,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-248.6025" y="7.14375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-248.6025" y="7.14375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-248.6025" y="7.14375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="69.437359375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="69.437359375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-248.6025" y="7.14375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-248.6025" y="7.14375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2266,7 +2266,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-236.22" y="14.76375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-236.22" y="14.76375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-236.22" y="14.76375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="93.249859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="93.249859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-236.22" y="14.76375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-236.22" y="14.76375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2275,7 +2275,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-133.35" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-133.35" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-133.35" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="112.299859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="112.299859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-133.35" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-133.35" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2284,7 +2284,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-125.73" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-125.73" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-125.73" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="131.349859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="131.349859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-125.73" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-125.73" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2293,7 +2293,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-118.11" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-118.11" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-118.11" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="150.399859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="150.399859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-118.11" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-118.11" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2302,7 +2302,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-110.49" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-110.49" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-110.49" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="169.449859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="169.449859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-110.49" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-110.49" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2311,7 +2311,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="188.499859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="188.499859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2320,7 +2320,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-95.25" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-95.25" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-95.25" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="207.549859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="207.549859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-95.25" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-95.25" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2329,7 +2329,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-87.63" y="50.32375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-87.63" y="50.32375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-87.63" y="50.32375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="226.599859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="226.599859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-87.63" y="50.32375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-87.63" y="50.32375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2338,7 +2338,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-80.01" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-80.01" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-80.01" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="245.649859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="245.649859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-80.01" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-80.01" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2347,7 +2347,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="19.05" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="19.05" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="19.05" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="264.699859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="264.699859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="19.05" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="19.05" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2356,7 +2356,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="26.67" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="26.67" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="26.67" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="283.749859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="283.749859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="26.67" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="26.67" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2365,7 +2365,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="34.29" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="34.29" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="34.29" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="302.799859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="302.799859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="34.29" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="34.29" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2377,7 +2377,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="30.1625" y="80.80375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="30.1625" y="80.80375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="30.1625" y="80.80375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="326.612359375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="326.612359375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="30.1625" y="80.80375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="30.1625" y="80.80375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2389,7 +2389,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="35.56" y="88.42375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="35.56" y="88.42375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="35.56" y="88.42375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="359.949859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="359.949859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="35.56" y="88.42375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="35.56" y="88.42375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2401,7 +2401,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="26.67" y="96.04375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="26.67" y="96.04375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="26.67" y="96.04375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="378.999859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="378.999859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="26.67" y="96.04375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="26.67" y="96.04375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2413,7 +2413,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="434.6575" y="458.47" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="434.6575" y="458.47" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="434.6575" y="458.47" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="393.287359375" y="78.200140625" size="1.270090625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="393.287359375" y="78.200140625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="434.6575" y="458.47" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="434.6575" y="458.47" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -2425,7 +2425,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="18.415" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="18.415" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="18.415" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="426.624859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="426.624859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="18.415" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="18.415" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2437,7 +2437,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="100.965" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="100.965" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="100.965" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="445.674859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="445.674859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="100.965" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="100.965" y="111.28375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2449,7 +2449,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="92.075" y="118.90375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="92.075" y="118.90375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="92.075" y="118.90375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="464.724859375" y="62.293609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="464.724859375" y="62.293609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="92.075" y="118.90375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="92.075" y="118.90375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2461,7 +2461,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="538.48" y="478.79" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="538.48" y="478.79" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="538.48" y="478.79" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="474.249859375" y="78.200140625" size="1.270090625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="474.249859375" y="78.200140625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="538.48" y="478.79" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="538.48" y="478.79" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -2515,7 +2515,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-278.13" y="-27.14625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-278.13" y="-27.14625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-278.13" y="-27.14625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="17.049859375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="17.049859375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-278.13" y="-27.14625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-278.13" y="-27.14625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2524,7 +2524,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-270.51" y="-19.52625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-270.51" y="-19.52625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-270.51" y="-19.52625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="36.099859375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="36.099859375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-270.51" y="-19.52625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-270.51" y="-19.52625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2533,7 +2533,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-246.22125" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-246.22125" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-246.22125" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="71.818609375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="71.818609375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-246.22125" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-246.22125" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2542,7 +2542,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-231.4575" y="-4.28625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-231.4575" y="-4.28625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-231.4575" y="-4.28625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="98.012359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="98.012359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-231.4575" y="-4.28625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-231.4575" y="-4.28625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2551,7 +2551,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-128.5875" y="-14.44625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-128.5875" y="-14.44625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-128.5875" y="-14.44625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="117.062359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="117.062359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-128.5875" y="-14.44625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-128.5875" y="-14.44625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2560,7 +2560,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-120.9675" y="-6.82625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-120.9675" y="-6.82625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-120.9675" y="-6.82625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="136.112359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="136.112359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-120.9675" y="-6.82625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-120.9675" y="-6.82625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2569,7 +2569,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-113.3475" y="0.79375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-113.3475" y="0.79375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-113.3475" y="0.79375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="155.162359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="155.162359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-113.3475" y="0.79375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-113.3475" y="0.79375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2578,7 +2578,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-105.7275" y="8.41375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-105.7275" y="8.41375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-105.7275" y="8.41375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="174.212359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="174.212359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-105.7275" y="8.41375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-105.7275" y="8.41375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2587,7 +2587,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-98.1075" y="16.03375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-98.1075" y="16.03375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-98.1075" y="16.03375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="193.262359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="193.262359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-98.1075" y="16.03375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-98.1075" y="16.03375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2596,7 +2596,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-90.4875" y="23.65375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-90.4875" y="23.65375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-90.4875" y="23.65375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="212.312359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="212.312359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-90.4875" y="23.65375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-90.4875" y="23.65375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2605,7 +2605,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-82.8675" y="31.27375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-82.8675" y="31.27375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-82.8675" y="31.27375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="231.362359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="231.362359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-82.8675" y="31.27375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-82.8675" y="31.27375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2614,7 +2614,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-75.2475" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-75.2475" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-75.2475" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="250.412359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="250.412359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-75.2475" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-75.2475" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2623,7 +2623,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="23.8125" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="23.8125" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="23.8125" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="269.462359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="269.462359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="23.8125" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="23.8125" y="38.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2632,7 +2632,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="31.4325" y="46.51375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="31.4325" y="46.51375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="31.4325" y="46.51375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="288.512359375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="288.512359375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="31.4325" y="46.51375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="31.4325" y="46.51375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2641,7 +2641,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="50.95875" y="54.13375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="50.95875" y="54.13375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="50.95875" y="54.13375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="319.468609375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="319.468609375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="50.95875" y="54.13375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="50.95875" y="54.13375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2653,7 +2653,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="63.5" y="61.75375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="63.5" y="61.75375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="63.5" y="61.75375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="359.949859375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="359.949859375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="63.5" y="61.75375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="63.5" y="61.75375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2665,7 +2665,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="54.61" y="69.37375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="54.61" y="69.37375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="54.61" y="69.37375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="378.999859375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="378.999859375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="54.61" y="69.37375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="54.61" y="69.37375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2677,7 +2677,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="427.0375" y="411.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="427.0375" y="411.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="427.0375" y="411.48" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="393.287359375" y="59.150140625" size="1.270090625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="393.287359375" y="59.150140625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="427.0375" y="411.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="427.0375" y="411.48" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -2689,7 +2689,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="46.355" y="84.61375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="46.355" y="84.61375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="46.355" y="84.61375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="426.624859375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="426.624859375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="46.355" y="84.61375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="46.355" y="84.61375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2701,7 +2701,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="37.465" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="37.465" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="37.465" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="445.674859375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="445.674859375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="37.465" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="37.465" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2713,7 +2713,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="120.015" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="120.015" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="120.015" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="464.724859375" y="43.243609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="464.724859375" y="43.243609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="120.015" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="120.015" y="92.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2725,7 +2725,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="530.86" y="431.8" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="530.86" y="431.8" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="530.86" y="431.8" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="474.249859375" y="59.150140625" size="1.270090625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="474.249859375" y="59.150140625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="530.86" y="431.8" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="530.86" y="431.8" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -2779,7 +2779,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-261.62" y="-46.19625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-261.62" y="-46.19625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-261.62" y="-46.19625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="17.049859375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="17.049859375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-261.62" y="-46.19625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-261.62" y="-46.19625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2788,7 +2788,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-254" y="-38.57625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-254" y="-38.57625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-254" y="-38.57625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="36.099859375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="36.099859375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-254" y="-38.57625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-254" y="-38.57625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2797,7 +2797,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-224.94875" y="-30.95625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-224.94875" y="-30.95625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-224.94875" y="-30.95625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="76.581109375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="76.581109375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-224.94875" y="-30.95625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-224.94875" y="-30.95625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2806,7 +2806,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-205.4225" y="-23.33625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-205.4225" y="-23.33625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-205.4225" y="-23.33625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="107.537359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="107.537359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-205.4225" y="-23.33625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-205.4225" y="-23.33625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2815,7 +2815,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-197.8025" y="-15.71625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-197.8025" y="-15.71625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-197.8025" y="-15.71625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="126.587359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="126.587359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-197.8025" y="-15.71625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-197.8025" y="-15.71625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2824,7 +2824,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-100.0125" y="-25.87625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-100.0125" y="-25.87625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-100.0125" y="-25.87625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="145.637359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="145.637359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-100.0125" y="-25.87625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-100.0125" y="-25.87625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2833,7 +2833,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-92.3925" y="-18.25625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-92.3925" y="-18.25625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-92.3925" y="-18.25625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="164.687359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="164.687359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-92.3925" y="-18.25625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-92.3925" y="-18.25625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2842,7 +2842,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-84.7725" y="-10.63625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-84.7725" y="-10.63625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-84.7725" y="-10.63625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="183.737359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="183.737359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-84.7725" y="-10.63625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-84.7725" y="-10.63625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2851,7 +2851,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-77.1525" y="-3.01625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-77.1525" y="-3.01625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-77.1525" y="-3.01625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="202.787359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="202.787359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-77.1525" y="-3.01625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-77.1525" y="-3.01625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2860,7 +2860,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-69.5325" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-69.5325" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-69.5325" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="221.837359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="221.837359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-69.5325" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-69.5325" y="4.60375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2869,7 +2869,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-61.9125" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-61.9125" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-61.9125" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="240.887359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="240.887359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-61.9125" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-61.9125" y="12.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2878,7 +2878,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-54.2925" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-54.2925" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-54.2925" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="259.937359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="259.937359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-54.2925" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-54.2925" y="19.84375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2887,7 +2887,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-46.6725" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-46.6725" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-46.6725" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="278.987359375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="278.987359375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-46.6725" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-46.6725" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2896,7 +2896,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="69.05625" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="69.05625" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="69.05625" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="314.706109375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="314.706109375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="69.05625" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="69.05625" y="27.46375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2905,7 +2905,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="359.949859375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="359.949859375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="102.87" y="35.08375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2917,7 +2917,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="93.98" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="93.98" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="93.98" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="378.999859375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="378.999859375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="93.98" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="93.98" y="42.70375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2929,7 +2929,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="419.4175" y="353.06" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="419.4175" y="353.06" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="419.4175" y="353.06" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="393.287359375" y="40.100140625" size="1.270090625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="393.287359375" y="40.100140625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="419.4175" y="353.06" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="419.4175" y="353.06" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -2941,7 +2941,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="85.725" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="85.725" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="85.725" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="426.624859375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="426.624859375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="85.725" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="85.725" y="57.94375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2953,7 +2953,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="76.835" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="76.835" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="76.835" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="445.674859375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="445.674859375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="76.835" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="76.835" y="65.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2965,7 +2965,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="67.945" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="67.945" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="67.945" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="464.724859375" y="24.193609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="464.724859375" y="24.193609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="67.945" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="67.945" y="73.18375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2980,7 +2980,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="-30.48" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-30.48" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="-30.48" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="17.049859375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="17.049859375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="-30.48" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="-30.48" y="-11.90625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2989,7 +2989,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="5.08" y="-22.06625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="5.08" y="-22.06625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="5.08" y="-22.06625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="36.099859375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="36.099859375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="5.08" y="-22.06625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="5.08" y="-22.06625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3001,7 +3001,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="52.54625" y="1155.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="52.54625" y="1155.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="52.54625" y="1155.22375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="67.056109375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="67.056109375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="52.54625" y="1155.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="52.54625" y="1155.22375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3013,7 +3013,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="76.35875" y="1181.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="76.35875" y="1181.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="76.35875" y="1181.89375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="90.868609375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="90.868609375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="76.35875" y="1181.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="76.35875" y="1181.89375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3025,7 +3025,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="100.17125" y="1208.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="100.17125" y="1208.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="100.17125" y="1208.56375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="114.681109375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="114.681109375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="100.17125" y="1208.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="100.17125" y="1208.56375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3037,7 +3037,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="171.60875" y="1235.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="171.60875" y="1235.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="171.60875" y="1235.23375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="186.118609375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="186.118609375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="171.60875" y="1235.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="171.60875" y="1235.23375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3049,7 +3049,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="243.04625" y="1261.90375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="243.04625" y="1261.90375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="243.04625" y="1261.90375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="257.556109375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="257.556109375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="243.04625" y="1261.90375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="243.04625" y="1261.90375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3061,7 +3061,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="266.85875" y="1288.57375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="266.85875" y="1288.57375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="266.85875" y="1288.57375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="281.368609375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="281.368609375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="266.85875" y="1288.57375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="266.85875" y="1288.57375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3073,7 +3073,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="290.67125" y="1315.24375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="290.67125" y="1315.24375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="290.67125" y="1315.24375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="305.181109375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="305.181109375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="290.67125" y="1315.24375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="290.67125" y="1315.24375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3085,7 +3085,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="314.48375" y="1341.91375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="314.48375" y="1341.91375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="314.48375" y="1341.91375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="328.993609375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="328.993609375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="314.48375" y="1341.91375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="314.48375" y="1341.91375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3097,7 +3097,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="328.93" y="1368.58375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="328.93" y="1368.58375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="328.93" y="1368.58375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="359.949859375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="359.949859375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="328.93" y="1368.58375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="328.93" y="1368.58375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3109,7 +3109,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="347.98" y="1393.98375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="347.98" y="1393.98375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="347.98" y="1393.98375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="378.999859375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="378.999859375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="347.98" y="1393.98375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="347.98" y="1393.98375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3121,7 +3121,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="1789.7475" y="80.01" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="1789.7475" y="80.01" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="1789.7475" y="80.01" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="393.287359375" y="21.050140625" size="1.270090625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="393.287359375" y="21.050140625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="1789.7475" y="80.01" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="1789.7475" y="80.01" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -3133,7 +3133,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="412.115" y="1430.81375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="412.115" y="1430.81375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="412.115" y="1430.81375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="426.624859375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="426.624859375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="412.115" y="1430.81375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="412.115" y="1430.81375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3145,7 +3145,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="403.225" y="1438.43375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="403.225" y="1438.43375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="403.225" y="1438.43375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="445.674859375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="445.674859375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="403.225" y="1438.43375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="403.225" y="1438.43375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3157,7 +3157,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="394.335" y="1446.05375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="394.335" y="1446.05375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="394.335" y="1446.05375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="464.724859375" y="5.143609375" size="1.270090625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="464.724859375" y="5.143609375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="394.335" y="1446.05375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="394.335" y="1446.05375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3169,7 +3169,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Standard 100V 200mA (DC) Surface Mount SOT-23-3 (TO-236) " x="1930.4" y="94.615" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="1930.4" y="94.615" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BAS16LT3G" x="1930.4" y="94.615" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="474.249859375" y="30.575140625" size="1.270090625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="474.249859375" y="30.575140625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 ON Semiconductor" x="1930.4" y="94.615" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="1930.4" y="94.615" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -3485,46 +3485,46 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="NXP" x="334.8375" y="96.93125" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="SJ_MCU_ROW1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="329.6375" y="118.93125" smashed="yes" rot="R270">
-<attribute name="NAME" x="330.7805" y="118.93125" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="330.7805" y="118.93125" size="1.27" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 </element>
-<element name="SJ_MCU_ROW2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="332.41875" y="110.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="333.56175" y="110.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<element name="SJ_MCU_ROW2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="332.71875" y="111.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="333.86175" y="111.7" size="1.27" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_ROW3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="334.31875" y="78.36875" smashed="yes" rot="R90">
-<attribute name="NAME" x="333.17575" y="78.36875" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="333.17575" y="78.36875" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_ROW4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="339.00625" y="69.33125" smashed="yes" rot="R90">
-<attribute name="NAME" x="337.86325" y="69.33125" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="337.86325" y="69.33125" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_ROW5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="340.98125" y="50.00625" smashed="yes" rot="R90">
-<attribute name="NAME" x="339.83825" y="50.00625" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="339.83825" y="50.00625" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_ROW6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="328.6125" y="30.95625" smashed="yes" rot="R90">
-<attribute name="NAME" x="327.4695" y="30.95625" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="327.4695" y="30.95625" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_ROW7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="335.43125" y="11.53125" smashed="yes" rot="R90">
-<attribute name="NAME" x="334.28825" y="11.53125" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="334.28825" y="11.53125" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
-<element name="SJ_MCU_LED_ROW1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="344.4375" y="110.6625" smashed="yes" rot="R270">
-<attribute name="NAME" x="345.5805" y="110.6625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<element name="SJ_MCU_LED_ROW1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="344.8375" y="117.7625" smashed="yes" rot="R270">
+<attribute name="NAME" x="345.9805" y="117.7625" size="1.27" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 </element>
-<element name="SJ_MCU_LED_ROW2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="329.6375" y="110.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="330.7805" y="110.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<element name="SJ_MCU_LED_ROW2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="329.5625" y="110.5" smashed="yes" rot="MR270">
+<attribute name="NAME" x="328.4195" y="110.5" size="1.27" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_ROW3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="337.21875" y="78.39375" smashed="yes" rot="R90">
-<attribute name="NAME" x="336.07575" y="78.39375" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="336.07575" y="78.39375" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_ROW4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="336.225" y="69.23125" smashed="yes" rot="R90">
-<attribute name="NAME" x="335.082" y="69.23125" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="335.082" y="69.23125" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_ROW5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="343.69375" y="50.025" smashed="yes" rot="R90">
-<attribute name="NAME" x="342.55075" y="50.025" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="342.55075" y="50.025" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_ROW6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="330.99375" y="30.95625" smashed="yes" rot="R90">
-<attribute name="NAME" x="329.85075" y="30.95625" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="329.85075" y="30.95625" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_ROW7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="338.2375" y="11.2875" smashed="yes" rot="R90">
-<attribute name="NAME" x="337.0945" y="11.2875" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="337.0945" y="11.2875" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SJ_R1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="" x="329.69375" y="123.825" smashed="yes" rot="R270">
 <attribute name="NAME" x="332.62825" y="121.816" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -3557,159 +3557,158 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="48.3625" y="103.68125" size="0.02" layer="28" rot="MR180"/>
 </element>
 <element name="SJ_MCU_COL1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="52.525" y="91.45625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="53.668" y="91.45625" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="53.668" y="91.45625" size="1.27" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="59.725" y="101.7875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="59.725" y="100.6445" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="59.725" y="100.6445" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="56.2" y="95.88125" smashed="yes" rot="MR180">
-<attribute name="NAME" x="56.2" y="94.73825" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="56.2" y="94.73825" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="75.2" y="97.51875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="75.2" y="96.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="75.2" y="96.37575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="94.4" y="97.51875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="94.4" y="96.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="94.4" y="96.37575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="113.4" y="102.51875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="113.4" y="101.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="113.4" y="101.37575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="132.3" y="102.71875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="132.3" y="101.57575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="132.3" y="101.57575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="151.3" y="96.21875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="151.3" y="95.07575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="151.3" y="95.07575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL9" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="170.6" y="95.71875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="170.6" y="94.57575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="170.6" y="94.57575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL10" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="189.7375" y="95.9" smashed="yes" rot="MR180">
-<attribute name="NAME" x="189.7375" y="94.757" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="189.7375" y="94.757" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL11" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="208.7" y="94.91875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="208.7" y="93.77575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="208.7" y="93.77575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL12" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="228.2" y="94.61875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="228.2" y="93.47575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="228.2" y="93.47575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL13" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="246.9" y="93.81875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="246.9" y="92.67575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="246.9" y="92.67575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL14" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="265.88125" y="93.51875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="265.88125" y="92.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="265.88125" y="92.37575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL15" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="284.9" y="92.51875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="284.9" y="91.37575" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="284.9" y="91.37575" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL16" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="304.9875" y="104.9" smashed="yes" rot="MR180">
-<attribute name="NAME" x="304.9875" y="103.757" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="304.9875" y="103.757" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL17" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="329.3375" y="81.20625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="330.4805" y="81.20625" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="330.4805" y="81.20625" size="1.27" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL18" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="348.9625" y="91.3" smashed="yes" rot="MR0">
-<attribute name="NAME" x="348.9625" y="92.443" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="348.9625" y="92.443" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL19" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="361.96875" y="91.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="361.96875" y="92.743" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="361.96875" y="92.743" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL20" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="382.0125" y="94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="382.0125" y="95.143" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="382.0125" y="95.143" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL21" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="407.95625" y="95.63125" smashed="yes" rot="MR0">
-<attribute name="NAME" x="407.95625" y="96.77425" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="407.95625" y="96.77425" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="51.15" y="96.3" smashed="yes" rot="MR90">
-<attribute name="NAME" x="52.293" y="96.3" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="52.293" y="96.3" size="1.27" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="59.65625" y="104.34375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="59.65625" y="103.20075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="59.65625" y="103.20075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="61.05625" y="96.725" smashed="yes" rot="MR180">
-<attribute name="NAME" x="61.05625" y="95.582" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="61.05625" y="95.582" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="81.25625" y="97.84375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="81.25625" y="96.70075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="81.25625" y="96.70075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="100.95625" y="97.24375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="100.95625" y="96.10075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="100.95625" y="96.10075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="119.74375" y="102.45625" smashed="yes" rot="MR180">
-<attribute name="NAME" x="119.74375" y="101.31325" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="119.74375" y="101.31325" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="138.05625" y="103.24375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="138.05625" y="102.10075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="138.05625" y="102.10075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="156.35625" y="96.84375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="156.35625" y="95.70075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="156.35625" y="95.70075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL9" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="175.45625" y="96.24375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="175.45625" y="95.10075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="175.45625" y="95.10075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL10" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="196.75" y="95.375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="196.75" y="94.232" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="196.75" y="94.232" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL11" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="215.85625" y="94.74375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="215.85625" y="93.60075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="215.85625" y="93.60075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL12" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="235.55625" y="94.04375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="235.55625" y="92.90075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="235.55625" y="92.90075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL13" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="254.05625" y="93.64375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="254.05625" y="92.50075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="254.05625" y="92.50075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL14" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="274.25625" y="93.04375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="274.25625" y="91.90075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="274.25625" y="91.90075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL15" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="294.25625" y="92.34375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="294.25625" y="91.20075" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="294.25625" y="91.20075" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL16" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="311.34375" y="105.725" smashed="yes" rot="MR180">
-<attribute name="NAME" x="311.34375" y="104.582" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="311.34375" y="104.582" size="1.27" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL17" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="326.69375" y="81.2625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="327.83675" y="81.2625" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="327.83675" y="81.2625" size="1.27" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL18" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="352.475" y="89.69375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="353.618" y="89.69375" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="353.618" y="89.69375" size="1.27" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL19" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="361.93125" y="94.475" smashed="yes" rot="MR0">
-<attribute name="NAME" x="361.93125" y="95.618" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="361.93125" y="95.618" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL20" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="381.75625" y="97.075" smashed="yes" rot="MR0">
-<attribute name="NAME" x="381.75625" y="98.218" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="381.75625" y="98.218" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL21" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="411.1" y="98.30625" smashed="yes" rot="MR0">
-<attribute name="NAME" x="411.1" y="99.44925" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="411.1" y="99.44925" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL22" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="423.7" y="96.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="423.7" y="97.343" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="423.7" y="97.343" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL23" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="443.8375" y="95.975" smashed="yes" rot="MR0">
-<attribute name="NAME" x="443.8375" y="97.118" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="443.8375" y="97.118" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_COL24" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="446.94375" y="101.54375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="446.94375" y="102.68675" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="446.94375" y="102.68675" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL22" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="428.3" y="97.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="428.3" y="99.043" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="428.3" y="99.043" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL23" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="446.0375" y="98.75" smashed="yes" rot="MR0">
-<attribute name="NAME" x="446.0375" y="99.893" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="446.0375" y="99.893" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 <element name="SJ_MCU_LED_COL24" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="446.9" y="104.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="446.9" y="105.343" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="446.9" y="105.343" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
-<element name="J1" library="USB4105-GF-A" package="GCT_USB4105-GF-A" value="USB4105-GF-A" x="338.1375" y="121.81875" locked="yes" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="In Stock" x="338.1375" y="121.81875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole " x="338.1375" y="121.81875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="GCT" x="338.1375" y="121.81875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="USB4105-GF-A" x="338.1375" y="121.81875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="343.1375" y="114.31875" locked="yes" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="None" x="338.1375" y="121.81875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="338.1375" y="121.81875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/USB4105-GF-A/?ref=eda" x="338.1375" y="121.81875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="343.1375" y="115.81875" locked="yes" size="1.27" layer="27" rot="R180"/>
+<element name="J1" library="USB4105-GF-A" package="GCT_USB4105-GF-A" value="USB4105-GF-A" x="338.1375" y="121.81875" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="In Stock" x="338.1375" y="121.81875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole " x="338.1375" y="121.81875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="GCT" x="338.1375" y="121.81875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="USB4105-GF-A" x="338.1375" y="121.81875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="343.1375" y="114.31875" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="None" x="338.1375" y="121.81875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="338.1375" y="121.81875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/USB4105-GF-A/?ref=eda" x="338.1375" y="121.81875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3855,7 +3854,13 @@ design rules under a new name.</description>
 <wire x1="67.735" y1="143.825" x2="32.01625" y2="143.825" width="0.1524" layer="16"/>
 <wire x1="32.01625" y1="143.825" x2="20.11" y2="143.825" width="0.1524" layer="16"/>
 <contactref element="SJ_R1" pad="1"/>
-<wire x1="329.6725" y1="143.825" x2="329.69375" y2="125.095" width="0" layer="19" extent="1-16"/>
+<via x="330.6" y="130.3" extent="1-16" drill="0.35"/>
+<wire x1="329.6725" y1="143.825" x2="329.6725" y2="143.1632875" width="0.1524" layer="16"/>
+<wire x1="329.6725" y1="143.1632875" x2="330.5161" y2="142.3196875" width="0.1524" layer="16"/>
+<wire x1="330.5161" y1="130.3839" x2="330.6" y2="130.3" width="0.1524" layer="16"/>
+<wire x1="330.5161" y1="142.3196875" x2="330.5161" y2="130.3839" width="0.1524" layer="16"/>
+<wire x1="330.6" y1="130.3" x2="329.69375" y2="129.39375" width="0.1524" layer="1"/>
+<wire x1="329.69375" y1="129.39375" x2="329.69375" y2="125.095" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="D1" pad="3"/>
@@ -4191,7 +4196,6 @@ design rules under a new name.</description>
 <wire x1="313.265" y1="110.96875" x2="315.66875" y2="110.96875" width="0.1524" layer="16"/>
 <wire x1="316.09015" y1="111.39015" x2="316.0946875" y2="111.39015" width="0.1524" layer="16"/>
 <wire x1="315.66875" y1="110.96875" x2="316.09015" y2="111.39015" width="0.1524" layer="16"/>
-<wire x1="347.9477625" y1="118.1125" x2="348.0468625" y2="118.2116" width="0.1524" layer="16"/>
 <wire x1="358.1322875" y1="115.8144" x2="359.0194" y2="114.9272875" width="0.1524" layer="16"/>
 <wire x1="359.0194" y1="112.83935" x2="360.89" y2="110.96875" width="0.1524" layer="16"/>
 <wire x1="356.04435" y1="115.8144" x2="358.1322875" y2="115.8144" width="0.1524" layer="16"/>
@@ -4202,8 +4206,13 @@ design rules under a new name.</description>
 <wire x1="325.8218625" y1="118.0084" x2="326.9581375" y2="118.0084" width="0.1524" layer="16"/>
 <wire x1="326.9581375" y1="118.0084" x2="326.9622375" y2="118.0125" width="0.1524" layer="16"/>
 <wire x1="326.9622375" y1="118.0125" x2="328.615" y2="118.0125" width="0.1524" layer="16"/>
-<wire x1="328.615" y1="118.0125" x2="332.41875" y2="111.2207" width="0" layer="19" extent="1-16"/>
-<wire x1="347.9477625" y1="118.1125" x2="332.41875" y2="111.2207" width="0" layer="19" extent="1-16"/>
+<wire x1="328.615" y1="118.0125" x2="332.1275" y2="114.5" width="0.1524" layer="16"/>
+<wire x1="332.1275" y1="114.5" x2="333.5" y2="114.5" width="0.1524" layer="16"/>
+<wire x1="333.5" y1="114.5" x2="344.3352625" y2="114.5" width="0.1524" layer="16"/>
+<wire x1="344.3352625" y1="114.5" x2="348.0468625" y2="118.2116" width="0.1524" layer="16"/>
+<wire x1="332.71875" y1="112.2207" x2="332.71875" y2="113.71875" width="0.1524" layer="1"/>
+<wire x1="332.71875" y1="113.71875" x2="333.5" y2="114.5" width="0.1524" layer="1"/>
+<via x="333.5" y="114.5" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$22">
 <contactref element="D40" pad="3"/>
@@ -6358,8 +6367,15 @@ design rules under a new name.</description>
 <wire x1="269.0876" y1="109.5375" x2="269.4051" y2="109.22" width="0.1524" layer="16"/>
 <wire x1="269.4051" y1="109.22" x2="284.48" y2="109.22" width="0.1524" layer="16"/>
 <contactref element="SJ_MCU_LED_ROW2" pad="1"/>
-<wire x1="329.6375" y1="111.2207" x2="351.155" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="322.58" y1="109.22" x2="329.6375" y2="111.2207" width="0" layer="19" extent="1-1"/>
+<wire x1="322.58" y1="109.22" x2="324.5358" y2="111.1758" width="0.1524" layer="16"/>
+<wire x1="324.5358" y1="111.1758" x2="325.1440875" y2="111.1758" width="0.1524" layer="16"/>
+<wire x1="325.1440875" y1="111.1758" x2="325.4682875" y2="111.5" width="0.1524" layer="16"/>
+<wire x1="329.0832" y1="111.5" x2="329.5625" y2="111.0207" width="0.1524" layer="16"/>
+<wire x1="325.4682875" y1="111.5" x2="329.0832" y2="111.5" width="0.1524" layer="16"/>
+<wire x1="329.5625" y1="111.0207" x2="331.7418" y2="113.2" width="0.2" layer="16"/>
+<wire x1="348.18" y1="109.22" x2="351.155" y2="109.22" width="0.2" layer="16"/>
+<wire x1="331.7418" y1="113.2" x2="344.2" y2="113.2" width="0.2" layer="16"/>
+<wire x1="344.2" y1="113.2" x2="348.18" y2="109.22" width="0.2" layer="16"/>
 </signal>
 <signal name="LED_ROW_1">
 <contactref element="KEY_20" pad="LED+"/>
@@ -6464,7 +6480,8 @@ design rules under a new name.</description>
 <wire x1="306.5427875" y1="129.4114" x2="307.6841875" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="324.6472125" y1="129.4114" x2="325.5927875" y2="129.4114" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="322.58" y1="128.27" x2="323.5058125" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
-<wire x1="326.7341875" y1="128.27" x2="351.155" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
+<wire x1="326.7341875" y1="128.27" x2="344.1" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
+<wire x1="344.1" y1="128.27" x2="351.155" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="323.5058125" y1="128.27" x2="324.6472125" y2="129.4114" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="325.5927875" y1="129.4114" x2="326.7341875" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="353.2222125" y1="129.4114" x2="354.1677875" y2="129.4114" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
@@ -6478,8 +6495,9 @@ design rules under a new name.</description>
 <wire x1="371.1308125" y1="128.27" x2="372.2722125" y2="129.4114" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <wire x1="373.2177875" y1="129.4114" x2="374.3591875" y2="128.27" width="0.2" layer="16" grouprefs="ROW-TRACES"/>
 <contactref element="SJ_LED_R1" pad="1"/>
-<wire x1="346.31875" y1="125.88875" x2="346.31875" y2="125.095" width="0.1524" layer="1"/>
-<wire x1="351.155" y1="128.27" x2="346.31875" y2="125.88875" width="0" layer="19" extent="1-1"/>
+<wire x1="346.31875" y1="125.095" x2="346.31875" y2="126.05125" width="0.1524" layer="1"/>
+<wire x1="346.31875" y1="126.05125" x2="344.1" y2="128.27" width="0.1524" layer="1"/>
+<via x="344.1" y="128.27" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="LED_ROW_3">
 <contactref element="SJ_LED_R3_0" pad="2"/>
@@ -8483,25 +8501,25 @@ design rules under a new name.</description>
 <wire x1="328.5875" y1="107.556246875" x2="328.5875" y2="106.0125" width="0.254" layer="16"/>
 <wire x1="328.5875" y1="106.0125" x2="329.1" y2="105.5" width="0.254" layer="16"/>
 <via x="329.1" y="105.5" extent="1-16" drill="0.35"/>
-<polygon width="0.254" layer="16">
-<vertex x="-7.14375" y="150.01875"/>
-<vertex x="-7.14375" y="-11.90625"/>
-<vertex x="-2.38125" y="-16.66875"/>
-<vertex x="0" y="-19.05"/>
-<vertex x="500.0625" y="-19.05"/>
-<vertex x="500.0625" y="159.54375"/>
-<vertex x="492.91875" y="166.6875"/>
-<vertex x="9.525" y="166.6875"/>
+<polygon width="0.1524" layer="1">
+<vertex x="-9.525" y="135.73125"/>
+<vertex x="9.525" y="154.78125"/>
+<vertex x="478.63125" y="154.78125"/>
+<vertex x="497.68125" y="135.73125"/>
+<vertex x="497.68125" y="9.525"/>
+<vertex x="478.63125" y="-9.525"/>
+<vertex x="2.38125" y="-9.525"/>
+<vertex x="-9.525" y="2.38125"/>
 </polygon>
-<polygon width="0.254" layer="1">
-<vertex x="14.2875" y="166.6875"/>
-<vertex x="492.91875" y="166.6875"/>
-<vertex x="500.0625" y="159.54375"/>
-<vertex x="500.0625" y="-19.05"/>
-<vertex x="0" y="-19.05"/>
-<vertex x="-4.7625" y="-14.2875"/>
-<vertex x="-4.7625" y="152.4"/>
-<vertex x="9.525" y="166.6875"/>
+<polygon width="0.1524" layer="16">
+<vertex x="-11.90625" y="135.73125"/>
+<vertex x="9.525" y="157.1625"/>
+<vertex x="478.63125" y="157.1625"/>
+<vertex x="500.0625" y="135.73125"/>
+<vertex x="500.0625" y="9.525"/>
+<vertex x="478.63125" y="-11.90625"/>
+<vertex x="2.38125" y="-11.90625"/>
+<vertex x="-11.90625" y="2.38125"/>
 </polygon>
 </signal>
 <signal name="JTAG_TCLK/SWD_CLK">
@@ -8525,12 +8543,25 @@ design rules under a new name.</description>
 <signal name="ROW_1{MCU}">
 <contactref element="SJ_MCU_ROW1" pad="2"/>
 <contactref element="U1" pad="9"/>
-<wire x1="330.0875" y1="107.556246875" x2="329.6375" y2="118.41055" width="0" layer="19" extent="1-16"/>
+<wire x1="329.6375" y1="118.41055" x2="329.6375" y2="115.9625" width="0.1524" layer="1"/>
+<wire x1="329.6375" y1="115.9625" x2="331" y2="114.6" width="0.1524" layer="1"/>
+<wire x1="331" y1="114.6" x2="331" y2="110.7" width="0.1524" layer="1"/>
+<wire x1="331" y1="110.7" x2="330.8" y2="110.5" width="0.1524" layer="1"/>
+<via x="330.8" y="110.5" extent="1-16" drill="0.35"/>
+<wire x1="330.8" y1="110.5" x2="330.8" y2="109.7" width="0.1524" layer="16"/>
+<wire x1="330.0875" y1="108.9875" x2="330.0875" y2="107.556246875" width="0.1524" layer="16"/>
+<wire x1="330.8" y1="109.7" x2="330.0875" y2="108.9875" width="0.1524" layer="16"/>
 </signal>
 <signal name="ROW_2{MCU}">
 <contactref element="SJ_MCU_ROW2" pad="2"/>
 <contactref element="U1" pad="10"/>
-<wire x1="330.5875" y1="107.556246875" x2="332.41875" y2="110.1793" width="0" layer="19" extent="1-16"/>
+<wire x1="332.71875" y1="111.1793" x2="332" y2="110.46055" width="0.2" layer="1"/>
+<wire x1="332" y1="110.46055" x2="332" y2="109.6" width="0.2" layer="1"/>
+<via x="332" y="109.6" extent="1-16" drill="0.35"/>
+<wire x1="332" y1="109.6" x2="331.5" y2="109.1" width="0.2" layer="16"/>
+<wire x1="331.5" y1="109.1" x2="331" y2="109.1" width="0.2" layer="16"/>
+<wire x1="331" y1="109.1" x2="330.5875" y2="108.6875" width="0.2" layer="16"/>
+<wire x1="330.5875" y1="108.6875" x2="330.5875" y2="107.556246875" width="0.2" layer="16"/>
 </signal>
 <signal name="ROW_3{MCU}">
 <contactref element="SJ_MCU_ROW3" pad="2"/>
@@ -8604,12 +8635,28 @@ design rules under a new name.</description>
 <signal name="LED_ROW_2{MCU}">
 <contactref element="SJ_MCU_LED_ROW2" pad="2"/>
 <contactref element="U1" pad="8"/>
-<wire x1="329.5875" y1="107.556246875" x2="329.6375" y2="110.1793" width="0" layer="19" extent="1-16"/>
+<wire x1="329.5625" y1="109.9793" x2="329.5875" y2="109.9543" width="0.1524" layer="16"/>
+<wire x1="329.5625" y1="109.9793" x2="329.5625" y2="107.581246875" width="0.1524" layer="16"/>
+<wire x1="329.5625" y1="107.581246875" x2="329.5875" y2="107.556246875" width="0.1524" layer="16"/>
 </signal>
 <signal name="LED_ROW_1{MCU}">
 <contactref element="SJ_MCU_LED_ROW1" pad="2"/>
 <contactref element="U1" pad="11"/>
-<wire x1="331.0875" y1="107.556246875" x2="344.4375" y2="110.1418" width="0" layer="19" extent="1-16"/>
+<wire x1="344.8375" y1="117.2418" x2="342.9957" y2="115.4" width="0.1524" layer="1"/>
+<wire x1="342.9957" y1="115.4" x2="342.7" y2="115.4" width="0.1524" layer="1"/>
+<via x="342.7" y="115.4" extent="1-16" drill="0.35"/>
+<wire x1="334.5" y1="115.4" x2="334.4" y2="115.3" width="0.1524" layer="16"/>
+<via x="334.4" y="115.3" extent="1-16" drill="0.35"/>
+<via x="333" y="109.6" extent="1-16" drill="0.35"/>
+<wire x1="333.9932" y1="110.75135" x2="333.9932" y2="110.5932" width="0.1524" layer="1"/>
+<wire x1="333.9932" y1="110.5932" x2="333" y2="109.6" width="0.1524" layer="1"/>
+<wire x1="334.4" y1="115.3" x2="334.4" y2="111.15815" width="0.1524" layer="1"/>
+<wire x1="334.4" y1="111.15815" x2="333.9932" y2="110.75135" width="0.1524" layer="1"/>
+<wire x1="333" y1="109.6" x2="332.1" y2="108.7" width="0.1524" layer="16"/>
+<wire x1="332.1" y1="108.7" x2="331.3" y2="108.7" width="0.1524" layer="16"/>
+<wire x1="331.3" y1="108.7" x2="331.0875" y2="108.4875" width="0.1524" layer="16"/>
+<wire x1="331.0875" y1="108.4875" x2="331.0875" y2="107.556246875" width="0.1524" layer="16"/>
+<wire x1="342.7" y1="115.4" x2="334.5" y2="115.4" width="0.1524" layer="16"/>
 </signal>
 <signal name="LED_ROW_5{MCU}">
 <contactref element="U1" pad="75"/>
@@ -8678,13 +8725,14 @@ design rules under a new name.</description>
 <signal name="ROW_1{SB}">
 <contactref element="SJ_MCU_ROW1" pad="1"/>
 <contactref element="SJ_R1" pad="2"/>
-<wire x1="329.6375" y1="119.45195" x2="329.69375" y2="122.555" width="0" layer="19" extent="1-1"/>
+<wire x1="329.69375" y1="122.555" x2="329.69375" y2="119.5082" width="0.1524" layer="1"/>
+<wire x1="329.69375" y1="119.5082" x2="329.6375" y2="119.45195" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED_ROW_1{SB}">
 <contactref element="SJ_MCU_LED_ROW1" pad="1"/>
 <contactref element="SJ_LED_R1" pad="2"/>
-<wire x1="344.61875" y1="111.36445" x2="344.4375" y2="111.1832" width="0.1524" layer="1"/>
-<wire x1="344.61875" y1="111.36445" x2="346.31875" y2="122.555" width="0" layer="19" extent="1-1"/>
+<wire x1="346.31875" y1="122.555" x2="346.31875" y2="119.76445" width="0.1524" layer="1"/>
+<wire x1="346.31875" y1="119.76445" x2="344.8375" y2="118.2832" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED_COL_2">
 <contactref element="SJ_LED_C2" pad="2"/>
