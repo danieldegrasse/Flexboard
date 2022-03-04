@@ -2253,6 +2253,199 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 </deviceset>
 </devicesets>
 </library>
+<library name="ABM3B-8.000MHZ-B2-T">
+<packages>
+<package name="OSC_ABM3B-8.000MHZ-B2-T">
+<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.127" layer="51"/>
+<text x="-2.5" y="3.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="1.6" y1="0.78" x2="1.6" y2="-0.78" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.78" x2="-1.6" y2="-0.78" width="0.127" layer="21"/>
+<wire x1="0.28" y1="2.5" x2="-0.28" y2="2.5" width="0.127" layer="21"/>
+<wire x1="0.28" y1="-2.5" x2="-0.28" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.05" y1="3.15" x2="2.05" y2="-3.15" width="0.05" layer="39"/>
+<wire x1="2.05" y1="-3.15" x2="-2.05" y2="-3.15" width="0.05" layer="39"/>
+<wire x1="-2.05" y1="-3.15" x2="-2.05" y2="3.15" width="0.05" layer="39"/>
+<wire x1="-2.05" y1="3.15" x2="2.05" y2="3.15" width="0.05" layer="39"/>
+<circle x="-2.4" y="2" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.4" y="2" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-1.2" y="2" dx="1.2" dy="1.8" layer="1"/>
+<smd name="2" x="-1.2" y="-2" dx="1.2" dy="1.8" layer="1"/>
+<smd name="3" x="1.2" y="-2" dx="1.2" dy="1.8" layer="1"/>
+<smd name="4" x="1.2" y="2" dx="1.2" dy="1.8" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ABM3B-8.000MHZ-B2-T">
+<wire x1="-1.397" y1="2.54" x2="1.397" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.397" y1="2.54" x2="1.397" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.397" y1="-2.54" x2="-1.397" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.397" y1="2.54" x2="-1.397" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="2.3368" y1="2.54" x2="2.3368" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-2.3368" y1="2.54" x2="-2.3368" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-5.08" y="6.35" size="1.78073125" layer="95">&gt;NAME</text>
+<text x="-5.08" y="3.81" size="1.78303125" layer="96">&gt;VALUE</text>
+<wire x1="-3.175" y1="-2.54" x2="-3.175" y2="-3.175" width="0.4064" layer="94"/>
+<wire x1="-3.175" y1="-3.175" x2="0" y2="-3.175" width="0.4064" layer="94"/>
+<wire x1="0" y1="-3.175" x2="3.175" y2="-3.175" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="-3.175" x2="3.175" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.175" width="0.4064" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ABM3B-8.000MHZ-B2-T" prefix="Y">
+<description>8MHz ±20ppm Crystal 18pF 200 Ohms 4-SMD, No Lead  &lt;a href="https://pricing.snapeda.com/parts/ABM3B-8.000MHZ-B2-T/Abracon/view-part?ref=eda"&gt;Check availability&lt;/a&gt; &lt;a href="https://pricing.snapeda.com/parts/ABM3B-8.000MHZ-B2-T/Abracon/view-part?ref=eda"&gt;Check availability&lt;/a&gt; &lt;a href="https://pricing.snapeda.com/parts/ABM3B-8.000MHZ-B2-T/Abracon/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ABM3B-8.000MHZ-B2-T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSC_ABM3B-8.000MHZ-B2-T">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 8 MHz ±20ppm Crystal 18pF 200 Ohms 4-SMD, No Lead "/>
+<attribute name="MF" value="Abracon"/>
+<attribute name="MP" value="ABM3B-8.000MHZ-B2-T"/>
+<attribute name="PACKAGE" value="SMD-4 Abracon LLC"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ABM3B-8.000MHZ-B2-T/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="C1206C220JGGAC7800">
+<packages>
+<package name="CAPC3216X110N">
+<text x="-2.31" y="-1.25" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-2.31" y="1.25" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.127" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="-1.7" y2="0.9" width="0.127" layer="51"/>
+<wire x1="1.7" y1="-0.9" x2="1.7" y2="0.9" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.127" layer="51"/>
+<wire x1="-0.57" y1="0.9" x2="0.57" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-0.57" y1="-0.9" x2="0.57" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-2.308" y1="-1.158" x2="2.308" y2="-1.158" width="0.05" layer="39"/>
+<wire x1="-2.308" y1="1.158" x2="2.308" y2="1.158" width="0.05" layer="39"/>
+<wire x1="-2.308" y1="-1.158" x2="-2.308" y2="1.158" width="0.05" layer="39"/>
+<wire x1="2.308" y1="-1.158" x2="2.308" y2="1.158" width="0.05" layer="39"/>
+<smd name="1" x="-1.475" y="0" dx="1.16" dy="1.82" layer="1"/>
+<smd name="2" x="1.475" y="0" dx="1.16" dy="1.82" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="C1206C220JGGAC7800">
+<text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-1.906859375" x2="0.635" y2="1.905" layer="94"/>
+<rectangle x1="1.90685" y1="-1.90685" x2="2.54" y2="1.905" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="C1206C220JGGAC7800" prefix="C">
+<description> &lt;a href="https://pricing.snapeda.com/parts/C1206C220JGGAC7800/KEMET/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C1206C220JGGAC7800" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC3216X110N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" CAP CER 22PF 2KV NP0 1206 "/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MP" value="C1206C220JGGAC7800"/>
+<attribute name="PACKAGE" value="3216 KEMET"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="ABS07-32.768KHZ-T">
+<packages>
+<package name="XTAL_ABS07-32.768KHZ-T">
+<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.127" layer="51"/>
+<wire x1="-0.35" y1="0.75" x2="0.35" y2="0.75" width="0.127" layer="21"/>
+<wire x1="-0.35" y1="-0.75" x2="0.35" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="1.2" x2="2.05" y2="1.2" width="0.05" layer="39"/>
+<wire x1="2.05" y1="1.2" x2="2.05" y2="-1.2" width="0.05" layer="39"/>
+<wire x1="2.05" y1="-1.2" x2="-2.05" y2="-1.2" width="0.05" layer="39"/>
+<wire x1="-2.05" y1="-1.2" x2="-2.05" y2="1.2" width="0.05" layer="39"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+<smd name="2" x="1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ABS07-32.768KHZ-T">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="-4.834309375" y="2.54436875" size="1.781059375" layer="95">&gt;NAME</text>
+<text x="-4.836459375" y="-4.072809375" size="1.78185" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ABS07-32.768KHZ-T" prefix="Y">
+<description>ABS07 Series 32.768 kHz ±20 ppm 12.5 pF -40 to +85 °C SMT Low Profile Crystal &lt;a href="https://pricing.snapeda.com/parts/ABS07-32.768KHZ-T/Abracon/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ABS07-32.768KHZ-T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XTAL_ABS07-32.768KHZ-T">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead "/>
+<attribute name="MF" value="Abracon"/>
+<attribute name="MP" value="ABS07-32.768KHZ-T"/>
+<attribute name="PACKAGE" value="SMD-2 Abracon LLC"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ABS07-32.768KHZ-T/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2697,6 +2890,10 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 <part name="C7" library="C1206C104K5RAC7800" deviceset="C1206C104K5RAC7800" device="" value="100nF"/>
 <part name="C8" library="GCM31MR71H105KA55L" deviceset="GCM31MR71H105KA55L" device="" value="1uF"/>
 <part name="C9" library="C1206C104K5RAC7800" deviceset="C1206C104K5RAC7800" device="" value="100nF"/>
+<part name="Y1" library="ABM3B-8.000MHZ-B2-T" deviceset="ABM3B-8.000MHZ-B2-T" device=""/>
+<part name="C10" library="C1206C220JGGAC7800" deviceset="C1206C220JGGAC7800" device="" value="22pF"/>
+<part name="C11" library="C1206C220JGGAC7800" deviceset="C1206C220JGGAC7800" device="" value="22pF"/>
+<part name="Y2" library="ABS07-32.768KHZ-T" deviceset="ABS07-32.768KHZ-T" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2954,6 +3151,22 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 <attribute name="NAME" x="102.86906875" y="116.84" size="1.77843125" layer="95" rot="R90"/>
 <attribute name="VALUE" x="111.76848125" y="116.84" size="1.78096875" layer="96" rot="R90"/>
 </instance>
+<instance part="Y1" gate="G$1" x="220.98" y="15.24" smashed="yes">
+<attribute name="NAME" x="215.9" y="21.59" size="1.78073125" layer="95"/>
+<attribute name="VALUE" x="215.9" y="19.05" size="1.78303125" layer="96"/>
+</instance>
+<instance part="C10" gate="G$1" x="210.82" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="207.00906875" y="2.54" size="1.77843125" layer="95" rot="R90"/>
+<attribute name="VALUE" x="215.90848125" y="2.54" size="1.78096875" layer="96" rot="R90"/>
+</instance>
+<instance part="C11" gate="G$1" x="228.6" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="224.78906875" y="2.54" size="1.77843125" layer="95" rot="R90"/>
+<attribute name="VALUE" x="233.68848125" y="2.54" size="1.78096875" layer="96" rot="R90"/>
+</instance>
+<instance part="Y2" gate="G$1" x="264.16" y="15.24" smashed="yes">
+<attribute name="NAME" x="259.325690625" y="17.78436875" size="1.781059375" layer="95"/>
+<attribute name="VALUE" x="259.323540625" y="11.167190625" size="1.78185" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3194,6 +3407,19 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 <wire x1="106.68" y1="114.3" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
 <junction x="93.98" y="109.22"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="0" x2="210.82" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-2.54" x2="220.98" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="-2.54" x2="228.6" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-2.54" x2="228.6" y2="0" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="GND"/>
+<wire x1="220.98" y1="7.62" x2="220.98" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="220.98" y="-2.54"/>
+<wire x1="220.98" y1="-2.54" x2="220.98" y2="-7.62" width="0.1524" layer="91"/>
+<label x="220.98" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW_5{SB}" class="0">
@@ -4504,12 +4730,22 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 <wire x1="134.62" y1="-10.16" x2="144.78" y2="-10.16" width="0.1524" layer="91"/>
 <label x="144.78" y="-10.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="Y2" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="15.24" x2="254" y2="15.24" width="0.1524" layer="91"/>
+<label x="246.38" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="XTAL32" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="XTAL32"/>
 <wire x1="134.62" y1="-12.7" x2="144.78" y2="-12.7" width="0.1524" layer="91"/>
 <label x="144.78" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Y2" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="15.24" x2="276.86" y2="15.24" width="0.1524" layer="91"/>
+<label x="276.86" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXTAL" class="0">
@@ -4518,12 +4754,30 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 <wire x1="134.62" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
 <label x="144.78" y="68.58" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="Y1" gate="G$1" pin="3"/>
+<wire x1="226.06" y1="15.24" x2="228.6" y2="15.24" width="0.1524" layer="91"/>
+<label x="229.616" y="15.24" size="1.778" layer="95"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="15.24" x2="236.22" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="7.62" x2="228.6" y2="15.24" width="0.1524" layer="91"/>
+<junction x="228.6" y="15.24"/>
+</segment>
 </net>
 <net name="XTAL" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PTA19"/>
 <wire x1="-5.08" y1="-60.96" x2="-10.16" y2="-60.96" width="0.1524" layer="91"/>
 <label x="-15.24" y="-60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Y1" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="15.24" x2="210.82" y2="15.24" width="0.1524" layer="91"/>
+<label x="205.74" y="15.24" size="1.778" layer="95"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="7.62" x2="210.82" y2="15.24" width="0.1524" layer="91"/>
+<junction x="210.82" y="15.24"/>
 </segment>
 </net>
 <net name="N$2" class="0">
