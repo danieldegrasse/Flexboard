@@ -2446,6 +2446,76 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 </deviceset>
 </devicesets>
 </library>
+<library name="CRG0805F33R">
+<packages>
+<package name="RESC2012X65N">
+<text x="-1.69" y="-1.05" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.69" y="1.05" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.07" y1="-0.7" x2="-1.07" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.07" y1="0.7" x2="-1.07" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.07" y1="-0.7" x2="1.07" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-1.07" y1="-0.7" x2="-1.07" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-0.12" y1="0.7" x2="0.12" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-0.12" y1="-0.7" x2="0.12" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.685" y1="-0.962" x2="1.685" y2="-0.962" width="0.05" layer="39"/>
+<wire x1="-1.685" y1="0.962" x2="1.685" y2="0.962" width="0.05" layer="39"/>
+<wire x1="-1.685" y1="-0.962" x2="-1.685" y2="0.962" width="0.05" layer="39"/>
+<wire x1="1.685" y1="-0.962" x2="1.685" y2="0.962" width="0.05" layer="39"/>
+<smd name="1" x="-0.935" y="0" dx="1" dy="1.42" layer="1"/>
+<smd name="2" x="0.935" y="0" dx="1" dy="1.42" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CRG0805F33R">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRG0805F33R" prefix="R">
+<description>Fixed Resistors &lt;a href="https://pricing.snapeda.com/parts/CRG0805F33R/TE%20Connectivity/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRG0805F33R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC2012X65N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="COMMENT" value="1623198-1"/>
+<attribute name="DESCRIPTION" value=" Fixed Resistors "/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant with Exemptions"/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="MP" value="CRG0805F33R"/>
+<attribute name="PACKAGE" value="0805"/>
+<attribute name="POWER_RATING" value=".125 W"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CRG0805F33R/?ref=eda"/>
+<attribute name="RESISTANCE" value="33 "/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_RATING" value="150 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2894,12 +2964,14 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 <part name="C10" library="C1206C220JGGAC7800" deviceset="C1206C220JGGAC7800" device="" value="22pF"/>
 <part name="C11" library="C1206C220JGGAC7800" deviceset="C1206C220JGGAC7800" device="" value="22pF"/>
 <part name="Y2" library="ABS07-32.768KHZ-T" deviceset="ABS07-32.768KHZ-T" device=""/>
+<part name="R2" library="CRG0805F33R" deviceset="CRG0805F33R" device="" value="33"/>
+<part name="R3" library="CRG0805F33R" deviceset="CRG0805F33R" device="" value="33"/>
 </parts>
 <sheets>
 <sheet>
 <description>Microcontroller Schematic</description>
 <plain>
-<text x="-119.38" y="86.36" size="5.08" layer="97">USB</text>
+<text x="-182.88" y="101.6" size="5.08" layer="97">USB</text>
 <text x="-154.94" y="307.34" size="5.08" layer="97">Solder Bridges</text>
 <text x="25.4" y="83.82" size="5.08" layer="97">MCU</text>
 <text x="256.54" y="91.44" size="5.08" layer="97">JTAG</text>
@@ -3099,9 +3171,9 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 <instance part="SJ_MCU_LED_COL24" gate="G$1" x="-104.14" y="121.92" smashed="yes">
 <attribute name="NAME" x="-104.14" y="124.968" size="1.778" layer="95" font="vector" align="center"/>
 </instance>
-<instance part="J1" gate="G$1" x="-109.22" y="71.12" smashed="yes">
-<attribute name="NAME" x="-124.46" y="85.09" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-124.46" y="55.88" size="1.778" layer="96"/>
+<instance part="J1" gate="G$1" x="-172.72" y="86.36" smashed="yes">
+<attribute name="NAME" x="-187.96" y="100.33" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-187.96" y="71.12" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="264.16" y="71.12" smashed="yes">
 <attribute name="NAME" x="253.9902" y="85.1034" size="1.779709375" layer="95"/>
@@ -3166,6 +3238,14 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 <instance part="Y2" gate="G$1" x="264.16" y="15.24" smashed="yes">
 <attribute name="NAME" x="259.325690625" y="17.78436875" size="1.781059375" layer="95"/>
 <attribute name="VALUE" x="259.323540625" y="11.167190625" size="1.78185" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="-124.46" y="91.44" smashed="yes">
+<attribute name="NAME" x="-132.084440625" y="93.98148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-119.64396875" y="87.115359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="-124.46" y="81.28" smashed="yes">
+<attribute name="NAME" x="-132.084440625" y="83.82148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-119.64396875" y="76.955359375" size="2.54331875" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3334,13 +3414,13 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="-88.9" y1="63.5" x2="-83.82" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="78.74" x2="-147.32" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="SHELL_GND"/>
-<wire x1="-83.82" y1="63.5" x2="-81.28" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="60.96" x2="-83.82" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="60.96" x2="-83.82" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-83.82" y="63.5"/>
-<label x="-81.28" y="63.5" size="1.778" layer="95"/>
+<wire x1="-147.32" y1="78.74" x2="-144.78" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="76.2" x2="-147.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="76.2" x2="-147.32" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-147.32" y="78.74"/>
+<label x="-144.78" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -4673,36 +4753,30 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 </net>
 <net name="USB_P" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="USB0_DP"/>
-<wire x1="-48.26" y1="22.86" x2="-58.42" y2="22.86" width="0.1524" layer="91"/>
-<label x="-68.58" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="DP2"/>
-<wire x1="-88.9" y1="73.66" x2="-83.82" y2="73.66" width="0.1524" layer="91"/>
-<label x="-83.82" y="73.66" size="1.778" layer="95"/>
+<label x="-147.32" y="88.9" size="1.778" layer="95"/>
+<wire x1="-152.4" y1="88.9" x2="-134.62" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="88.9" x2="-134.62" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="DP1"/>
-<wire x1="-129.54" y1="73.66" x2="-134.62" y2="73.66" width="0.1524" layer="91"/>
-<label x="-142.24" y="73.66" size="1.778" layer="95"/>
+<wire x1="-193.04" y1="88.9" x2="-198.12" y2="88.9" width="0.1524" layer="91"/>
+<label x="-205.74" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_N" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="USB0_DM"/>
-<wire x1="-48.26" y1="20.32" x2="-58.42" y2="20.32" width="0.1524" layer="91"/>
-<label x="-68.58" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="DN2"/>
-<wire x1="-88.9" y1="71.12" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
-<label x="-83.82" y="71.12" size="1.778" layer="95"/>
+<label x="-147.32" y="86.36" size="1.778" layer="95"/>
+<wire x1="-134.62" y1="81.28" x2="-134.62" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="86.36" x2="-152.4" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="DN1"/>
-<wire x1="-129.54" y1="71.12" x2="-134.62" y2="71.12" width="0.1524" layer="91"/>
-<label x="-142.24" y="71.12" size="1.778" layer="95"/>
+<wire x1="-193.04" y1="86.36" x2="-198.12" y2="86.36" width="0.1524" layer="91"/>
+<label x="-205.74" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -4713,8 +4787,8 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
-<wire x1="-88.9" y1="81.28" x2="-81.28" y2="81.28" width="0.1524" layer="91"/>
-<label x="-81.28" y="81.28" size="1.778" layer="95"/>
+<wire x1="-152.4" y1="96.52" x2="-144.78" y2="96.52" width="0.1524" layer="91"/>
+<label x="-144.78" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NMI" class="0">
@@ -4784,6 +4858,30 @@ tested: YES&lt;br&gt; &lt;a href="https://pricing.snapeda.com/parts/GRPB052VWQS-
 <segment>
 <wire x1="40.386" y1="108.966" x2="40.64" y2="108.966" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="108.966" x2="40.64" y2="103.886" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_MCU_P" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="USB0_DP"/>
+<wire x1="-48.26" y1="22.86" x2="-58.42" y2="22.86" width="0.1524" layer="91"/>
+<label x="-73.66" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-114.3" y1="91.44" x2="-106.68" y2="91.44" width="0.1524" layer="91"/>
+<label x="-106.68" y="91.44" size="1.778" layer="95"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="USB_MCU_N" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="USB0_DM"/>
+<wire x1="-48.26" y1="20.32" x2="-58.42" y2="20.32" width="0.1524" layer="91"/>
+<label x="-73.66" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-114.3" y1="81.28" x2="-106.68" y2="81.28" width="0.1524" layer="91"/>
+<label x="-106.68" y="81.28" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
