@@ -2976,6 +2976,76 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 </deviceset>
 </devicesets>
 </library>
+<library name="NCP1117ST33T3G">
+<packages>
+<package name="SOT230P700X180-4N">
+<wire x1="1.5" y1="-3.25" x2="-1.5" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-3.25" x2="-1.5" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="3.25" x2="1.5" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="3.25" x2="1.5" y2="-3.25" width="0.2032" layer="21"/>
+<text x="-2.5412" y="3.86263125" size="1.2706" layer="25">&gt;NAME</text>
+<text x="-2.54368125" y="-5.138240625" size="1.271840625" layer="27">&gt;VALUE</text>
+<rectangle x1="1.1318" y1="-0.928328125" x2="4.3307" y2="0.9271" layer="51" rot="R270"/>
+<rectangle x1="-3.16788125" y1="-0.9287375" x2="-2.2987" y2="0.9271" layer="51" rot="R270"/>
+<rectangle x1="-3.16691875" y1="1.38631875" x2="-2.2987" y2="3.2385" layer="51" rot="R270"/>
+<rectangle x1="-3.165559375" y1="-3.241840625" x2="-2.2987" y2="-1.3843" layer="51" rot="R270"/>
+<rectangle x1="1.13038125" y1="-0.92716875" x2="4.3307" y2="0.9271" layer="51" rot="R270"/>
+<rectangle x1="-3.165559375" y1="-0.92805625" x2="-2.2987" y2="0.9271" layer="51" rot="R270"/>
+<rectangle x1="-3.166" y1="1.38591875" x2="-2.2987" y2="3.2385" layer="51" rot="R270"/>
+<rectangle x1="-3.167940625" y1="-3.24428125" x2="-2.2987" y2="-1.3843" layer="51" rot="R270"/>
+<circle x="-3.175" y="3.683" radius="0.127" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="3.6" x2="4.25" y2="3.6" width="0.05" layer="39"/>
+<wire x1="4.25" y1="3.6" x2="4.25" y2="-3.6" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-3.6" x2="-4.25" y2="-3.6" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="-3.6" x2="-4.25" y2="3.6" width="0.05" layer="39"/>
+<smd name="1" x="-2.9" y="2.3" dx="1" dy="2.15" layer="1" rot="R270"/>
+<smd name="2" x="-2.9" y="0" dx="1" dy="2.15" layer="1" rot="R270"/>
+<smd name="3" x="-2.9" y="-2.3" dx="1" dy="2.15" layer="1" rot="R270"/>
+<smd name="4" x="2.9" y="0" dx="3.25" dy="2.15" layer="1" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NCP1117ST33T3G">
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.1626" y="7.62196875" size="1.778459375" layer="95">&gt;NAME</text>
+<text x="-12.7115" y="-7.62691875" size="1.779609375" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-17.78" y="0" length="middle" direction="in"/>
+<pin name="OUT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="17.78" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NCP1117ST33T3G" prefix="U">
+<description>1.0 A Low-Dropout Positive ,Fixed and Adjustable,Voltage Regulators &lt;a href="https://pricing.snapeda.com/parts/NCP1117ST33T3G/ON%20Semiconductor/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NCP1117ST33T3G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT230P700X180-4N">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223 "/>
+<attribute name="MF" value="ON Semiconductor"/>
+<attribute name="MP" value="NCP1117ST33T3G"/>
+<attribute name="PACKAGE" value="SOT-223-4 ON Semiconductor"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/NCP1117ST33T3G/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3435,6 +3505,7 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <part name="TVS2" library="0603ESDA2-TR2" deviceset="0603ESDA2-TR2" device=""/>
 <part name="TVS3" library="0603ESDA2-TR2" deviceset="0603ESDA2-TR2" device=""/>
 <part name="C13" library="GRM21BC8YA106ME11L" deviceset="GRM21BC8YA106ME11L" device="" value="10uF"/>
+<part name="U2" library="NCP1117ST33T3G" deviceset="NCP1117ST33T3G" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3447,6 +3518,7 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <text x="-60.96" y="-127" size="1.778" layer="91">UART</text>
 <text x="-223.52" y="53.34" size="5.08" layer="97">Power Source Selection</text>
 <text x="17.78" y="137.16" size="5.08" layer="97">Power Decoupling</text>
+<text x="-228.6" y="20.32" size="5.08" layer="97">LDO</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="-48.26" y="68.58" smashed="yes">
@@ -3755,6 +3827,10 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <attribute name="NAME" x="151.13093125" y="119.38" size="1.77843125" layer="95" rot="R270"/>
 <attribute name="VALUE" x="142.23151875" y="119.38" size="1.78096875" layer="96" rot="R270"/>
 </instance>
+<instance part="U2" gate="G$1" x="-223.52" y="10.16" smashed="yes">
+<attribute name="NAME" x="-233.6826" y="17.78196875" size="1.778459375" layer="95"/>
+<attribute name="VALUE" x="-236.2315" y="2.53308125" size="1.779609375" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4041,6 +4117,11 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="114.3" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
 <label x="147.32" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="-205.74" y1="7.62" x2="-193.04" y2="7.62" width="0.1524" layer="91"/>
+<label x="-193.04" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW_5{SB}" class="0">
@@ -5480,6 +5561,11 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <wire x1="-210.82" y1="38.1" x2="-203.2" y2="38.1" width="0.1524" layer="91"/>
 <label x="-203.2" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="OUT"/>
+<wire x1="-205.74" y1="12.7" x2="-193.04" y2="12.7" width="0.1524" layer="91"/>
+<label x="-193.04" y="12.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VSYS_5V5" class="0">
 <segment>
@@ -5496,6 +5582,11 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="121.92" x2="147.32" y2="127" width="0.1524" layer="91"/>
 <label x="147.32" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="IN"/>
+<wire x1="-241.3" y1="10.16" x2="-256.54" y2="10.16" width="0.1524" layer="91"/>
+<label x="-256.54" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
