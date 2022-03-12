@@ -3046,6 +3046,66 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 </deviceset>
 </devicesets>
 </library>
+<library name="UPS115UE3-TR7">
+<packages>
+<package name="UPS115UE3/TR7">
+<smd name="1" x="-1.651" y="0" dx="2.667" dy="2.54" layer="1"/>
+<smd name="2" x="0.6858" y="0" dx="0.762" dy="1.27" layer="1"/>
+<circle x="-2.7686" y="-1.0414" radius="0.148103125" width="0" layer="21"/>
+<wire x1="-0.254" y1="-1.016" x2="-2.286" y2="-1.016" width="0.1016" layer="51"/>
+<wire x1="-2.286" y1="-1.016" x2="-2.286" y2="1.016" width="0.1016" layer="51"/>
+<wire x1="-2.286" y1="1.016" x2="-0.254" y2="1.016" width="0.1016" layer="51"/>
+<wire x1="-0.254" y1="1.016" x2="-0.254" y2="0.2032" width="0.1016" layer="51"/>
+<wire x1="-0.254" y1="0.2032" x2="1.0414" y2="0.2032" width="0.1016" layer="51"/>
+<wire x1="1.0414" y1="0.2032" x2="1.0414" y2="-0.2032" width="0.1016" layer="51"/>
+<wire x1="1.0414" y1="-0.2032" x2="-0.254" y2="-0.2032" width="0.1016" layer="51"/>
+<wire x1="-0.254" y1="-0.2032" x2="-0.254" y2="-1.016" width="0.1016" layer="51"/>
+<wire x1="-2.286" y1="1.016" x2="-0.254" y2="1.016" width="0.1016" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1016" layer="21"/>
+<text x="-3.81" y="1.524" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.064" y="-2.794" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="UPS115UE3/TR7">
+<pin name="P$1" x="-5.08" y="0" visible="pad" length="middle"/>
+<pin name="P$2" x="7.62" y="0" visible="pad" length="middle" rot="R180"/>
+<text x="-5.08" y="5.08" size="2.54" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="2.54" layer="96">&gt;VALUE</text>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="0"/>
+<vertex x="2.54" y="2.54"/>
+<vertex x="2.54" y="-2.54"/>
+</polygon>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UPS115UE3/TR7" prefix="D">
+<description>&lt;h3&gt;UPS115UE3/TR7&lt;/h3&gt;
+Description: 15V Schottky Diode&lt;br/&gt;
+Max forward current: 1A&lt;br/&gt;
+Max forward voltage: 310mV&lt;br/&gt;
+Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/UPS115UE3-TR7?qs=6jAvgNDGUA8Rt%252B%2FW9YCiwQ%3D%3D"&gt;Mouser&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="UPS115UE3/TR7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UPS115UE3/TR7">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3506,6 +3566,8 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <part name="TVS3" library="0603ESDA2-TR2" deviceset="0603ESDA2-TR2" device=""/>
 <part name="C13" library="GRM21BC8YA106ME11L" deviceset="GRM21BC8YA106ME11L" device="" value="10uF"/>
 <part name="U2" library="NCP1117ST33T3G" deviceset="NCP1117ST33T3G" device=""/>
+<part name="D146" library="UPS115UE3-TR7" deviceset="UPS115UE3/TR7" device=""/>
+<part name="C14" library="GRM21BC8YA106ME11L" deviceset="GRM21BC8YA106ME11L" device="" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -3831,6 +3893,14 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <attribute name="NAME" x="-233.6826" y="17.78196875" size="1.778459375" layer="95"/>
 <attribute name="VALUE" x="-236.2315" y="2.53308125" size="1.779609375" layer="96"/>
 </instance>
+<instance part="D146" gate="G$1" x="-256.54" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="-251.46" y="5.08" size="2.54" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-251.46" y="17.78" size="2.54" layer="96" rot="R180"/>
+</instance>
+<instance part="C14" gate="G$1" x="167.64" y="119.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="171.45093125" y="119.38" size="1.77843125" layer="95" rot="R270"/>
+<attribute name="VALUE" x="162.55151875" y="119.38" size="1.78096875" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4122,6 +4192,11 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="-205.74" y1="7.62" x2="-193.04" y2="7.62" width="0.1524" layer="91"/>
 <label x="-193.04" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<label x="167.64" y="109.22" size="1.778" layer="95"/>
+<wire x1="167.64" y1="114.3" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ROW_5{SB}" class="0">
@@ -5566,6 +5641,11 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <wire x1="-205.74" y1="12.7" x2="-193.04" y2="12.7" width="0.1524" layer="91"/>
 <label x="-193.04" y="12.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="121.92" x2="167.64" y2="127" width="0.1524" layer="91"/>
+<label x="167.64" y="127" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VSYS_5V5" class="0">
 <segment>
@@ -5584,9 +5664,9 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <label x="147.32" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="-241.3" y1="10.16" x2="-256.54" y2="10.16" width="0.1524" layer="91"/>
-<label x="-256.54" y="10.16" size="1.778" layer="95"/>
+<wire x1="-264.16" y1="10.16" x2="-276.86" y2="10.16" width="0.1524" layer="91"/>
+<label x="-276.86" y="10.16" size="1.778" layer="95"/>
+<pinref part="D146" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5594,6 +5674,14 @@ Purchase Link: &lt;a href="https://www.digikey.com/en/products/detail/eaton-elec
 <pinref part="J1" gate="G$1" pin="SHELL_GND"/>
 <wire x1="-205.74" y1="81.28" x2="-192.786" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="VLDO_5V5" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IN"/>
+<wire x1="-251.46" y1="10.16" x2="-241.3" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="D146" gate="G$1" pin="P$1"/>
+<label x="-250.698" y="7.874" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
