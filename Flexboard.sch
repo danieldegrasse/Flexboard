@@ -3106,6 +3106,68 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 </deviceset>
 </devicesets>
 </library>
+<library name="RNCP0805FTD20R0">
+<packages>
+<package name="RESC2012X60N">
+<text x="-1.69" y="-1.05" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.69" y="1.05" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.07" y1="-0.7" x2="-1.07" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.07" y1="0.7" x2="-1.07" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.07" y1="-0.7" x2="1.07" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-1.07" y1="-0.7" x2="-1.07" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-1.685" y1="-0.96" x2="1.685" y2="-0.96" width="0.05" layer="39"/>
+<wire x1="-1.685" y1="0.96" x2="1.685" y2="0.96" width="0.05" layer="39"/>
+<wire x1="-1.685" y1="-0.96" x2="-1.685" y2="0.96" width="0.05" layer="39"/>
+<wire x1="1.685" y1="-0.96" x2="1.685" y2="0.96" width="0.05" layer="39"/>
+<smd name="1" x="-0.835" y="0" dx="1.2" dy="1.42" layer="1"/>
+<smd name="2" x="0.835" y="0" dx="1.2" dy="1.42" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RNCP0805FTD20R0">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RNCP0805FTD20R0" prefix="R">
+<description> &lt;a href="https://pricing.snapeda.com/parts/RNCP0805FTD20R0/Stackpole%20Electronics%20Inc/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="RNCP0805FTD20R0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC2012X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 20 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Moisture Resistant Thin Film "/>
+<attribute name="MF" value="Stackpole Electronics Inc"/>
+<attribute name="MP" value="RNCP0805FTD20R0"/>
+<attribute name="PACKAGE" value="2012 Stackpole"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RNCP0805FTD20R0/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3476,13 +3538,6 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <part name="SJ_MCU_ROW5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
 <part name="SJ_MCU_ROW6" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
 <part name="SJ_MCU_ROW7" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
-<part name="SJ_MCU_LED_ROW1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
-<part name="SJ_MCU_LED_ROW2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
-<part name="SJ_MCU_LED_ROW3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
-<part name="SJ_MCU_LED_ROW4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
-<part name="SJ_MCU_LED_ROW5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
-<part name="SJ_MCU_LED_ROW6" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
-<part name="SJ_MCU_LED_ROW7" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
 <part name="SJ_R1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_LED_R1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_C1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
@@ -3576,6 +3631,13 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <part name="D42" library="BAS16LT3G" deviceset="BAS16LT3G" device=""/>
 <part name="D43" library="BAS16LT3G" deviceset="BAS16LT3G" device=""/>
 <part name="D44" library="BAS16LT3G" deviceset="BAS16LT3G" device=""/>
+<part name="R4" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
+<part name="R5" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
+<part name="R6" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
+<part name="R7" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
+<part name="R8" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
+<part name="R9" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
+<part name="R10" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3619,27 +3681,6 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 </instance>
 <instance part="SJ_MCU_ROW7" gate="G$1" x="-20.32" y="160.02" smashed="yes">
 <attribute name="NAME" x="-20.32" y="163.068" size="1.778" layer="95" font="vector" align="center"/>
-</instance>
-<instance part="SJ_MCU_LED_ROW1" gate="G$1" x="53.34" y="205.74" smashed="yes">
-<attribute name="NAME" x="53.34" y="208.788" size="1.778" layer="95" font="vector" align="center"/>
-</instance>
-<instance part="SJ_MCU_LED_ROW2" gate="G$1" x="53.34" y="198.12" smashed="yes">
-<attribute name="NAME" x="53.34" y="201.168" size="1.778" layer="95" font="vector" align="center"/>
-</instance>
-<instance part="SJ_MCU_LED_ROW3" gate="G$1" x="53.34" y="190.5" smashed="yes">
-<attribute name="NAME" x="53.34" y="193.548" size="1.778" layer="95" font="vector" align="center"/>
-</instance>
-<instance part="SJ_MCU_LED_ROW4" gate="G$1" x="53.34" y="182.88" smashed="yes">
-<attribute name="NAME" x="53.34" y="185.928" size="1.778" layer="95" font="vector" align="center"/>
-</instance>
-<instance part="SJ_MCU_LED_ROW5" gate="G$1" x="53.34" y="175.26" smashed="yes">
-<attribute name="NAME" x="53.34" y="178.308" size="1.778" layer="95" font="vector" align="center"/>
-</instance>
-<instance part="SJ_MCU_LED_ROW6" gate="G$1" x="53.34" y="167.64" smashed="yes">
-<attribute name="NAME" x="53.34" y="170.688" size="1.778" layer="95" font="vector" align="center"/>
-</instance>
-<instance part="SJ_MCU_LED_ROW7" gate="G$1" x="53.34" y="160.02" smashed="yes">
-<attribute name="NAME" x="53.34" y="163.068" size="1.778" layer="95" font="vector" align="center"/>
 </instance>
 <instance part="SJ_MCU_COL1" gate="G$1" x="-167.64" y="297.18" smashed="yes">
 <attribute name="NAME" x="-167.64" y="300.228" size="1.778" layer="95" font="vector" align="center"/>
@@ -3908,6 +3949,34 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <instance part="C14" gate="G$1" x="167.64" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="171.45093125" y="119.38" size="1.77843125" layer="95" rot="R270"/>
 <attribute name="VALUE" x="162.55151875" y="119.38" size="1.78096875" layer="96" rot="R270"/>
+</instance>
+<instance part="R4" gate="G$1" x="58.42" y="205.74" smashed="yes">
+<attribute name="NAME" x="50.795559375" y="208.28148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="66.03003125" y="200.653359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="58.42" y="198.12" smashed="yes">
+<attribute name="NAME" x="50.795559375" y="200.66148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="66.03003125" y="193.033359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R6" gate="G$1" x="58.42" y="190.5" smashed="yes">
+<attribute name="NAME" x="50.795559375" y="193.04148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="66.03003125" y="185.413359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="58.42" y="182.88" smashed="yes">
+<attribute name="NAME" x="50.795559375" y="185.42148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="66.03003125" y="177.793359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R8" gate="G$1" x="58.42" y="175.26" smashed="yes">
+<attribute name="NAME" x="50.795559375" y="177.80148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="66.03003125" y="170.173359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R9" gate="G$1" x="58.42" y="167.64" smashed="yes">
+<attribute name="NAME" x="50.795559375" y="170.18148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="66.03003125" y="162.553359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R10" gate="G$1" x="58.42" y="160.02" smashed="yes">
+<attribute name="NAME" x="50.795559375" y="162.56148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="66.03003125" y="154.933359375" size="2.54331875" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4406,9 +4475,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 </net>
 <net name="LED_ROW_2{MCU}" class="0">
 <segment>
-<pinref part="SJ_MCU_LED_ROW2" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="198.12" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
-<label x="66.04" y="198.12" size="1.778" layer="95"/>
+<wire x1="68.58" y1="198.12" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
+<label x="76.2" y="198.12" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PTE5"/>
@@ -4418,9 +4487,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 </net>
 <net name="LED_ROW_1{MCU}" class="0">
 <segment>
-<pinref part="SJ_MCU_LED_ROW1" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="205.74" x2="66.04" y2="205.74" width="0.1524" layer="91"/>
-<label x="66.04" y="205.74" size="1.778" layer="95"/>
+<wire x1="68.58" y1="205.74" x2="76.2" y2="205.74" width="0.1524" layer="91"/>
+<label x="76.2" y="205.74" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PTE8"/>
@@ -4435,9 +4504,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <label x="-33.02" y="-66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ_MCU_LED_ROW5" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="175.26" x2="66.04" y2="175.26" width="0.1524" layer="91"/>
-<label x="66.04" y="175.26" size="1.778" layer="95"/>
+<wire x1="68.58" y1="175.26" x2="76.2" y2="175.26" width="0.1524" layer="91"/>
+<label x="76.2" y="175.26" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED_ROW_7{MCU}" class="0">
@@ -4447,9 +4516,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <label x="-33.02" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ_MCU_LED_ROW7" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="160.02" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
-<label x="66.04" y="160.02" size="1.778" layer="95"/>
+<wire x1="68.58" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
+<label x="76.2" y="160.02" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED_ROW_6{MCU}" class="0">
@@ -4459,9 +4528,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <label x="-33.02" y="-76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ_MCU_LED_ROW6" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="167.64" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
-<label x="66.04" y="167.64" size="1.778" layer="95"/>
+<wire x1="68.58" y1="167.64" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
+<label x="76.2" y="167.64" size="1.778" layer="95"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED_ROW_4{MCU}" class="0">
@@ -4471,9 +4540,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <label x="-33.02" y="-83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ_MCU_LED_ROW4" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="182.88" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
-<label x="66.04" y="182.88" size="1.778" layer="95"/>
+<wire x1="68.58" y1="182.88" x2="76.2" y2="182.88" width="0.1524" layer="91"/>
+<label x="76.2" y="182.88" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED_ROW_3{MCU}" class="0">
@@ -4483,51 +4552,51 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <label x="-33.02" y="-86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ_MCU_LED_ROW3" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="190.5" x2="66.04" y2="190.5" width="0.1524" layer="91"/>
-<label x="66.04" y="190.5" size="1.778" layer="95"/>
+<wire x1="68.58" y1="190.5" x2="76.2" y2="190.5" width="0.1524" layer="91"/>
+<label x="76.2" y="190.5" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED_ROW_2{SB}" class="0">
 <segment>
-<pinref part="SJ_MCU_LED_ROW2" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="198.12" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
 <label x="20.32" y="198.12" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED_ROW_3{SB}" class="0">
 <segment>
-<pinref part="SJ_MCU_LED_ROW3" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="190.5" x2="40.64" y2="190.5" width="0.1524" layer="91"/>
 <label x="20.32" y="190.5" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED_ROW_4{SB}" class="0">
 <segment>
-<pinref part="SJ_MCU_LED_ROW4" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
 <label x="20.32" y="182.88" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED_ROW_5{SB}" class="0">
 <segment>
-<pinref part="SJ_MCU_LED_ROW5" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="175.26" x2="40.64" y2="175.26" width="0.1524" layer="91"/>
 <label x="20.32" y="175.26" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED_ROW_6{SB}" class="0">
 <segment>
-<pinref part="SJ_MCU_LED_ROW6" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="167.64" x2="40.64" y2="167.64" width="0.1524" layer="91"/>
 <label x="20.32" y="167.64" size="1.778" layer="95"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED_ROW_7{SB}" class="0">
 <segment>
-<pinref part="SJ_MCU_LED_ROW7" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
 <label x="20.32" y="160.02" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ROW_1{SB}" class="0">
@@ -4539,9 +4608,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 </net>
 <net name="LED_ROW_1{SB}" class="0">
 <segment>
-<pinref part="SJ_MCU_LED_ROW1" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="205.74" x2="40.64" y2="205.74" width="0.1524" layer="91"/>
 <label x="20.32" y="205.74" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="COL_1" class="0">
