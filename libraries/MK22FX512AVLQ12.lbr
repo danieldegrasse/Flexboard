@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -310,7 +310,6 @@
 <vertex x="-6.4325" y="11.863596875"/>
 <vertex x="-6.4325" y="11.609596875"/>
 </polygon>
-<text x="-12.446" y="8.7376" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="8.7376" y1="10.0076" x2="9.017" y2="10.0076" width="0.1524" layer="51"/>
 <wire x1="9.017" y1="10.0076" x2="9.017" y2="10.9982" width="0.1524" layer="51"/>
 <wire x1="9.017" y1="10.9982" x2="8.7376" y2="10.9982" width="0.1524" layer="51"/>
@@ -895,6 +894,8 @@
 <wire x1="10.1346" y1="10.0076" x2="-9.8806" y2="10.0076" width="0.1524" layer="51"/>
 <wire x1="-9.8806" y1="10.0076" x2="-9.8806" y2="-10.0076" width="0.1524" layer="51"/>
 <text x="-10.0584" y="8.3566" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<circle x="-12.573" y="7.797" radius="0.567959375" width="0" layer="21"/>
+<circle x="-8.727" y="7.823" radius="0.567959375" width="0" layer="21"/>
 </package>
 <package name="LQFP-144_20X20X1.6-M">
 <smd name="1" x="-10.675796875" y="8.75" dx="0.27" dy="1.766" layer="1" rot="R270"/>
