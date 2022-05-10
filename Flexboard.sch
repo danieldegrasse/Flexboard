@@ -3505,7 +3505,7 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <part name="SJ_LED_R2_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_LED_R3_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_LED_R3_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
-<part name="SJ__LED_R4_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="SJ_LED_R4_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_LED_R4_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_LED_R5_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_LED_R5_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
@@ -3639,6 +3639,8 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <part name="R8" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
 <part name="R9" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
 <part name="R10" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
+<part name="R11" library="CRGCQ1206J10K" deviceset="CRGCQ1206J10K" device="" value="10k"/>
+<part name="C15" library="C1206C102K1RACAUTO" deviceset="C1206C102K1RACAUTO" device="" value="1000pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -3979,6 +3981,14 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <attribute name="NAME" x="50.795559375" y="162.56148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="66.03003125" y="154.933359375" size="2.54331875" layer="96"/>
 </instance>
+<instance part="R11" gate="G$1" x="205.74" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="203.19851875" y="76.195559375" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="210.826640625" y="76.19003125" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C15" gate="G$1" x="205.74" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="201.93" y="50.8" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="210.82" y="50.8" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4097,6 +4107,11 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="-205.74" y1="43.18" x2="-200.66" y2="43.18" width="0.1524" layer="91"/>
 <label x="-200.66" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="93.98" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
+<label x="205.74" y="99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -4189,36 +4204,37 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <label x="-60.96" y="-15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="114.3" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="109.22" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="114.3" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
-<junction x="40.64" y="109.22"/>
-<label x="40.894" y="102.616" size="1.778" layer="95"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="109.22" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
-<junction x="53.34" y="109.22"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="114.3" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
 <junction x="68.58" y="109.22"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="114.3" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
 <junction x="81.28" y="109.22"/>
-<wire x1="27.94" y1="109.22" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
-<junction x="27.94" y="109.22"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="109.22" x2="15.24" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="114.3" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
 <junction x="93.98" y="109.22"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="114.3" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="109.22" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="109.22" x2="15.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
+<junction x="27.94" y="109.22"/>
+<junction x="53.34" y="109.22"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="109.22" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
+<junction x="40.64" y="109.22"/>
+<wire x1="40.64" y1="109.22" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
+<label x="40.64" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -4275,6 +4291,11 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <pinref part="C14" gate="G$1" pin="2"/>
 <label x="167.64" y="109.22" size="1.778" layer="95"/>
 <wire x1="167.64" y1="114.3" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="48.26" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
+<label x="205.74" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW_5{SB}" class="0">
@@ -5580,6 +5601,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="134.62" y1="22.86" x2="144.78" y2="22.86" width="0.1524" layer="91"/>
 <label x="144.78" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="73.66" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="66.04" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
+<junction x="205.74" y="66.04"/>
+<label x="213.36" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EXTAL32" class="0">
 <segment>
@@ -5635,12 +5665,6 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="210.82" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="7.62" x2="210.82" y2="15.24" width="0.1524" layer="91"/>
 <junction x="210.82" y="15.24"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="40.386" y1="108.966" x2="40.64" y2="108.966" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="108.966" x2="40.64" y2="103.886" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_MCU_P" class="0">
@@ -6785,7 +6809,7 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <attribute name="NAME" x="916.432" y="-87.884" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="906.78" y="-87.63" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SJ__LED_R4_0" gate="1" x="78.74" y="-119.38" smashed="yes" rot="R180">
+<instance part="SJ_LED_R4_0" gate="1" x="78.74" y="-119.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.202" y="-115.57" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="81.28" y="-115.57" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -7332,9 +7356,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="205.74" y1="-96.52" x2="205.74" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="-116.84" x2="223.52" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="-116.84" x2="223.52" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="-124.46" x2="223.52" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="-142.24" x2="241.3" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="-142.24" x2="241.3" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-124.46" x2="223.52" y2="-146.05" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-146.05" x2="241.3" y2="-146.05" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-146.05" x2="241.3" y2="-152.4" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-152.4" x2="241.3" y2="-177.8" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-177.8" x2="228.6" y2="-177.8" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="-177.8" x2="228.6" y2="-182.88" width="0.1524" layer="91"/>
@@ -9136,9 +9160,6 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="896.62" y1="-137.16" x2="899.16" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="899.16" y1="-137.16" x2="899.16" y2="-142.24" width="0.1524" layer="91"/>
 <junction x="899.16" y="-142.24"/>
-<pinref part="D107" gate="G$1" pin="A"/>
-<wire x1="850.9" y1="-137.16" x2="858.52" y2="-137.16" width="0.1524" layer="91"/>
-<wire x1="858.52" y1="-137.16" x2="858.52" y2="-142.24" width="0.1524" layer="91"/>
 <pinref part="D106" gate="G$1" pin="A"/>
 <wire x1="802.64" y1="-137.16" x2="805.18" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="805.18" y1="-137.16" x2="805.18" y2="-142.24" width="0.1524" layer="91"/>
@@ -9196,6 +9217,10 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="124.46" y1="-137.16" x2="124.46" y2="-142.24" width="0.1524" layer="91"/>
 <junction x="124.46" y="-142.24"/>
 <label x="756.92" y="-144.78" size="1.778" layer="95"/>
+<pinref part="D107" gate="G$1" pin="A"/>
+<wire x1="850.9" y1="-137.16" x2="858.52" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="858.52" y1="-137.16" x2="858.52" y2="-142.24" width="0.1524" layer="91"/>
+<junction x="858.52" y="-142.24"/>
 </segment>
 </net>
 <net name="N$103" class="0">
@@ -9510,24 +9535,6 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="127" y1="-165.1" x2="127" y2="-170.18" width="0.1524" layer="91"/>
 <junction x="127" y="-170.18"/>
 <label x="756.92" y="-172.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$124" class="0">
-<segment>
-<pinref part="SJ_R6_1" gate="1" pin="1"/>
-<wire x1="909.32" y1="-170.18" x2="952.5" y2="-170.18" width="0.1524" layer="91"/>
-<pinref part="D132" gate="G$1" pin="A"/>
-<wire x1="952.5" y1="-170.18" x2="995.68" y2="-170.18" width="0.1524" layer="91"/>
-<wire x1="995.68" y1="-170.18" x2="1036.32" y2="-170.18" width="0.1524" layer="91"/>
-<wire x1="1036.32" y1="-170.18" x2="1036.32" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="1036.32" y1="-165.1" x2="1031.24" y2="-165.1" width="0.1524" layer="91"/>
-<pinref part="D131" gate="G$1" pin="A"/>
-<wire x1="990.6" y1="-165.1" x2="995.68" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="995.68" y1="-165.1" x2="995.68" y2="-170.18" width="0.1524" layer="91"/>
-<pinref part="D130" gate="G$1" pin="A"/>
-<wire x1="949.96" y1="-165.1" x2="952.5" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="952.5" y1="-165.1" x2="952.5" y2="-170.18" width="0.1524" layer="91"/>
-<junction x="952.5" y="-170.18"/>
 </segment>
 </net>
 <net name="N$136" class="0">
@@ -10307,7 +10314,7 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <net name="LED_ROW_4" class="0">
 <segment>
 <wire x1="-35.56" y1="-119.38" x2="22.86" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="SJ__LED_R4_0" gate="1" pin="2"/>
+<pinref part="SJ_LED_R4_0" gate="1" pin="2"/>
 <pinref part="KEY_69" gate="G$1" pin="LED+"/>
 <wire x1="22.86" y1="-119.38" x2="66.04" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-119.38" x2="73.66" y2="-119.38" width="0.1524" layer="91"/>
@@ -10323,7 +10330,7 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 </net>
 <net name="LED_ROW_4{SB}" class="0">
 <segment>
-<pinref part="SJ__LED_R4_0" gate="1" pin="1"/>
+<pinref part="SJ_LED_R4_0" gate="1" pin="1"/>
 <wire x1="83.82" y1="-119.38" x2="134.62" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="SJ_LED_R4_1" gate="1" pin="2"/>
 <pinref part="KEY_86" gate="G$1" pin="LED+"/>
@@ -11520,20 +11527,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="904.24" y1="-73.66" x2="904.24" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="904.24" y1="-76.2" x2="909.32" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="909.32" y1="-76.2" x2="909.32" y2="-101.6" width="0.1524" layer="91"/>
-<label x="909.32" y="-213.36" size="1.778" layer="95" rot="R270"/>
-<pinref part="KEY_145" gate="G$1" pin="LED-"/>
 <wire x1="909.32" y1="-101.6" x2="909.32" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="909.32" y1="-129.54" x2="909.32" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="909.32" y1="-157.48" x2="909.32" y2="-187.96" width="0.1524" layer="91"/>
-<wire x1="909.32" y1="-187.96" x2="909.32" y2="-213.36" width="0.1524" layer="91"/>
-<wire x1="904.24" y1="-187.96" x2="909.32" y2="-187.96" width="0.1524" layer="91"/>
-<junction x="909.32" y="-187.96"/>
-<pinref part="KEY_129" gate="G$1" pin="LED-"/>
-<wire x1="904.24" y1="-157.48" x2="909.32" y2="-157.48" width="0.1524" layer="91"/>
-<junction x="909.32" y="-157.48"/>
 <pinref part="KEY_108" gate="G$1" pin="LED-"/>
 <wire x1="901.7" y1="-129.54" x2="909.32" y2="-129.54" width="0.1524" layer="91"/>
-<junction x="909.32" y="-129.54"/>
 <pinref part="KEY_86" gate="G$1" pin="LED-"/>
 <wire x1="901.7" y1="-101.6" x2="909.32" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="909.32" y="-101.6"/>
@@ -11543,6 +11539,17 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <pinref part="KEY_40" gate="G$1" pin="LED-"/>
 <wire x1="901.7" y1="-35.56" x2="904.24" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="904.24" y="-35.56"/>
+<pinref part="KEY_129" gate="G$1" pin="LED-"/>
+<wire x1="904.24" y1="-157.48" x2="909.32" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="-157.48" x2="909.32" y2="-187.96" width="0.1524" layer="91"/>
+<pinref part="KEY_145" gate="G$1" pin="LED-"/>
+<wire x1="904.24" y1="-187.96" x2="909.32" y2="-187.96" width="0.1524" layer="91"/>
+<junction x="909.32" y="-187.96"/>
+<wire x1="909.32" y1="-187.96" x2="909.32" y2="-213.36" width="0.1524" layer="91"/>
+<label x="909.32" y="-213.36" size="1.778" layer="95" rot="R270"/>
+<wire x1="909.32" y1="-157.48" x2="909.32" y2="-129.54" width="0.1524" layer="91"/>
+<junction x="909.32" y="-157.48"/>
+<junction x="909.32" y="-129.54"/>
 </segment>
 </net>
 <net name="LED_COL_21" class="0">
@@ -11800,9 +11807,148 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="1049.02" y1="-43.18" x2="1059.18" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="D131" gate="G$1" pin="A"/>
+<wire x1="990.6" y1="-165.1" x2="995.68" y2="-165.1" width="0.1524" layer="91"/>
+<pinref part="SJ_R6_1" gate="1" pin="1"/>
+<wire x1="909.32" y1="-170.18" x2="952.5" y2="-170.18" width="0.1524" layer="91"/>
+<pinref part="D132" gate="G$1" pin="A"/>
+<wire x1="952.5" y1="-170.18" x2="995.68" y2="-170.18" width="0.1524" layer="91"/>
+<wire x1="995.68" y1="-170.18" x2="1036.32" y2="-170.18" width="0.1524" layer="91"/>
+<wire x1="1036.32" y1="-170.18" x2="1036.32" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="1036.32" y1="-165.1" x2="1031.24" y2="-165.1" width="0.1524" layer="91"/>
+<pinref part="D130" gate="G$1" pin="A"/>
+<wire x1="949.96" y1="-165.1" x2="952.5" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="952.5" y1="-165.1" x2="952.5" y2="-170.18" width="0.1524" layer="91"/>
+<junction x="952.5" y="-170.18"/>
+<wire x1="995.68" y1="-165.1" x2="995.68" y2="-170.18" width="0.1524" layer="91"/>
+<junction x="995.68" y="-170.18"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-48.26,58.42,U1A,VDD_2,VDD_3V3,,,"/>
+<approved hash="104,1,-48.26,55.88,U1A,VSS_2,GND,,,"/>
+<approved hash="104,1,-48.26,30.48,U1A,VDD_3,VDD_3V3,,,"/>
+<approved hash="104,1,-48.26,27.94,U1A,VSS_3,GND,,,"/>
+<approved hash="104,1,-48.26,25.4,U1A,VSS_7,GND,,,"/>
+<approved hash="104,1,-48.26,17.78,U1A,VOUT33,VOUT_33,,,"/>
+<approved hash="104,1,-48.26,15.24,U1A,VREGIN,VSYS_5V5,,,"/>
+<approved hash="104,1,-48.26,-7.62,U1A,VDDA,VDD_3V3,,,"/>
+<approved hash="104,1,-48.26,-10.16,U1A,VREFH,VDD_3V3,,,"/>
+<approved hash="104,1,-48.26,-12.7,U1A,VREFL,GND,,,"/>
+<approved hash="104,1,-48.26,-15.24,U1A,VSSA,GND,,,"/>
+<approved hash="104,1,134.62,-7.62,U1A,VBAT,VDD_3V3,,,"/>
+<approved hash="104,1,134.62,-5.08,U1A,VDD_4,VDD_3V3,,,"/>
+<approved hash="104,1,134.62,-2.54,U1A,VSS_5,GND,,,"/>
+<approved hash="104,1,134.62,27.94,U1A,VDD_5,VDD_3V3,,,"/>
+<approved hash="104,1,134.62,30.48,U1A,VSS_6,GND,,,"/>
+<approved hash="104,1,134.62,63.5,U1A,VDD,VDD_3V3,,,"/>
+<approved hash="104,1,134.62,66.04,U1A,VSS,GND,,,"/>
+<approved hash="104,1,-5.08,-111.76,U1B,VSS_2,GND,,,"/>
+<approved hash="104,1,-5.08,-114.3,U1B,VDD_2,VDD_3V3,,,"/>
+<approved hash="104,1,-5.08,-147.32,U1B,VSS_3,GND,,,"/>
+<approved hash="104,1,-5.08,-149.86,U1B,VDD_3,VDD_3V3,,,"/>
+<approved hash="104,1,96.52,-119.38,U1B,VSS_4,GND,,,"/>
+<approved hash="104,1,96.52,-116.84,U1B,VDD_4,VDD_3V3,,,"/>
+<approved hash="104,1,96.52,-86.36,U1B,VSS,GND,,,"/>
+<approved hash="104,1,96.52,-83.82,U1B,VDD,VDD_3V3,,,"/>
+<approved hash="104,1,-205.74,81.28,J1,SHELL_GND,N$1,,,"/>
+<approved hash="110,2,896.62,-81.28,LED_ROW_3{SB},ROW_3{SB},,,,"/>
+<approved hash="110,2,909.32,-86.36,LED_COL_20,N$65,,,,"/>
+<approved hash="110,2,909.32,-91.44,LED_COL_20,N$170,,,,"/>
+<approved hash="110,2,909.32,-114.3,LED_COL_20,N$79,,,,"/>
+<approved hash="110,2,909.32,-119.38,LED_COL_20,N$173,,,,"/>
+<approved hash="110,2,909.32,-175.26,LED_COL_20,N$182,,,,"/>
+<approved hash="110,2,909.32,-170.18,LED_COL_20,N$2,,,,"/>
+<approved hash="110,2,909.32,-200.66,LED_COL_20,N$151,,,,"/>
+<approved hash="110,2,909.32,-208.28,LED_COL_20,N$185,,,,"/>
+<approved hash="110,2,909.32,-142.24,LED_COL_20,N$103,,,,"/>
+<approved hash="110,2,909.32,-147.32,LED_COL_20,N$179,,,,"/>
+<approved hash="111,2,896.62,-81.28,LED_ROW_3{SB},,,,,"/>
+<approved hash="111,2,909.32,-86.36,LED_COL_20,,,,,"/>
+<approved hash="111,2,909.32,-114.3,LED_COL_20,,,,,"/>
+<approved hash="111,2,909.32,-142.24,LED_COL_20,,,,,"/>
+<approved hash="111,2,909.32,-170.18,LED_COL_20,,,,,"/>
+<approved hash="111,2,909.32,-200.66,LED_COL_20,,,,,"/>
+<approved hash="111,2,909.32,-91.44,LED_COL_20,,,,,"/>
+<approved hash="111,2,909.32,-119.38,LED_COL_20,,,,,"/>
+<approved hash="111,2,909.32,-147.32,LED_COL_20,,,,,"/>
+<approved hash="111,2,909.32,-175.26,LED_COL_20,,,,,"/>
+<approved hash="111,2,909.32,-208.28,LED_COL_20,,,,,"/>
+<approved hash="113,2,84.7496,-22.86,SJ_C3,,,,,"/>
+<approved hash="113,2,140.63,-22.86,SJ_C4,,,,,"/>
+<approved hash="113,2,188.89,-22.86,SJ_C5,,,,,"/>
+<approved hash="113,2,234.61,-22.86,SJ_C6,,,,,"/>
+<approved hash="113,2,277.79,-22.86,SJ_C7,,,,,"/>
+<approved hash="113,2,326.05,-22.86,SJ_C8,,,,,"/>
+<approved hash="113,2,366.69,-22.86,SJ_C9,,,,,"/>
+<approved hash="113,2,414.95,0,SJ_C10,,,,,"/>
+<approved hash="113,2,455.59,0,SJ_C11,,,,,"/>
+<approved hash="113,2,496.23,0,SJ_C12,,,,,"/>
+<approved hash="113,2,539.41,0,SJ_C13,,,,,"/>
+<approved hash="113,2,580.05,-22.86,SJ_C14,,,,,"/>
+<approved hash="113,2,623.23,-22.86,SJ_C15,,,,,"/>
+<approved hash="113,2,663.87,-22.86,SJ_C16,,,,,"/>
+<approved hash="113,2,707.05,-22.86,SJ_C17,,,,,"/>
+<approved hash="113,2,775.63,-22.86,SJ_C18,,,,,"/>
+<approved hash="113,2,823.89,-22.86,SJ_C19,,,,,"/>
+<approved hash="113,2,867.07,-22.86,SJ_C20,,,,,"/>
+<approved hash="113,2,78.74,-49.5385,SJ_R2_0,,,,,"/>
+<approved hash="113,2,78.74,-84.8445,SJ_R3_0,,,,,"/>
+<approved hash="113,2,78.74,-113.165,SJ_R4_0,,,,,"/>
+<approved hash="113,2,78.74,-140.978,SJ_R5_0,,,,,"/>
+<approved hash="113,2,78.74,-168.283,SJ_R6_0,,,,,"/>
+<approved hash="113,2,78.74,-198.763,SJ_R7_0,,,,,"/>
+<approved hash="113,2,904.24,-85.0985,SJ_R3_1,,,,,"/>
+<approved hash="113,2,904.24,-112.911,SJ_R4_1,,,,,"/>
+<approved hash="113,2,904.24,-141.105,SJ_R5_1,,,,,"/>
+<approved hash="113,2,904.24,-168.664,SJ_R6_1,,,,,"/>
+<approved hash="113,2,904.24,-199.271,SJ_R7_1,,,,,"/>
+<approved hash="113,2,80.1793,-56.7775,SJ_LED_R2_0,,,,,"/>
+<approved hash="113,2,80.3063,-90.3055,SJ_LED_R3_0,,,,,"/>
+<approved hash="113,2,905.933,-90.3055,SJ_LED_R3_1,,,,,"/>
+<approved hash="113,2,81.0683,-118.118,SJ_LED_R4_0,,,,,"/>
+<approved hash="113,2,906.187,-118.372,SJ_LED_R4_1,,,,,"/>
+<approved hash="113,2,80.3063,-146.058,SJ_LED_R5_0,,,,,"/>
+<approved hash="113,2,906.314,-145.931,SJ_LED_R5_1,,,,,"/>
+<approved hash="113,2,79.7983,-174.125,SJ_LED_R6_0,,,,,"/>
+<approved hash="113,2,905.806,-173.871,SJ_LED_R6_1,,,,,"/>
+<approved hash="113,2,80.6873,-206.383,SJ_LED_R7_0,,,,,"/>
+<approved hash="113,2,906.949,-206.637,SJ_LED_R7_1,,,,,"/>
+<approved hash="113,2,120.31,-21.5348,SJ_LED_C3,,,,,"/>
+<approved hash="113,2,176.19,-21.5348,SJ_LED_C4,,,,,"/>
+<approved hash="113,2,224.45,-21.5348,SJ_LED_C5,,,,,"/>
+<approved hash="113,2,270.17,-21.5348,SJ_LED_C6,,,,,"/>
+<approved hash="113,2,315.89,-21.5348,SJ_LED_C7,,,,,"/>
+<approved hash="113,2,361.61,-21.5348,SJ_LED_C8,,,,,"/>
+<approved hash="113,2,402.25,-21.5348,SJ_LED_C9,,,,,"/>
+<approved hash="113,2,450.51,-0.505175,SJ_LED_C10,,,,,"/>
+<approved hash="113,2,491.15,-3.1389,SJ_LED_C11,,,,,"/>
+<approved hash="113,2,531.79,-0.505175,SJ_LED_C12,,,,,"/>
+<approved hash="113,2,574.97,-0.505175,SJ_LED_C13,,,,,"/>
+<approved hash="113,2,615.61,-18.2852,SJ_LED_C14,,,,,"/>
+<approved hash="113,2,656.25,-18.2852,SJ_LED_C15,,,,,"/>
+<approved hash="113,2,699.43,-18.2852,SJ_LED_C16,,,,,"/>
+<approved hash="113,2,740.07,-18.2852,SJ_LED_C17,,,,,"/>
+<approved hash="113,2,808.65,-18.2852,SJ_LED_C18,,,,,"/>
+<approved hash="113,2,859.45,-18.2852,SJ_LED_C19,,,,,"/>
+<approved hash="113,2,902.63,-18.2852,SJ_LED_C20,,,,,"/>
+<approved hash="113,2,755.658,-5.08,SJ_R1,,,,,"/>
+<approved hash="113,2,763.278,-5.08,SJ_LED_R1,,,,,"/>
+<approved hash="113,2,60.96,-1.61036,SJ_C1,,,,,"/>
+<approved hash="113,2,62.2852,-9.23036,SJ_LED_C1,,,,,"/>
+<approved hash="113,2,60.96,-16.8504,SJ_C2,,,,,"/>
+<approved hash="113,2,62.2852,-24.4704,SJ_LED_C2,,,,,"/>
+<approved hash="113,1,-53.3823,-114.01,SV1,,,,,"/>
+<approved hash="113,1,-209.879,43.18,SJ1,,,,,"/>
+<approved hash="113,1,-193.04,110.706,TVS1,,,,,"/>
+<approved hash="113,1,-153.886,76.2,TVS2,,,,,"/>
+<approved hash="113,1,-146.266,76.2,TVS3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
