@@ -3622,7 +3622,7 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <part name="TVS3" library="0603ESDA2-TR2" deviceset="0603ESDA2-TR2" device=""/>
 <part name="C13" library="GRM21BC8YA106ME11L" deviceset="GRM21BC8YA106ME11L" device="" value="10uF"/>
 <part name="U2" library="NCP1117ST33T3G" deviceset="NCP1117ST33T3G" device=""/>
-<part name="D150" library="UPS115UE3-TR7" deviceset="UPS115UE3/TR7" device=""/>
+<part name="D200" library="UPS115UE3-TR7" deviceset="UPS115UE3/TR7" device=""/>
 <part name="C14" library="GRM21BC8YA106ME11L" deviceset="GRM21BC8YA106ME11L" device="" value="10uF"/>
 <part name="KEY_41" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="KEY_42" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
@@ -3641,6 +3641,22 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <part name="R10" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device=""/>
 <part name="R11" library="CRGCQ1206J10K" deviceset="CRGCQ1206J10K" device="" value="10k"/>
 <part name="C15" library="C1206C102K1RACAUTO" deviceset="C1206C102K1RACAUTO" device="" value="1000pF"/>
+<part name="KEY_150" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_151" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_152" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="KEY_153" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
+<part name="D150" library="BAS16LT3G" deviceset="BAS16LT3G" device=""/>
+<part name="D151" library="BAS16LT3G" deviceset="BAS16LT3G" device=""/>
+<part name="D152" library="BAS16LT3G" deviceset="BAS16LT3G" device=""/>
+<part name="D153" library="BAS16LT3G" deviceset="BAS16LT3G" device=""/>
+<part name="SJ_C21" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="SJ_LED_C21" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="SJ_C22" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="SJ_LED_C22" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="SJ_C23" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="SJ_LED_C23" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="SJ_C24" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="SJ_LED_C24" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -3945,7 +3961,7 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <attribute name="NAME" x="-233.6826" y="17.78196875" size="1.778459375" layer="95"/>
 <attribute name="VALUE" x="-236.2315" y="2.53308125" size="1.779609375" layer="96"/>
 </instance>
-<instance part="D150" gate="G$1" x="-256.54" y="10.16" smashed="yes" rot="R180">
+<instance part="D200" gate="G$1" x="-256.54" y="10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="-251.46" y="5.08" size="2.54" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-251.46" y="17.78" size="2.54" layer="96" rot="R180"/>
 </instance>
@@ -5768,7 +5784,7 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <segment>
 <wire x1="-264.16" y1="10.16" x2="-276.86" y2="10.16" width="0.1524" layer="91"/>
 <label x="-276.86" y="10.16" size="1.778" layer="95"/>
-<pinref part="D150" gate="G$1" pin="P$2"/>
+<pinref part="D200" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5782,7 +5798,7 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <segment>
 <pinref part="U2" gate="G$1" pin="IN"/>
 <wire x1="-251.46" y1="10.16" x2="-241.3" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="D150" gate="G$1" pin="P$1"/>
+<pinref part="D200" gate="G$1" pin="P$1"/>
 <label x="-250.698" y="7.874" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -6961,6 +6977,62 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <instance part="D44" gate="G$1" x="1064.26" y="-43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="1066.80341875" y="-45.72341875" size="1.780390625" layer="95" rot="R180"/>
 </instance>
+<instance part="KEY_150" gate="G$1" x="937.26" y="30.48" smashed="yes">
+<attribute name="NAME" x="931.926" y="23.114" size="1.778" layer="95"/>
+</instance>
+<instance part="KEY_151" gate="G$1" x="977.9" y="30.48" smashed="yes">
+<attribute name="NAME" x="972.566" y="23.114" size="1.778" layer="95"/>
+</instance>
+<instance part="KEY_152" gate="G$1" x="1018.54" y="30.48" smashed="yes">
+<attribute name="NAME" x="1013.206" y="23.114" size="1.778" layer="95"/>
+</instance>
+<instance part="KEY_153" gate="G$1" x="1059.18" y="30.48" smashed="yes">
+<attribute name="NAME" x="1053.846" y="23.114" size="1.778" layer="95"/>
+</instance>
+<instance part="D150" gate="G$1" x="944.88" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="947.42341875" y="17.77658125" size="1.780390625" layer="95" rot="R180"/>
+</instance>
+<instance part="D151" gate="G$1" x="980.44" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="982.98341875" y="17.77658125" size="1.780390625" layer="95" rot="R180"/>
+</instance>
+<instance part="D152" gate="G$1" x="1023.62" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="1026.16341875" y="17.77658125" size="1.780390625" layer="95" rot="R180"/>
+</instance>
+<instance part="D153" gate="G$1" x="1064.26" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="1066.80341875" y="17.77658125" size="1.780390625" layer="95" rot="R180"/>
+</instance>
+<instance part="SJ_C21" gate="1" x="922.02" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="919.48" y="-20.32" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="925.83" y="-20.32" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ_LED_C21" gate="1" x="957.58" y="-15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="955.04" y="-17.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="961.39" y="-17.78" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ_C22" gate="1" x="965.2" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="962.66" y="-20.32" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="969.01" y="-20.32" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ_LED_C22" gate="1" x="998.22" y="-15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="995.68" y="-17.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="1002.03" y="-17.78" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ_C23" gate="1" x="1005.84" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="1003.3" y="-20.32" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="1009.65" y="-20.32" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ_LED_C23" gate="1" x="1038.86" y="-15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="1036.32" y="-17.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="1042.67" y="-17.78" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ_C24" gate="1" x="1046.48" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="1043.94" y="-20.32" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="1050.29" y="-20.32" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ_LED_C24" gate="1" x="1082.04" y="-15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="1079.5" y="-17.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="1085.85" y="-17.78" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7178,6 +7250,26 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <pinref part="SJ_R1" gate="1" pin="1"/>
 <wire x1="756.92" y1="0" x2="756.92" y2="15.24" width="0.1524" layer="91"/>
 <junction x="756.92" y="15.24"/>
+<pinref part="D150" gate="G$1" pin="A"/>
+<wire x1="949.96" y1="20.32" x2="952.5" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="952.5" y1="20.32" x2="952.5" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="D151" gate="G$1" pin="A"/>
+<wire x1="985.52" y1="20.32" x2="988.06" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="988.06" y1="20.32" x2="988.06" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="D152" gate="G$1" pin="A"/>
+<wire x1="1028.7" y1="20.32" x2="1031.24" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="1031.24" y1="20.32" x2="1031.24" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="D153" gate="G$1" pin="A"/>
+<wire x1="1069.34" y1="20.32" x2="1074.42" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="1074.42" y1="20.32" x2="1074.42" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="899.16" y1="15.24" x2="952.5" y2="15.24" width="0.1524" layer="91"/>
+<junction x="899.16" y="15.24"/>
+<junction x="952.5" y="15.24"/>
+<wire x1="952.5" y1="15.24" x2="988.06" y2="15.24" width="0.1524" layer="91"/>
+<junction x="988.06" y="15.24"/>
+<wire x1="988.06" y1="15.24" x2="1031.24" y2="15.24" width="0.1524" layer="91"/>
+<junction x="1031.24" y="15.24"/>
+<wire x1="1031.24" y1="15.24" x2="1074.42" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -8242,6 +8334,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="927.1" y1="-30.48" x2="922.02" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="922.02" y1="-30.48" x2="922.02" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="922.02" y="-68.58"/>
+<pinref part="SJ_C21" gate="1" pin="1"/>
+<wire x1="922.02" y1="-22.86" x2="922.02" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="922.02" y="-30.48"/>
+</segment>
+<segment>
+<pinref part="KEY_150" gate="G$1" pin="SW1"/>
+<wire x1="927.1" y1="33.02" x2="922.02" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="33.02" x2="922.02" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="SJ_C21" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="COL_22" class="0">
@@ -8270,6 +8371,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="967.74" y1="-30.48" x2="965.2" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="965.2" y1="-30.48" x2="965.2" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="965.2" y="-68.58"/>
+<pinref part="SJ_C22" gate="1" pin="1"/>
+<wire x1="965.2" y1="-22.86" x2="965.2" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="965.2" y="-30.48"/>
+</segment>
+<segment>
+<pinref part="KEY_151" gate="G$1" pin="SW1"/>
+<wire x1="967.74" y1="33.02" x2="965.2" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="965.2" y1="33.02" x2="965.2" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="SJ_C22" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="COL_23" class="0">
@@ -8298,6 +8408,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="1008.38" y1="-30.48" x2="1005.84" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="1005.84" y1="-30.48" x2="1005.84" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="1005.84" y="-68.58"/>
+<pinref part="SJ_C23" gate="1" pin="1"/>
+<wire x1="1005.84" y1="-22.86" x2="1005.84" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="1005.84" y="-30.48"/>
+</segment>
+<segment>
+<pinref part="KEY_152" gate="G$1" pin="SW1"/>
+<wire x1="1008.38" y1="33.02" x2="1005.84" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="1005.84" y1="33.02" x2="1005.84" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="SJ_C23" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="COL_24" class="0">
@@ -8322,6 +8441,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="1049.02" y1="-30.48" x2="1046.48" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="1046.48" y1="-30.48" x2="1046.48" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="1046.48" y="-68.58"/>
+<pinref part="SJ_C24" gate="1" pin="1"/>
+<wire x1="1046.48" y1="-22.86" x2="1046.48" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="1046.48" y="-30.48"/>
+</segment>
+<segment>
+<pinref part="KEY_153" gate="G$1" pin="SW1"/>
+<wire x1="1049.02" y1="33.02" x2="1046.48" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="1046.48" y1="33.02" x2="1046.48" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="SJ_C24" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -10173,6 +10301,26 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <pinref part="SJ_LED_R1" gate="1" pin="1"/>
 <wire x1="764.54" y1="0" x2="764.54" y2="7.62" width="0.1524" layer="91"/>
 <junction x="764.54" y="7.62"/>
+<pinref part="KEY_150" gate="G$1" pin="LED+"/>
+<wire x1="955.04" y1="33.02" x2="960.12" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="960.12" y1="33.02" x2="960.12" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="7.62" x2="960.12" y2="7.62" width="0.1524" layer="91"/>
+<junction x="906.78" y="7.62"/>
+<wire x1="1000.76" y1="33.02" x2="1000.76" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="KEY_151" gate="G$1" pin="LED+"/>
+<wire x1="995.68" y1="33.02" x2="1000.76" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="960.12" y1="7.62" x2="1000.76" y2="7.62" width="0.1524" layer="91"/>
+<junction x="960.12" y="7.62"/>
+<junction x="1000.76" y="7.62"/>
+<pinref part="KEY_153" gate="G$1" pin="LED+"/>
+<wire x1="1076.96" y1="33.02" x2="1084.58" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="1084.58" y1="33.02" x2="1084.58" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="1000.76" y1="7.62" x2="1041.4" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="KEY_152" gate="G$1" pin="LED+"/>
+<wire x1="1041.4" y1="7.62" x2="1084.58" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="1036.32" y1="33.02" x2="1041.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="1041.4" y1="33.02" x2="1041.4" y2="7.62" width="0.1524" layer="91"/>
+<junction x="1041.4" y="7.62"/>
 </segment>
 </net>
 <net name="LED_ROW_3" class="0">
@@ -11578,6 +11726,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="955.04" y1="-35.56" x2="957.58" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="957.58" y1="-35.56" x2="957.58" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="957.58" y="-73.66"/>
+<pinref part="SJ_LED_C21" gate="1" pin="1"/>
+<wire x1="957.58" y1="-20.32" x2="957.58" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="957.58" y="-35.56"/>
+</segment>
+<segment>
+<pinref part="KEY_150" gate="G$1" pin="LED-"/>
+<wire x1="955.04" y1="27.94" x2="957.58" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="957.58" y1="27.94" x2="957.58" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="SJ_LED_C21" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="LED_COL_22" class="0">
@@ -11606,6 +11763,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="995.68" y1="-35.56" x2="998.22" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="998.22" y1="-35.56" x2="998.22" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="998.22" y="-73.66"/>
+<pinref part="SJ_LED_C22" gate="1" pin="1"/>
+<wire x1="998.22" y1="-20.32" x2="998.22" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="998.22" y="-35.56"/>
+</segment>
+<segment>
+<pinref part="KEY_151" gate="G$1" pin="LED-"/>
+<wire x1="995.68" y1="27.94" x2="998.22" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="998.22" y1="27.94" x2="998.22" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="SJ_LED_C22" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="LED_COL_23" class="0">
@@ -11634,6 +11800,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="1036.32" y1="-35.56" x2="1038.86" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="1038.86" y1="-35.56" x2="1038.86" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="1038.86" y="-73.66"/>
+<pinref part="SJ_LED_C23" gate="1" pin="1"/>
+<wire x1="1038.86" y1="-20.32" x2="1038.86" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="1038.86" y="-35.56"/>
+</segment>
+<segment>
+<pinref part="KEY_152" gate="G$1" pin="LED-"/>
+<wire x1="1036.32" y1="27.94" x2="1038.86" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="1038.86" y1="27.94" x2="1038.86" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="SJ_LED_C23" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="LED_COL_24" class="0">
@@ -11658,6 +11833,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="1076.96" y1="-35.56" x2="1082.04" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="1082.04" y1="-35.56" x2="1082.04" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="1082.04" y="-73.66"/>
+<pinref part="SJ_LED_C24" gate="1" pin="1"/>
+<wire x1="1082.04" y1="-20.32" x2="1082.04" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="1082.04" y="-35.56"/>
+</segment>
+<segment>
+<pinref part="KEY_153" gate="G$1" pin="LED-"/>
+<wire x1="1076.96" y1="27.94" x2="1082.04" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="1082.04" y1="27.94" x2="1082.04" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="SJ_LED_C24" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="ROW_1{SB}" class="0">
@@ -11824,6 +12008,39 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <junction x="952.5" y="-170.18"/>
 <wire x1="995.68" y1="-165.1" x2="995.68" y2="-170.18" width="0.1524" layer="91"/>
 <junction x="995.68" y="-170.18"/>
+</segment>
+</net>
+<net name="N$91" class="0">
+<segment>
+<pinref part="D150" gate="G$1" pin="C"/>
+<wire x1="939.8" y1="20.32" x2="924.56" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="KEY_150" gate="G$1" pin="SW2"/>
+<wire x1="924.56" y1="20.32" x2="924.56" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="924.56" y1="27.94" x2="927.1" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$99" class="0">
+<segment>
+<pinref part="KEY_151" gate="G$1" pin="SW2"/>
+<wire x1="967.74" y1="27.94" x2="967.74" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D151" gate="G$1" pin="C"/>
+<wire x1="967.74" y1="20.32" x2="975.36" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$124" class="0">
+<segment>
+<pinref part="KEY_152" gate="G$1" pin="SW2"/>
+<wire x1="1008.38" y1="27.94" x2="1008.38" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D152" gate="G$1" pin="C"/>
+<wire x1="1008.38" y1="20.32" x2="1018.54" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$138" class="0">
+<segment>
+<pinref part="KEY_153" gate="G$1" pin="SW2"/>
+<wire x1="1049.02" y1="27.94" x2="1049.02" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D153" gate="G$1" pin="C"/>
+<wire x1="1049.02" y1="20.32" x2="1059.18" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
