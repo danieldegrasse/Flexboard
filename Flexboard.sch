@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3663,6 +3663,8 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <part name="SJ_LED_R1_1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_R1_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="SJ_LED_R1_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="R12" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device="" value="5.1k"/>
+<part name="R13" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device="" value="5.1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3939,17 +3941,17 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <attribute name="NAME" x="130.81093125" y="119.38" size="1.77843125" layer="95" rot="R270"/>
 <attribute name="VALUE" x="121.91151875" y="119.38" size="1.78096875" layer="96" rot="R270"/>
 </instance>
-<instance part="L1" gate="G$1" x="-180.34" y="101.6" smashed="yes">
-<attribute name="NAME" x="-187.96" y="104.648" size="2.54" layer="95"/>
-<attribute name="VALUE" x="-176.784" y="95.25" size="2.54" layer="96"/>
+<instance part="L1" gate="G$1" x="-177.8" y="106.68" smashed="yes">
+<attribute name="NAME" x="-185.42" y="109.728" size="2.54" layer="95"/>
+<attribute name="VALUE" x="-174.244" y="100.33" size="2.54" layer="96"/>
 </instance>
 <instance part="L2" gate="G$1" x="-180.086" y="81.28" smashed="yes">
 <attribute name="NAME" x="-187.706" y="84.328" size="2.54" layer="95"/>
 <attribute name="VALUE" x="-177.8" y="75.438" size="2.54" layer="96"/>
 </instance>
-<instance part="TVS1" gate="G$1" x="-193.04" y="109.22" smashed="yes">
-<attribute name="NAME" x="-195.58" y="113.03" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-195.58" y="104.14" size="1.27" layer="96"/>
+<instance part="TVS1" gate="G$1" x="-190.5" y="114.3" smashed="yes">
+<attribute name="NAME" x="-193.04" y="118.11" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-193.04" y="109.22" size="1.27" layer="96"/>
 </instance>
 <instance part="TVS2" gate="G$1" x="-152.4" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="-156.21" y="73.66" size="1.27" layer="95" rot="R90"/>
@@ -4010,6 +4012,14 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <instance part="C15" gate="G$1" x="205.74" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="201.93" y="50.8" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="210.82" y="50.8" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R12" gate="G$1" x="-279.4" y="96.52" smashed="yes">
+<attribute name="NAME" x="-287.024440625" y="99.06148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-287.02996875" y="91.433359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="-182.88" y="99.06" smashed="yes">
+<attribute name="NAME" x="-190.504440625" y="101.60148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-190.50996875" y="93.973359375" size="2.54331875" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4295,8 +4305,8 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <pinref part="TVS3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="-185.42" y1="109.22" x2="-180.34" y2="109.22" width="0.1524" layer="91"/>
-<label x="-180.34" y="109.22" size="2.54" layer="95"/>
+<wire x1="-182.88" y1="114.3" x2="-177.8" y2="114.3" width="0.1524" layer="91"/>
+<label x="-177.8" y="114.3" size="2.54" layer="95"/>
 <pinref part="TVS1" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -4318,6 +4328,16 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="48.26" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
 <label x="205.74" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-172.72" y1="99.06" x2="-162.56" y2="99.06" width="0.1524" layer="91"/>
+<label x="-162.56" y="99.06" size="1.778" layer="95"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="-289.56" y1="96.52" x2="-292.1" y2="96.52" width="0.1524" layer="91"/>
+<label x="-294.64" y="96.52" size="1.778" layer="95"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ROW_5{SB}" class="0">
@@ -5607,14 +5627,15 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 </net>
 <net name="VBUS" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="VBUS"/>
-<wire x1="-205.74" y1="101.6" x2="-200.66" y2="101.6" width="0.1524" layer="91"/>
-<label x="-198.12" y="101.6" size="1.778" layer="95"/>
+<label x="-195.58" y="106.68" size="1.778" layer="95"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="-200.66" y1="101.6" x2="-193.04" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-200.66" y1="109.22" x2="-200.66" y2="101.6" width="0.1524" layer="91"/>
-<junction x="-200.66" y="101.6"/>
+<wire x1="-198.12" y1="106.68" x2="-190.5" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="114.3" x2="-198.12" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="TVS1" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
+<wire x1="-205.74" y1="101.6" x2="-198.12" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="101.6" x2="-198.12" y2="106.68" width="0.1524" layer="91"/>
+<junction x="-198.12" y="106.68"/>
 </segment>
 </net>
 <net name="NMI" class="0">
@@ -5778,8 +5799,8 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <label x="-68.58" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-167.64" y1="101.6" x2="-160.02" y2="101.6" width="0.1524" layer="91"/>
-<label x="-160.02" y="101.6" size="1.778" layer="95"/>
+<wire x1="-165.1" y1="106.68" x2="-157.48" y2="106.68" width="0.1524" layer="91"/>
+<label x="-157.48" y="106.68" size="1.778" layer="95"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -5806,6 +5827,22 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <wire x1="-251.46" y1="10.16" x2="-241.3" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="D200" gate="G$1" pin="P$1"/>
 <label x="-250.698" y="7.874" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$214" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="CC2"/>
+<wire x1="-205.74" y1="96.52" x2="-198.12" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="96.52" x2="-198.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="99.06" x2="-193.04" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$215" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="CC1"/>
+<wire x1="-269.24" y1="96.52" x2="-246.38" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
