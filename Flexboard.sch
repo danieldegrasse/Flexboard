@@ -2736,63 +2736,6 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="1206ZC225MAT2A">
-<packages>
-<package name="CAPC3216X178N">
-<text x="-2.31" y="-1.25" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-2.31" y="1.25" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.127" layer="51"/>
-<wire x1="1.7" y1="0.9" x2="-1.7" y2="0.9" width="0.127" layer="51"/>
-<wire x1="1.7" y1="-0.9" x2="1.7" y2="0.9" width="0.127" layer="51"/>
-<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.127" layer="51"/>
-<wire x1="-0.57" y1="0.9" x2="0.57" y2="0.9" width="0.127" layer="21"/>
-<wire x1="-0.57" y1="-0.9" x2="0.57" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-2.308" y1="-1.158" x2="2.308" y2="-1.158" width="0.05" layer="39"/>
-<wire x1="-2.308" y1="1.158" x2="2.308" y2="1.158" width="0.05" layer="39"/>
-<wire x1="-2.308" y1="-1.158" x2="-2.308" y2="1.158" width="0.05" layer="39"/>
-<wire x1="2.308" y1="-1.158" x2="2.308" y2="1.158" width="0.05" layer="39"/>
-<smd name="1" x="-1.475" y="0" dx="1.16" dy="1.82" layer="1"/>
-<smd name="2" x="1.475" y="0" dx="1.16" dy="1.82" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="1206ZC225MAT2A">
-<text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
-<text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
-<rectangle x1="0" y1="-1.906859375" x2="0.635" y2="1.905" layer="94"/>
-<rectangle x1="1.90685" y1="-1.90685" x2="2.54" y2="1.905" layer="94"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1206ZC225MAT2A" prefix="C">
-<description>CERAMIC CAPACITOR, 2.2UF, 10V, X7R, 20%, 1206, FULL REEL &lt;a href="https://pricing.snapeda.com/parts/1206ZC225MAT2A/AVX/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="1206ZC225MAT2A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC3216X178N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" 2.2 µF ±20% 10V Ceramic Capacitor X7R 1206 (3216 Metric) "/>
-<attribute name="MF" value="AVX"/>
-<attribute name="MP" value="1206ZC225MAT2A"/>
-<attribute name="PACKAGE" value="3216 AVX"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1206ZC225MAT2A/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="782853331">
 <packages>
 <package name="78285333">
@@ -3614,7 +3557,6 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <part name="R3" library="CRG0805F33R" deviceset="CRG0805F33R" device="" value="33"/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
-<part name="C12" library="1206ZC225MAT2A" deviceset="1206ZC225MAT2A" device="" value="2.2uF"/>
 <part name="L1" library="782853331" deviceset="782853331" device="SMD" value="330"/>
 <part name="L2" library="782853331" deviceset="782853331" device="SMD" value="330"/>
 <part name="TVS1" library="0603ESDA2-TR2" deviceset="0603ESDA2-TR2" device=""/>
@@ -3665,6 +3607,7 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <part name="SJ_LED_R1_0" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="R12" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device="" value="5.1k"/>
 <part name="R13" library="RNCP0805FTD20R0" deviceset="RNCP0805FTD20R0" device="" value="5.1k"/>
+<part name="C12" library="GRM21BC8YA106ME11L" deviceset="GRM21BC8YA106ME11L" device="" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -3937,10 +3880,6 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <attribute name="NAME" x="-213.36" y="42.799" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-213.36" y="45.085" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C12" gate="G$1" x="127" y="119.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="130.81093125" y="119.38" size="1.77843125" layer="95" rot="R270"/>
-<attribute name="VALUE" x="121.91151875" y="119.38" size="1.78096875" layer="96" rot="R270"/>
-</instance>
 <instance part="L1" gate="G$1" x="-177.8" y="106.68" smashed="yes">
 <attribute name="NAME" x="-185.42" y="109.728" size="2.54" layer="95"/>
 <attribute name="VALUE" x="-174.244" y="100.33" size="2.54" layer="96"/>
@@ -4020,6 +3959,10 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <instance part="R13" gate="G$1" x="-182.88" y="99.06" smashed="yes">
 <attribute name="NAME" x="-190.504440625" y="101.60148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="-190.50996875" y="93.973359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="C12" gate="G$1" x="127" y="119.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="130.81093125" y="119.38" size="1.77843125" layer="95" rot="R270"/>
+<attribute name="VALUE" x="121.91151875" y="119.38" size="1.78096875" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -4287,9 +4230,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <label x="-40.64" y="-111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="127" y1="114.3" x2="127" y2="109.22" width="0.1524" layer="91"/>
 <label x="127" y="109.22" size="1.778" layer="95"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="L2" gate="G$1" pin="2"/>
@@ -5770,9 +5713,9 @@ Purchase: &lt;a href="https://www.mouser.com/ProductDetail/Microchip-Technology/
 <label x="-203.2" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="127" y1="121.92" x2="127" y2="127" width="0.1524" layer="91"/>
 <label x="127" y="127" size="1.778" layer="95"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VLDO_33" class="0">

@@ -1571,26 +1571,6 @@ W = angled&lt;p&gt;
 </package3d>
 </packages3d>
 </library>
-<library name="1206ZC225MAT2A">
-<packages>
-<package name="CAPC3216X178N">
-<text x="-2.31" y="-1.25" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-2.31" y="1.25" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.127" layer="51"/>
-<wire x1="1.7" y1="0.9" x2="-1.7" y2="0.9" width="0.127" layer="51"/>
-<wire x1="1.7" y1="-0.9" x2="1.7" y2="0.9" width="0.127" layer="51"/>
-<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.127" layer="51"/>
-<wire x1="-0.57" y1="0.9" x2="0.57" y2="0.9" width="0.127" layer="21"/>
-<wire x1="-0.57" y1="-0.9" x2="0.57" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-2.308" y1="-1.158" x2="2.308" y2="-1.158" width="0.05" layer="39"/>
-<wire x1="-2.308" y1="1.158" x2="2.308" y2="1.158" width="0.05" layer="39"/>
-<wire x1="-2.308" y1="-1.158" x2="-2.308" y2="1.158" width="0.05" layer="39"/>
-<wire x1="2.308" y1="-1.158" x2="2.308" y2="1.158" width="0.05" layer="39"/>
-<smd name="1" x="-1.475" y="0" dx="1.16" dy="1.82" layer="1"/>
-<smd name="2" x="1.475" y="0" dx="1.16" dy="1.82" layer="1"/>
-</package>
-</packages>
-</library>
 <library name="782853331">
 <packages>
 <package name="78285333">
@@ -4393,17 +4373,6 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="7" x="337.64375" y="104.86875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="337.74385" y="104.86875" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="C12" library="1206ZC225MAT2A" package="CAPC3216X178N" value="2.2uF" x="333.5125" y="100.54375" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="333.5125" y="100.54375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" 2.2 µF ±20% 10V Ceramic Capacitor X7R 1206 (3216 Metric) " x="333.5125" y="100.54375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="AVX" x="333.5125" y="100.54375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="1206ZC225MAT2A" x="333.5125" y="100.54375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="335.0625" y="99.25375" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="PACKAGE" value="3216 AVX" x="333.5125" y="100.54375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="333.5125" y="100.54375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1206ZC225MAT2A/?ref=eda" x="333.5125" y="100.54375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="335.1875" y="102.36" size="0.5" layer="27" rot="R270" align="top-left"/>
-</element>
 <element name="L1" library="782853331" package="78285333" value="330" x="342.1875" y="111.425" smashed="yes" rot="MR270">
 <attribute name="NAME" x="341.0375" y="112.375" size="1.27" layer="26" font="vector" ratio="10" rot="MR270"/>
 </element>
@@ -4746,6 +4715,16 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="336.7" y="121.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RNCP0805FTD20R0/?ref=eda" x="336.7" y="121.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="335.65" y="120.01" size="0.5" layer="28" rot="MR90" align="top-left"/>
+</element>
+<element name="C12" library="GRM21BC8YA106ME11L" package="CAPC2012X145N" value="10uF" x="333.9" y="101" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" 0805 10 uF 35 V ±20% Tolerance X6S Multilayer Ceramic Capacitor " x="333.9" y="101" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-10505-2-ND" x="333.9" y="101" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata" x="333.9" y="101" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="GRM21BC8YA106ME11L" x="333.9" y="101" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="334.97" y="102.71" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="2012 Murata" x="333.9" y="101" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GRM21BC8YA106ME11L/?ref=eda" x="333.9" y="101" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="332.83" y="102.71" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
 </elements>
 <signals>
@@ -9634,7 +9613,6 @@ design rules under a new name.</description>
 <via x="333.7" y="96.8" extent="1-16" drill="0.35"/>
 <wire x1="337.98125" y1="101.112496875" x2="337.98125" y2="95.3" width="0.254" layer="1"/>
 <wire x1="337.98125" y1="95.3" x2="337.98125" y2="89.225" width="0.254" layer="1"/>
-<wire x1="333.7" y1="96.8" x2="333.75" y2="96.85" width="0.254" layer="1"/>
 <contactref element="C10" pad="1"/>
 <contactref element="C11" pad="1"/>
 <contactref element="Y1" pad="4"/>
@@ -9651,9 +9629,6 @@ design rules under a new name.</description>
 <wire x1="345.45" y1="82.2375" x2="345.45" y2="81.35" width="0.127" layer="16"/>
 <wire x1="345.45" y1="81.35" x2="346.6" y2="80.2" width="0.127" layer="16"/>
 <contactref element="SV1" pad="4"/>
-<contactref element="C12" pad="2"/>
-<wire x1="333.5125" y1="99.06875" x2="333.5125" y2="97.0875" width="0.254" layer="1"/>
-<wire x1="333.5125" y1="97.0875" x2="333.75" y2="96.85" width="0.254" layer="1"/>
 <wire x1="333.7" y1="96.8" x2="331.26275" y2="96.8" width="0.254" layer="1"/>
 <wire x1="331.26275" y1="96.8" x2="331.21875" y2="96.844" width="0.254" layer="1"/>
 <wire x1="333.7" y1="96.8" x2="336.48125" y2="96.8" width="0.254" layer="1"/>
@@ -9717,8 +9692,6 @@ design rules under a new name.</description>
 <wire x1="341.3375" y1="117.06375" x2="341.3375" y2="116.96375" width="0.254" layer="1"/>
 <wire x1="342.40125" y1="115.9" x2="343.1" y2="115.9" width="0.254" layer="1"/>
 <via x="343.1" y="115.9" extent="1-16" drill="0.35"/>
-<wire x1="331.2" y1="100.15" x2="332.43125" y2="100.15" width="0.1524" layer="1"/>
-<wire x1="332.43125" y1="100.15" x2="333.5125" y2="99.06875" width="0.1524" layer="1"/>
 <wire x1="333.5875" y1="87.4875" x2="333.5875" y2="86.179253125" width="0.254" layer="16"/>
 <via x="67.6" y="102" extent="1-16" drill="4.5"/>
 <via x="71.5" y="13.5" extent="1-16" drill="4.5"/>
@@ -9738,12 +9711,16 @@ design rules under a new name.</description>
 <contactref element="R12" pad="1"/>
 <contactref element="R13" pad="2"/>
 <wire x1="339.1" y1="122.535" x2="336.7" y2="122.535" width="0.127" layer="16"/>
-<wire x1="336.7" y1="122.4" x2="336.7" y2="122.535" width="0.127" layer="16"/>
 <via x="335" y="120.7" extent="1-16" drill="0.35"/>
 <wire x1="336.7" y1="122.535" x2="335.8935" y2="121.7285" width="0.127" layer="16"/>
 <wire x1="335.8935" y1="121.7285" x2="335.88085625" y2="121.7285" width="0.127" layer="16"/>
 <wire x1="335.88085625" y1="121.7285" x2="335" y2="120.84764375" width="0.127" layer="16"/>
 <wire x1="335" y1="120.84764375" x2="335" y2="120.7" width="0.127" layer="16"/>
+<contactref element="C12" pad="2"/>
+<wire x1="331.2" y1="100.15" x2="333.85" y2="100.15" width="0.254" layer="1"/>
+<wire x1="333.85" y1="100.15" x2="333.9" y2="100.1" width="0.254" layer="1"/>
+<wire x1="333.9" y1="97" x2="333.9" y2="100.1" width="0.254" layer="1"/>
+<wire x1="333.7" y1="96.8" x2="333.9" y2="97" width="0.254" layer="1"/>
 </signal>
 <signal name="JTAG_TCLK/SWD_CLK">
 <contactref element="U1" pad="50"/>
@@ -10564,10 +10541,10 @@ design rules under a new name.</description>
 <wire x1="336.6875" y1="113.95" x2="336.6875" y2="112.14125" width="0.127" layer="1"/>
 <wire x1="336.6875" y1="112.14125" x2="336.64375" y2="112.0975" width="0.127" layer="1"/>
 <wire x1="337.3875" y1="117.06375" x2="337.3875" y2="117.8875" width="0.127" layer="1"/>
-<wire x1="337.3875" y1="117.8875" x2="337.6" y2="118.1" width="0.127" layer="1"/>
-<wire x1="337.6" y1="118.1" x2="338.2" y2="118.1" width="0.127" layer="1"/>
-<wire x1="338.2" y1="118.1" x2="338.3875" y2="117.9125" width="0.127" layer="1"/>
-<wire x1="338.3875" y1="117.9125" x2="338.3875" y2="117.06375" width="0.127" layer="1"/>
+<wire x1="337.3875" y1="117.8875" x2="337.7" y2="118.2" width="0.127" layer="1"/>
+<wire x1="337.7" y1="118.2" x2="338" y2="118.2" width="0.127" layer="1"/>
+<wire x1="338" y1="118.2" x2="338.3875" y2="117.8125" width="0.127" layer="1"/>
+<wire x1="338.3875" y1="117.8125" x2="338.3875" y2="117.06375" width="0.127" layer="1"/>
 </signal>
 <signal name="USB_N">
 <contactref element="J1" pad="B7"/>
@@ -10643,9 +10620,9 @@ design rules under a new name.</description>
 <wire x1="346.8" y1="87.3216875" x2="345.3" y2="85.8216875" width="0.127" layer="16"/>
 <wire x1="345.3" y1="85.8216875" x2="345.3" y2="84.7875" width="0.127" layer="16"/>
 <wire x1="345.3" y1="84.7875" x2="347.85" y2="82.2375" width="0.127" layer="16"/>
-<wire x1="347.85" y1="82.2375" x2="349.1" y2="80.9875" width="0.127" layer="16"/>
-<wire x1="349.1" y1="77.275" x2="347.85" y2="76.025" width="0.127" layer="16"/>
-<wire x1="349.1" y1="80.9875" x2="349.1" y2="77.275" width="0.127" layer="16"/>
+<wire x1="347.85" y1="82.2375" x2="348.9" y2="81.1875" width="0.127" layer="16"/>
+<wire x1="348.9" y1="77.075" x2="347.85" y2="76.025" width="0.127" layer="16"/>
+<wire x1="348.9" y1="81.1875" x2="348.9" y2="77.075" width="0.127" layer="16"/>
 <wire x1="345.462496875" y1="88.05425" x2="346.54575" y2="88.05425" width="0.127" layer="16"/>
 <wire x1="346.54575" y1="88.05425" x2="346.8" y2="87.8" width="0.127" layer="16"/>
 <wire x1="346.8" y1="87.8" x2="346.8" y2="87.3216875" width="0.127" layer="16"/>
@@ -10674,23 +10651,23 @@ design rules under a new name.</description>
 <via x="335.254796875" y="110.645203125" extent="1-16" drill="0.35"/>
 <wire x1="335.0875" y1="108.5125" x2="334.9" y2="108.7" width="0.127" layer="16"/>
 <wire x1="335.254796875" y1="110.645203125" x2="334.40959375" y2="109.8" width="0.127" layer="16"/>
-<wire x1="334.40959375" y1="109.8" x2="333.8" y2="109.8" width="0.127" layer="16"/>
-<wire x1="333.8" y1="109.8" x2="333.7068" y2="109.7068" width="0.127" layer="16"/>
+<wire x1="334.40959375" y1="109.8" x2="333.9" y2="109.8" width="0.127" layer="16"/>
+<wire x1="333.9" y1="109.8" x2="333.7068" y2="109.6068" width="0.127" layer="16"/>
 <wire x1="334.3" y1="108.7" x2="334.9" y2="108.7" width="0.127" layer="16"/>
-<wire x1="333.7068" y1="109.7068" x2="333.7068" y2="109.2932" width="0.127" layer="16"/>
+<wire x1="333.7068" y1="109.6068" x2="333.7068" y2="109.2932" width="0.127" layer="16"/>
 <wire x1="333.7068" y1="109.2932" x2="334.3" y2="108.7" width="0.127" layer="16"/>
 <wire x1="335.0875" y1="107.429246875" x2="335.0875" y2="108.5125" width="0.127" layer="16"/>
 </signal>
 <signal name="USB_MCU_N">
 <contactref element="U1" pad="20"/>
 <contactref element="R3" pad="2"/>
-<wire x1="339.5625" y1="110.2275" x2="338.99" y2="110.8" width="0.127" layer="1"/>
-<wire x1="338.99" y1="110.8" x2="338.1" y2="110.8" width="0.127" layer="1"/>
 <via x="338.1" y="110.8" extent="1-16" drill="0.35"/>
 <wire x1="338.1" y1="110.8" x2="336.9" y2="109.6" width="0.127" layer="16"/>
 <wire x1="336.9" y1="109.6" x2="336" y2="109.6" width="0.127" layer="16"/>
 <wire x1="335.5875" y1="109.1875" x2="336" y2="109.6" width="0.127" layer="16"/>
 <wire x1="335.5875" y1="107.429246875" x2="335.5875" y2="109.1875" width="0.127" layer="16"/>
+<wire x1="339.5625" y1="110.2275" x2="338.6725" y2="110.2275" width="0.127" layer="1"/>
+<wire x1="338.6725" y1="110.2275" x2="338.1" y2="110.8" width="0.127" layer="1"/>
 </signal>
 <signal name="UART0_RX">
 <contactref element="U1" pad="95"/>
@@ -10724,13 +10701,13 @@ design rules under a new name.</description>
 <contactref element="U1" pad="21"/>
 <contactref element="SJ1" pad="3"/>
 <via x="334.4" y="104.1" extent="1-16" drill="0.35"/>
-<contactref element="C12" pad="1"/>
-<wire x1="333.5125" y1="102.01875" x2="333.5125" y2="103.2125" width="0.254" layer="1"/>
-<wire x1="333.5125" y1="103.2125" x2="334.4" y2="104.1" width="0.254" layer="1"/>
 <wire x1="334.4" y1="104.1" x2="335.16875" y2="104.86875" width="0.254" layer="1"/>
 <wire x1="335.16875" y1="104.86875" x2="336.11975" y2="104.86875" width="0.254" layer="1"/>
 <wire x1="336.0875" y1="107.429246875" x2="336.0875" y2="105.7875" width="0.254" layer="16"/>
 <wire x1="336.0875" y1="105.7875" x2="334.4" y2="104.1" width="0.254" layer="16"/>
+<contactref element="C12" pad="1"/>
+<wire x1="334.4" y1="104.1" x2="334.4" y2="102.4" width="0.254" layer="1"/>
+<wire x1="334.4" y1="102.4" x2="333.9" y2="101.9" width="0.254" layer="1"/>
 </signal>
 <signal name="VLDO_33">
 <contactref element="SJ1" pad="1"/>
